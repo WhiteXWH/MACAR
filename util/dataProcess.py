@@ -24,7 +24,6 @@ class Tool:
             {"role": "user", "content": query}
         ]
 
-        openai.api_base = "https://api.xiaoai.plus/v1"
         response = openai.ChatCompletion.create(
             model=model,
             messages=messages,
