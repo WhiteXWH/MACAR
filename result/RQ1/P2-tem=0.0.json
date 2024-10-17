@@ -1,0 +1,3832 @@
+{
+    "0": {
+        "Query": "Error 401 with Websockets and Spring Boot Security",
+        "GroundTruth": [
+            "org.springframework.web.socket.sockjs.client.SockJsClient.SockJsClient(List<Transport> transports)",
+            "org.springframework.messaging.converter.StringMessageConverter.StringMessageConverter()"
+        ],
+        "Answer": [
+            "Based on the programming problem of Error 401 with Websockets and Spring Boot Security, here are 10 Java API methods that might be relevant:",
+            "",
+            "1. org.springframework.web.socket.WebSocketHandler.getHandshakeHeaders",
+            "2. org.springframework.security.config.annotation.web.socket.AbstractSecurityWebSocketMessageBrokerConfigurer.configureMessageBroker",
+            "3. org.springframework.security.config.annotation.web.socket.AbstractSecurityWebSocketMessageBrokerConfigurer.configureMessageBrokerRegistry",
+            "4. org.springframework.security.config.annotation.web.socket.AbstractSecurityWebSocketMessageBrokerConfigurer.configureSecurity",
+            "5. org.springframework.security.config.annotation.web.socket.AbstractSecurityWebSocketMessageBrokerConfigurer.sameOrigin",
+            "6. org.springframework.security.config.annotation.web.socket.AbstractSecurityWebSocketMessageBrokerConfigurer.subProtocolWebSocketHandlerMapping",
+            "7. org.springframework.security.core.GrantedAuthority.getAuthority",
+            "8. org.springframework.security.web.context.support.SecurityWebApplicationContextUtils.findImplementation",
+            "9. org.springframework.web.cors.CorsConfiguration.applyPermitDefaultValues",
+            "10. org.springframework.web.cors.CorsConfigurationSource.getCorsConfiguration",
+            "",
+            "Please note that these are just suggestions and may not directly resolve the specific issue you are experiencing. It is recommended to consult official documentation and other reliable sources for proper implementation and troubleshooting."
+        ]
+    },
+    "1": {
+        "Query": "Media3 ExoPlayer Update Notification Title during playback",
+        "GroundTruth": [
+            "javafx.scene.media.MediaPlayer.replaceMediaItem()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to solve the programming problem \"Media3 ExoPlayer Update Notification Title during playback\":",
+            "",
+            "1. android.media.session.MediaSession.setMetadata",
+            "2. android.media.session.MediaMetadata.Builder.putString",
+            "3. android.media.session.MediaMetadata.Builder.build",
+            "4. android.app.Notification.Builder.setContentTitle",
+            "5. android.app.NotificationManager.notify",
+            "6. android.view.View.postDelayed",
+            "7. android.os.Handler.postDelayed",
+            "8. android.view.ViewTreeObserver.addOnGlobalLayoutListener",
+            "9. android.app.NotificationChannel.setSound",
+            "10. android.app.NotificationChannel.enableVibration"
+        ]
+    },
+    "2": {
+        "Query": "How do I handle multiple button in javafx",
+        "GroundTruth": [
+            "javafx.scene.control.Button.getScene",
+            "javafx.stage.Stage.setRoot",
+            "javafx.fxml.FXMLLoader.load",
+            "java.lang.ClassLoader.getResource"
+        ],
+        "Answer": [
+            "For handling multiple buttons in JavaFX, here are 10 Java API methods that can be used:",
+            "",
+            "1. javafx.scene.control.Button.setOnMouseClicked",
+            "2. javafx.scene.control.Button.setOnAction",
+            "3. javafx.scene.layout.GridPane.add",
+            "4. javafx.scene.layout.GridPane.getColumnConstraints",
+            "5. javafx.scene.layout.GridPane.getRowConstraints",
+            "6. javafx.scene.layout.GridPane.getChildren",
+            "7. javafx.scene.layout.HBox.getChildren",
+            "8. javafx.scene.layout.HBox.setSpacing",
+            "9. javafx.scene.layout.VBox.getChildren",
+            "10. javafx.scene.layout.VBox.setSpacing"
+        ]
+    },
+    "3": {
+        "Query": "How can I add watermark with apache pdfbox",
+        "GroundTruth": [
+            "org.apache.pdfbox.pdmodel.PDPageContentStream.PDPageContentStream(PDDocument doc, PDAppearanceStream appearance)",
+            "org.apache.pdfbox.pdmodel.PDPageContentStream.PDPageContentStream(PDDocument document, PDPage sourcePage, boolean appendContent, boolean compress)"
+        ],
+        "Answer": [
+            "To add a watermark with Apache PDFBox, you can use the following Java API methods:",
+            "",
+            "1. org.apache.pdfbox.pdmodel.PDDocument.load",
+            "2. org.apache.pdfbox.pdmodel.PDPage.getContents",
+            "3. org.apache.pdfbox.pdmodel.PDPage.getResources",
+            "4. org.apache.pdfbox.pdmodel.PDPage.getAnnotations",
+            "5. org.apache.pdfbox.pdmodel.PDResources.getXObject",
+            "6. org.apache.pdfbox.pdmodel.PDDocumentCatalog.getPages",
+            "7. org.apache.pdfbox.pdmodel.common.PDRectangle",
+            "8. org.apache.pdfbox.pdmodel.PDPageContentStream.setFont",
+            "9. org.apache.pdfbox.pdmodel.PDPageContentStream.beginText",
+            "10. org.apache.pdfbox.pdmodel.PDPageContentStream.showText",
+            "",
+            "Note: Please refer to the official Apache PDFBox documentation for detailed usage and examples of these methods."
+        ]
+    },
+    "4": {
+        "Query": "After migrating to Java 17, the date is displayed inaccurately",
+        "GroundTruth": [
+            "java.time.ZonedDateTime.toLocalDate",
+            "java.time.ZonedDateTime.getOffset",
+            "java.time.Instant.atZone",
+            "java.time.ZoneRulesProvider.getVersions"
+        ],
+        "Answer": [
+            "1. java.time.LocalDate.parse",
+            "2. java.time.LocalDateTime.parse",
+            "3. java.time.LocalTime.parse",
+            "4. java.time.ZonedDateTime.parse",
+            "5. java.time.format.DateTimeFormatter.ISO_LOCAL_DATE",
+            "6. java.time.format.DateTimeFormatter.ISO_LOCAL_DATE_TIME",
+            "7. java.time.format.DateTimeFormatter.ISO_LOCAL_TIME",
+            "8. java.time.format.DateTimeFormatter.ISO_ZONED_DATE_TIME",
+            "9. java.time.format.DateTimeFormatterBuilder.appendPattern",
+            "10. java.time.format.DateTimeFormatter.ofPattern"
+        ]
+    },
+    "5": {
+        "Query": "How to Modify Only First Nested RecyclerView (child) element at Position 0 of Parent RecyclerView?",
+        "GroundTruth": [
+            "android.widget.TextView.setTypeface"
+        ],
+        "Answer": [
+            "1. android.support.v7.widget.RecyclerView.getLayoutManager",
+            "2. android.support.v7.widget.LinearLayoutManager.findViewByPosition",
+            "3. android.view.View.setTag",
+            "4. android.support.v7.widget.RecyclerView.Adapter.notifyItemChanged",
+            "5. android.support.v7.widget.RecyclerView.Adapter.notifyItemRangeChanged",
+            "6. android.support.v7.widget.RecyclerView.Adapter.notifyDataSetChanged",
+            "7. android.support.v7.widget.RecyclerView.Adapter.notifyDataSetChanged",
+            "8. android.support.v7.widget.RecyclerView.ViewHolder.getAdapterPosition",
+            "9. android.support.v7.widget.RecyclerView.ViewHolder.getLayoutPosition",
+            "10. android.support.v7.widget.RecyclerView.Adapter.notifyItemRangeChanged"
+        ]
+    },
+    "6": {
+        "Query": "Split text into numbers or decimal numbers and strings in java",
+        "GroundTruth": [
+            "java.lang.String.split"
+        ],
+        "Answer": [
+            "The problem statement is to split text into numbers or decimal numbers and strings in Java. Here are 10 Java API methods that can be used to solve this problem:",
+            "",
+            "1. java.lang.String.split",
+            "2. java.util.regex.Pattern.compile",
+            "3. java.util.regex.Matcher.find",
+            "4. java.lang.String.valueOf",
+            "5. java.lang.Double.parseDouble",
+            "6. java.lang.Float.parseFloat",
+            "7. java.lang.Integer.parseInt",
+            "8. java.lang.Long.parseLong",
+            "9. java.util.Scanner.hasNextInt",
+            "10. java.util.Scanner.hasNextDouble",
+            "",
+            "These methods can be used to split the text into numbers or decimal numbers and strings based on specific delimiters or patterns."
+        ]
+    },
+    "7": {
+        "Query": "xyz.froud.jvisa.JVisaException: in viRead(): Timeout expired before operation completed. (0xBFFF0015)",
+        "GroundTruth": [
+            "xyz.froud.jvisa.JVisaInstrument.setWriteTerminator",
+            "xyz.froud.jvisa.JVisaInstrument.setReadTerminationCharacter",
+            "xyz.froud.jvisa.JVisaInstrument.setReadTerminationCharacterEnabled"
+        ],
+        "Answer": [
+            "1. xyz.froud.jvisa.JVisaException.getMessage()",
+            "2. xyz.froud.jvisa.VisaLibrary.visaGetErrorString()",
+            "3. xyz.froud.jvisa.JVisaSession.getTimeout()",
+            "4. xyz.froud.jvisa.VisaLibrary.viSetAttribute()",
+            "5. xyz.froud.jvisa.VisaLibrary.viSetBuf()",
+            "6. xyz.froud.jvisa.VisaLibrary.viStatusDesc()",
+            "7. xyz.froud.jvisa.JVisaSession.setTimeout()",
+            "8. xyz.froud.jvisa.JVisaSession.setReadBufferSize()",
+            "9. xyz.froud.jvisa.JVisaSession.getTimeoutUnit()",
+            "10. xyz.froud.jvisa.JVisaSession.setTimeoutUnit()"
+        ]
+    },
+    "8": {
+        "Query": "Allign one string on the left and second one on the right side of textView",
+        "GroundTruth": [
+            "android.view.ViewTreeObserver.removeOnPreDrawListener",
+            "android.widget.TextView.getWidth",
+            "android.widget.TextView.getPaddingStart",
+            "android.widget.TextView.getCompoundPaddingEnd",
+            "android.widget.TextView.getPaint",
+            "android.graphics.Paint.measureText",
+            "android.graphics.drawable.Drawable.setBounds",
+            "android.text.SpannableString.setSpan",
+            "android.text.style.ImageSpan.ALIGN_BASELINE",
+            "android.widget.TextView.setText"
+        ],
+        "Answer": [
+            "1. java.lang.String.format",
+            "2. java.lang.StringBuilder.insert",
+            "3. java.lang.StringBuilder.append",
+            "4. java.lang.String.format",
+            "5. java.text.DecimalFormat",
+            "6. java.util.Formatter",
+            "7. java.util.StringJoiner",
+            "8. org.apache.commons.lang3.StringUtils.leftPad",
+            "9. org.apache.commons.lang3.StringUtils.rightPad",
+            "10. org.apache.commons.lang3.StringUtils.center"
+        ]
+    },
+    "9": {
+        "Query": "Ordering descending in jOOQ when order by parameters are numbers/positions",
+        "GroundTruth": [
+            "com.datastax.oss.driver.api.querybuilder.QueryBuilder.inline()",
+            "com.datastax.oss.driver.api.querybuilder.select.Select.orderBy()"
+        ],
+        "Answer": [
+            "When it comes to ordering descending in jOOQ when order by parameters are numbers/positions, here are 10 Java API methods that can be useful:",
+            "",
+            "1. org.jooq.SortField.desc",
+            "2. org.jooq.OrderField.desc",
+            "3. org.jooq.TableField.desc",
+            "4. org.jooq.Field.desc",
+            "5. org.jooq.impl.DSL.desc",
+            "6. org.jooq.impl.SQLDataType.INTEGER",
+            "7. org.jooq.Condition",
+            "8. org.jooq.SelectOrderByStep.orderBy",
+            "9. org.jooq.ResultQuery.orderBy",
+            "10. org.jooq.SelectLimitPercentAfterOffsetStep.offset",
+            "",
+            "These methods are part of the jOOQ library and can be used to order query results in descending order based on numbers or positions."
+        ]
+    },
+    "10": {
+        "Query": "SpringBoot handle validation exceptions from API and JPA layer differently",
+        "GroundTruth": [
+            "org.springframework.http.ResponseEntity.ResponseEntity()",
+            "org.springframework.http.ResponseEntity.status",
+            "org.springframework.http.HttpStatus.BAD_REQUEST",
+            "org.springframework.http.ResponseEntity.body",
+            "javax.validation.ConstraintViolationException.getStackTrace",
+            "java.lang.StackTraceElement.getClassName",
+            "java.lang.String.toLowerCase",
+            "java.lang.String.contains"
+        ],
+        "Answer": [
+            "For the problem of handling validation exceptions differently in SpringBoot for the API and JPA layers, you can consider using the following Java API methods:",
+            "",
+            "1. org.springframework.web.bind.annotation.ControllerAdvice",
+            "2. org.springframework.web.bind.annotation.ExceptionHandler",
+            "3. org.springframework.http.ResponseEntity.status",
+            "4. org.springframework.http.ResponseEntity.body",
+            "5. org.springframework.http.HttpStatus",
+            "6. org.springframework.http.MediaType",
+            "7. org.springframework.validation.annotation.Validated",
+            "8. org.springframework.validation.Errors",
+            "9. org.springframework.dao.DataIntegrityViolationException",
+            "10. org.springframework.http.converter.HttpMessageNotReadableException",
+            "",
+            "These API methods can be used in conjunction with each other to implement different exception handling strategies for the API and JPA layers in your SpringBoot application."
+        ]
+    },
+    "11": {
+        "Query": "How do I set style of my separator in javafx?",
+        "GroundTruth": [
+            "javafx.scene.control.Separator.setStyle()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that you can use to set the style of a separator in JavaFX:",
+            "",
+            "1. javafx.scene.control.Separator.getStyleClass",
+            "2. javafx.scene.control.Separator.setStyle",
+            "3. javafx.scene.control.Separator.getStyle",
+            "4. javafx.scene.control.Separator.lineProperty",
+            "5. javafx.scene.control.Separator.orientationProperty",
+            "6. javafx.scene.control.Separator.visibleProperty",
+            "7. javafx.scene.control.Separator.managedProperty",
+            "8. javafx.scene.control.SeparatorNode.getStyle",
+            "9. javafx.scene.control.SeparatorNode.setStyle",
+            "10. javafx.scene.control.SeparatorNode.getStyleClass",
+            "",
+            "These methods can help you set and customize the style of separators in your JavaFX application. Please consult the JavaFX API documentation for more details on how to use these methods effectively."
+        ]
+    },
+    "12": {
+        "Query": "Problem with Authorities(Authorization) when using OAuth 2.0 Resource Server JWT",
+        "GroundTruth": [
+            "org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter.setAuthorityPrefix()"
+        ],
+        "Answer": [
+            "1. org.springframework.security.oauth2.jwt.Jwt",
+            "2. org.springframework.security.oauth2.core.OAuth2AccessToken",
+            "3. org.springframework.security.oauth2.server.resource.BearerTokenAuthentication",
+            "4. org.springframework.security.oauth2.server.resource.authentication.BearerTokenAuthenticationToken",
+            "5. org.springframework.security.oauth2.server.resource.introspection.OAuth2TokenIntrospectionClient",
+            "6. org.springframework.security.oauth2.jwt.JwtDecoder",
+            "7. org.springframework.security.oauth2.jwt.JwtVerifier",
+            "8. org.springframework.security.oauth2.jwt.JwtException",
+            "9. org.springframework.security.oauth2.core.OAuth2Error",
+            "10. org.springframework.security.oauth2.core.OAuth2ErrorCodes"
+        ]
+    },
+    "13": {
+        "Query": "getChildren().removeAll() does not remove nodes",
+        "GroundTruth": [
+            "java.util.List.clear()"
+        ],
+        "Answer": [
+            "1. java.util.List.removeAll",
+            "2. java.util.Collection.removeAll",
+            "3. java.util.LinkedList.removeAll",
+            "4. java.util.ArrayList.removeAll",
+            "5. java.util.Set.removeAll",
+            "6. java.util.HashSet.removeAll",
+            "7. java.util.LinkedHashSet.removeAll",
+            "8. java.util.TreeSet.removeAll",
+            "9. java.util.Map.keySet.removeAll",
+            "10. java.util.HashMap.keySet.removeAll"
+        ]
+    },
+    "14": {
+        "Query": "Springboot Kafka autoconfiguration - SSL Bundle for SASL_PLAINTEXT with SCRAM-SHA-512",
+        "GroundTruth": [
+            "org.springframework.boot.autoconfigure.kafka.KafkaProperties.buildAdminProperties()"
+        ],
+        "Answer": [
+            "1. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSsl().setKeyStoreLocation",
+            "2. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSsl().setKeyStorePassword",
+            "3. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSsl().setKeyPassword",
+            "4. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSsl().setTrustStoreLocation",
+            "5. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSsl().setTrustStorePassword",
+            "6. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSasl().setMechanism",
+            "7. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSasl().setJaas().getConfig()",
+            "8. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSasl().setUsername",
+            "9. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getSasl().setPassword",
+            "10. org.springframework.boot.autoconfigure.kafka.KafkaProperties.getClientId"
+        ]
+    },
+    "15": {
+        "Query": "sonarLint: Invoke method(s) only conditionally",
+        "GroundTruth": [
+            "org.slf4j.Logger.isErrorEnabled()"
+        ],
+        "Answer": [
+            "1. java.util.Optional.orElse",
+            "2. java.util.Optional.orElseGet",
+            "3. java.util.Optional.orElseThrow",
+            "4. java.util.Optional.ifPresent",
+            "5. java.util.concurrent.CompletableFuture.complete",
+            "6. java.util.concurrent.CompletableFuture.completeExceptionally",
+            "7. java.util.concurrent.atomic.AtomicBoolean.get",
+            "8. java.util.concurrent.atomic.AtomicInteger.get",
+            "9. java.util.concurrent.atomic.AtomicLong.get",
+            "10. java.util.concurrent.atomic.AtomicReference.get"
+        ]
+    },
+    "16": {
+        "Query": "How can I interpret this error? Required type: Supplier<R, Provided: Collector<Object, capture of ?, java.util.List<java.lang.Object>>",
+        "GroundTruth": [
+            "java.util.stream.IntStream.range()",
+            "java.util.stream.IntStream.boxed()",
+            "java.util.stream.BaseStream.collect()",
+            "java.util.stream.Collectors.toList()"
+        ],
+        "Answer": [
+            "Based on the error message you have provided, there seems to be a mismatch between the required type and the provided type. You can try resolving this issue by using the following Java API methods:",
+            "",
+            "1. java.util.stream.Collectors.toList",
+            "2. java.util.Function.identity",
+            "3. java.util.stream.Stream.collect",
+            "4. java.util.stream.Collectors.toList",
+            "5. java.util.function.Supplier.get",
+            "6. java.util.stream.Collectors.toList",
+            "7. java.util.stream.Collectors.collectingAndThen",
+            "8. java.util.stream.Stream.collect",
+            "9. java.util.stream.Collectors.toList",
+            "10. java.util.stream.Collectors.collectingAndThen"
+        ]
+    },
+    "17": {
+        "Query": "itext8 signing return pdf with error ber validation",
+        "GroundTruth": [
+            "com.itextpdf.pdfa.PdfADocument.PdfADocument()"
+        ],
+        "Answer": [
+            "To sign a PDF using iText 7 and perform BER validation, you can consider using the following Java API methods:",
+            "",
+            "1. com.itextpdf.kernel.pdf.PdfSigner.setFieldName",
+            "2. com.itextpdf.signatures.PdfSignatureAppearance.setCertificate",
+            "3. com.itextpdf.signatures.PdfSignatureAppearance.setReason",
+            "4. com.itextpdf.signatures.PdfSignatureAppearance.setLocation",
+            "5. com.itextpdf.signatures.PdfSignatureAppearance.setVisibleSignature",
+            "6. com.itextpdf.signatures.PdfSigner.getStamper",
+            "7. com.itextpdf.signatures.PdfSigner.setCertificationLevel",
+            "8. com.itextpdf.signatures.PdfSigner.getSignDate",
+            "9. com.itextpdf.signatures.PdfSigner.signDetached",
+            "10. com.itextpdf.signatures.PdfPKCS7.setExternalDigest",
+            "",
+            "These methods provide various functionalities for setting signature fields, assigning certificates, defining sign reasons and locations, setting visible signatures, getting the stamper, specifying certification levels, obtaining sign dates, signing the PDF document, and setting the external digest for the PKCS7 signature."
+        ]
+    },
+    "18": {
+        "Query": "java.lang.IllegalArgumentException: Parameter value [2023-12-25T17:19:54.622Z] did not match expected type [java.time.ZonedDateTime (n/a)]",
+        "GroundTruth": [
+            "java.time.OffsetDateTime"
+        ],
+        "Answer": [
+            "1. java.time.ZonedDateTime.parse",
+            "2. java.time.ZonedDateTime.from",
+            "3. java.time.ZonedDateTime.now",
+            "4. java.time.ZonedDateTime.of",
+            "5. java.time.ZonedDateTime.withZoneSameInstant",
+            "6. java.time.ZonedDateTime.toLocalDate",
+            "7. java.time.ZonedDateTime.toLocalTime",
+            "8. java.time.ZonedDateTime.toOffsetDateTime",
+            "9. java.time.ZonedDateTime.toInstant",
+            "10. java.time.ZonedDateTime.toEpochSecond"
+        ]
+    },
+    "19": {
+        "Query": "How do I hide the secondary colors at the bottom of the ColorPicker pop-up",
+        "GroundTruth": [
+            "javafx.scene.Node.lookup",
+            "javafx.scene.Parent.getChildrenUnmodifiable",
+            "java.util.Collection.forEach",
+            "javafx.scene.Node.isVisible",
+            "javafx.scene.Node.setVisible",
+            "javafx.scene.Node.isManaged",
+            "javafx.scene.Node.setManaged",
+            "javafx.scene.Node.getStyleClass",
+            "java.util.List.stream",
+            "java.util.stream.Stream.anyMatch",
+            "javafx.scene.layout.Region"
+        ],
+        "Answer": [
+            "1. javafx.scene.input.KeyCodeCombination",
+            "2. javafx.scene.input.KeyCode",
+            "3. javafx.scene.text.Font",
+            "4. javafx.scene.shape.SVGPath",
+            "5. javafx.scene.control.skin.ColorPickerSkin",
+            "6. javafx.scene.control.skin.DatePickerContent",
+            "7. javafx.scene.control.skin.ComboBoxListViewSkin",
+            "8. javafx.scene.control.skin.TableHeaderRow",
+            "9. javafx.scene.control.skin.TextFieldSkin",
+            "10. javafx.scene.control.skin.ToggleButtonSkin"
+        ]
+    },
+    "20": {
+        "Query": "What Java function can I use on macOS to play a proper alert sound upon the proper device, at the proper volume?",
+        "GroundTruth": [
+            "java.awt.Toolkit.getDefaultToolkit()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that you can use on macOS to play a proper alert sound with the proper device and volume:",
+            "",
+            "1. javax.sound.sampled.AudioInputStream",
+            "2. javax.sound.sampled.AudioSystem.getAudioInputStream",
+            "3. javax.sound.sampled.Mixer",
+            "4. javax.sound.sampled.Mixer.Info",
+            "5. javax.sound.sampled.Mixer.getTargetLineInfo",
+            "6. javax.sound.sampled.SourceDataLine",
+            "7. javax.sound.sampled.AudioSystem.getSourceDataLine",
+            "8. javax.sound.sampled.Line.Info",
+            "9. javax.sound.sampled.Line.addLineListener",
+            "10. javax.sound.sampled.Line.start",
+            "",
+            "These API methods from the javax.sound.sampled package can be used to handle audio playback and control in Java on macOS. They allow you to access the audio devices, open audio streams, start or stop audio playback, and adjust volume."
+        ]
+    },
+    "21": {
+        "Query": "Concatenated flux where second flux is created on-the-fly with last value of first flux?",
+        "GroundTruth": [
+            "reactor.core.publisher.Flux.cache",
+            "reactor.core.publisher.Mono.defer",
+            "reactor.core.publisher.Flux.last",
+            "reactor.core.publisher.Flux.next",
+            "reactor.core.publisher.Flux.concatWith",
+            "reactor.core.publisher.Mono.flatMapMany",
+            "reactor.test.StepVerifier.create",
+            "reactor.test.StepVerifier.expectNext",
+            "reactor.test.StepVerifier.verifyComplete"
+        ],
+        "Answer": [
+            "Based on the problem \"Concatenated flux where second flux is created on-the-fly with last value of first flux\", here are 10 Java API methods that can be used:",
+            "",
+            "1. java.util.stream.Stream.concat",
+            "2. java.util.stream.Stream.peek",
+            "3. java.util.stream.Stream.generate",
+            "4. java.util.stream.Stream.reduce",
+            "5. java.util.stream.Stream.collect",
+            "6. java.util.stream.Stream.flatMap",
+            "7. java.util.stream.Stream.collect(Collectors.toList())",
+            "8. java.util.stream.Collectors.toSet",
+            "9. java.util.stream.Collectors.joining",
+            "10. java.util.stream.Collectors.toMap",
+            "",
+            "These methods can be used to manipulate and combine streams or fluxes in various ways, allowing you to achieve the desired behavior described in the problem statement."
+        ]
+    },
+    "22": {
+        "Query": "Zooming moves the camera on the y-axis instead of z-axis",
+        "GroundTruth": [
+            "javafx.scene.PerspectiveCamera.getFieldOfView()",
+            "javafx.scene.PerspectiveCamera.setFieldOfView()",
+            "javafx.scene.input.ScrollEvent.getDeltaY()"
+        ],
+        "Answer": [
+            "If you are facing the problem of zooming moving the camera on the y-axis instead of the z-axis in a Java program, here are 10 Java API methods that can help you address this problem:",
+            "",
+            "1. javax.media.j3d.Transform3D.setTranslation",
+            "2. javax.media.j3d.Transform3D.getTranslation",
+            "3. javax.media.j3d.Transform3D.lookAt",
+            "4. javax.media.j3d.Transform3D.lookAtInverse",
+            "5. javax.media.j3d.Transform3D.set",
+            "6. javax.media.j3d.Transform3D.rotate",
+            "7. javax.media.j3d.Transform3D.translate",
+            "8. javax.media.j3d.Transform3D.scale",
+            "9. javax.media.j3d.Transform3D.mul",
+            "10. javax.media.j3d.Transform3D.mulRotation",
+            "",
+            "These methods belong to the Java 3D API, which provides functionality for creating and manipulating 3D graphics. By using these methods, you can manipulate the camera's position and orientation to achieve the desired zooming behavior along the z-axis."
+        ]
+    },
+    "23": {
+        "Query": "Is there a faster way to remove duplicates among N containers?",
+        "GroundTruth": [
+            "java.util.Map.entrySet",
+            "java.util.Set.removeIf",
+            "java.util.Map.Entry.getValue"
+        ],
+        "Answer": [
+            "If you want to remove duplicates among N containers in Java, here are 10 Java API methods that you can use:",
+            "",
+            "1. java.util.HashSet",
+            "2. java.util.LinkedHashSet",
+            "3. java.util.ArrayList.removeIf",
+            "4. java.util.stream.Collectors.toSet",
+            "5. java.util.stream.Collectors.toCollection",
+            "6. java.util.stream.Stream.distinct",
+            "7. java.util.stream.Stream.collect",
+            "8. java.util.Collections.singleton",
+            "9. java.util.Collections.nCopies",
+            "10. java.util.Arrays.asList",
+            "",
+            "These methods provide different approaches to removing duplicates efficiently and effectively in Java."
+        ]
+    },
+    "24": {
+        "Query": "Java Project Panama result from reading from MemorySegment differs from ByteBuffer",
+        "GroundTruth": [
+            "java.nio.ByteBuffer.asDoubleBuffer()"
+        ],
+        "Answer": [
+            "For the programming problem of \"Java Project Panama result from reading from MemorySegment differs from ByteBuffer\", here are 10 Java API methods that can help:",
+            "",
+            "1. jdk.incubator.foreign.MemorySegment.ofByteBuffer",
+            "2. java.nio.ByteBuffer.asIntBuffer",
+            "3. jdk.incubator.foreign.MemorySegment.asByteBuffer",
+            "4. java.nio.ByteBuffer.order",
+            "5. jdk.incubator.foreign.MemorySegment.ofRegion",
+            "6. jdk.incubator.foreign.MemorySegment.asSlice",
+            "7. java.nio.ByteBuffer.getInt",
+            "8. jdk.incubator.foreign.MemorySegment.isAlive",
+            "9. java.nio.ByteBuffer.put",
+            "10. jdk.incubator.foreign.MemorySegment.isNativeOrder"
+        ]
+    },
+    "25": {
+        "Query": "How to set backpress Android back button not working in fragment",
+        "GroundTruth": [
+            "androidx.activity.OnBackPressedDispatcher.addCallback()"
+        ],
+        "Answer": [
+            "1. android.app.Fragment.setUserVisibleHint",
+            "2. android.app.Fragment.isVisible",
+            "3. android.app.FragmentTransaction.addToBackStack",
+            "4. android.app.FragmentManager.popBackStack",
+            "5. android.app.FragmentManager.popBackStackImmediate",
+            "6. android.app.FragmentTransaction.commitAllowingStateLoss",
+            "7. android.app.FragmentManager.executePendingTransactions",
+            "8. android.app.Activity.onBackPressed",
+            "9. android.view.View.OnKeyListener.onKey",
+            "10. android.view.KeyEvent.KEYCODE_BACK"
+        ]
+    },
+    "26": {
+        "Query": "Warning \"Value is never used as Publisher\" in Mockito code. Can one suppress it?",
+        "GroundTruth": [
+            "org.mockito.Mockito.when()",
+            "org.mockito.stubbing.OngoingStubbing.thenReturn()"
+        ],
+        "Answer": [
+            "When dealing with the warning \"Value is never used as Publisher\" in Mockito code, you can suppress it using the following Java API methods:",
+            "",
+            "1. org.mockito.Mockito.never()",
+            "2. org.mockito.Mockito.verifyNoMoreInteractions()",
+            "3. org.mockito.Mockito.mock()",
+            "4. org.mockito.Mockito.verify()",
+            "5. org.mockito.Mockito.when()",
+            "6. org.mockito.Mockito.spy()",
+            "7. org.mockito.Mockito.reset()",
+            "8. org.mockito.Mockito.doReturn()",
+            "9. org.mockito.Mockito.doNothing()",
+            "10. org.mockito.Mockito.times()",
+            "",
+            "These methods can be used to handle and suppress the warning in your Mockito code."
+        ]
+    },
+    "27": {
+        "Query": "Customizing JPopupMenu in JFileChooser: Accessing Internal Components",
+        "GroundTruth": [
+            "javax.swing.JComponent.getComponentPopupMenu()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods you can use to customize JPopupMenu in JFileChooser and access its internal components:",
+            "",
+            "1. javax.swing.JFileChooser.getUI()",
+            "2. javax.swing.plaf.FileChooserUI.getAcceptAllFileFilter(JFileChooser)",
+            "3. javax.swing.JPopupMenu.getComponentCount()",
+            "4. javax.swing.JPopupMenu.getComponent(int)",
+            "5. javax.swing.JPopupMenu.getComponentIndex(Component)",
+            "6. java.awt.Component.setEnabled(boolean)",
+            "7. javax.swing.JComponent.setOpaque(boolean)",
+            "8. javax.swing.JMenu.addSeparator()",
+            "9. javax.swing.JPopupMenu.add(JMenuItem)",
+            "10. javax.swing.JMenu.remove(int)"
+        ]
+    },
+    "28": {
+        "Query": "Error parsing time with two decimal digits in Java 17, but succeeds in Java 8",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatterBuilder.appendFraction()"
+        ],
+        "Answer": [
+            "For the programming problem of error parsing time with two decimal digits in Java 17, but succeeding in Java 8, here are 10 Java API methods that you can use:",
+            "",
+            "1. java.time.format.DateTimeFormatterBuilder.appendFraction",
+            "2. java.time.format.DateTimeFormatter.createTemporal",
+            "3. java.time.format.DateTimeFormatter.withParseDefaulting",
+            "4. java.time.format.DateTimeFormatterBuilder",
+            "5. java.time.format.DateTimeParseException.getErrorIndex",
+            "6. java.time.LocalDateTime.parse",
+            "7. java.time.format.DateTimeFormatter.withResolverStyle",
+            "8. java.time.format.DateTimeFormatter.DateTimeFormatterBuilder",
+            "9. java.time.format.DateTimeFormatter.parse",
+            "10. java.time.format.DateTimeFormatterBuilder.appendPattern",
+            "",
+            "These methods from the `java.time.format` and `java.time` packages will help you handle the parsing of time with two decimal digits correctly in Java 17."
+        ]
+    },
+    "29": {
+        "Query": "OpenGL ES 3.0 - Textures black",
+        "GroundTruth": [
+            "android.opengl.GLUtils.texImage2D (int target, int level, Bitmap bitmap, int border)"
+        ],
+        "Answer": [
+            "To fix the problem with textures appearing black in OpenGL ES 3.0, you can use the following Java API methods:",
+            "",
+            "1. android.opengl.GLES30.glGenTextures",
+            "2. android.opengl.GLES30.glBindTexture",
+            "3. android.opengl.GLES30.glTexParameteri",
+            "4. android.opengl.GLES30.glTexImage2D",
+            "5. android.opengl.GLES30.glActiveTexture",
+            "6. android.opengl.GLES30.glClearColor",
+            "7. android.opengl.GLES30.glClear",
+            "8. android.opengl.GLES30.glEnableVertexAttribArray",
+            "9. android.opengl.GLES30.glVertexAttribPointer",
+            "10. android.opengl.GLES30.glDrawArrays",
+            "",
+            "These methods belong to the OpenGL ES 3.0 API in Android and are commonly used for handling textures in OpenGL ES applications."
+        ]
+    },
+    "30": {
+        "Query": "converting startDatetime to localtime using UTC timezone",
+        "GroundTruth": [
+            "java.time.ZonedDateTime.withZoneSameInstant()",
+            "java.time.ZonedDateTime.withZoneSameLocal()"
+        ],
+        "Answer": [
+            "1. java.time.ZonedDateTime.of",
+            "2. java.time.ZonedDateTime.withZoneSameInstant",
+            "3. java.time.ZonedDateTime.getOffset",
+            "4. java.time.ZoneId.systemDefault",
+            "5. java.time.ZoneId.of",
+            "6. java.time.Instant.from",
+            "7. java.time.OffsetDateTime.ofInstant",
+            "8. java.time.OffsetDateTime.toLocalDateTime",
+            "9. java.time.LocalDateTime.ofInstant",
+            "10. java.time.LocalDateTime.withZoneSameInstant"
+        ]
+    },
+    "31": {
+        "Query": "I got the error \"java.text.ParseException: Unparseable date: \"1/10/24 7:00 PM\"\" when trying to parse",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatter.ofPattern()",
+            "java.time.LocalDateTime.parse()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can help you parse a date:",
+            "",
+            "1. java.text.DateFormat.parse",
+            "2. java.text.SimpleDateFormat.parse",
+            "3. java.time.format.DateTimeFormatter.parse",
+            "4. org.apache.commons.lang3.time.DateUtils.parseDate",
+            "5. org.joda.time.format.DateTimeFormatter.parseDateTime",
+            "6. java.util.Calendar.parse",
+            "7. java.util.Date.parse",
+            "8. java.sql.Date.parse",
+            "9. java.sql.Timestamp.parse",
+            "10. java.util.GregorianCalendar.parse"
+        ]
+    },
+    "32": {
+        "Query": "Testing when an object is being cast with Mockito leads to ClassCastException",
+        "GroundTruth": [
+            "org.mockito.Mockito.mock()"
+        ],
+        "Answer": [
+            "1. org.mockito.Mockito.mock",
+            "2. org.mockito.Mockito.when",
+            "3. org.mockito.Mockito.verify",
+            "4. org.mockito.Mockito.any",
+            "5. org.mockito.Mockito.anyInt",
+            "6. org.mockito.Mockito.anyString",
+            "7. org.mockito.Mockito.doReturn",
+            "8. org.mockito.Mockito.doThrow",
+            "9. org.mockito.Mockito.spy",
+            "10. org.mockito.Mockito.reset"
+        ]
+    },
+    "33": {
+        "Query": "Convert Response to key with values",
+        "GroundTruth": [
+            "java.util.Map.put()"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can be used to convert response to key with values:",
+            "",
+            "1. java.util.HashMap.putAll",
+            "2. java.util.Map.entrySet",
+            "3. java.util.stream.Collectors.toMap",
+            "4. java.util.stream.Collectors.groupingBy",
+            "5. java.lang.String.split",
+            "6. java.lang.StringTokenizer.nextToken",
+            "7. java.util.regex.Pattern.splitAsStream",
+            "8. java.util.stream.Stream.collect",
+            "9. javax.json.Json.createReader",
+            "10. org.json.JSONArray.toList",
+            "",
+            "These methods can be used to efficiently convert a response to a key-value format in Java."
+        ]
+    },
+    "34": {
+        "Query": "BeanMatchers Could not generate two distinct values after 128 attempts of type java.time.Instant",
+        "GroundTruth": [
+            "com.google.code.bean-matchers.registerValueGenerator()",
+            "java.util.Arrays.asList()",
+            "java.time.Instant.now()",
+            "java.time.Instant.minusSeconds()",
+            "java.util.Random.nextInt()",
+            "java.util.List.get()"
+        ],
+        "Answer": [
+            "Based on the given programming problem, here are 10 Java API methods that could help address it:",
+            "",
+            "1. java.time.Instant.now()",
+            "2. java.time.Instant.minusSeconds(long seconds)",
+            "3. java.time.Instant.plusSeconds(long seconds)",
+            "4. java.time.Instant.isBefore(Instant other)",
+            "5. java.time.Instant.isAfter(Instant other)",
+            "6. java.util.Random.nextLong()",
+            "7. java.util.Random.setSeed(long seed)",
+            "8. java.util.concurrent.ThreadLocalRandom.current()",
+            "9. java.util.concurrent.ThreadLocalRandom.nextLong(long origin, long bound)",
+            "10. java.util.UUID.randomUUID()",
+            "",
+            "Remember that these are just potential solutions based on the given problem statement, and further analysis may be needed to find the most suitable solution for your specific use case."
+        ]
+    },
+    "35": {
+        "Query": "Conversion of java.util.Date to OffsetDateTime",
+        "GroundTruth": [
+            "java.time.OffsetDateTime.now",
+            "java.time.OffsetDateTime.truncatedTo"
+        ],
+        "Answer": [
+            "1. java.util.Calendar.toInstant",
+            "2. java.time.ZoneId.systemDefault",
+            "3. java.time.Instant.atZone",
+            "4. java.time.ZonedDateTime.toOffsetDateTime",
+            "5. java.time.LocalDate.ofInstant",
+            "6. java.time.LocalDateTime.ofInstant",
+            "7. java.time.OffsetDateTime.ofInstant",
+            "8. java.time.OffsetDateTime.now",
+            "9. java.time.OffsetDateTime.from",
+            "10. java.time.OffsetDateTime.parse"
+        ]
+    },
+    "36": {
+        "Query": "How to write a regex referencing the capture group in the replacement with a lookahead?",
+        "GroundTruth": [
+            "java.util.regex.Matcher.replaceFirst()"
+        ],
+        "Answer": [
+            "To reference a capture group in the replacement with a lookahead in Java, you can use the following 10 Java API methods:",
+            "",
+            "1. java.util.regex.Matcher.replaceAll",
+            "2. java.util.regex.Pattern.compile",
+            "3. java.util.regex.Pattern.matcher",
+            "4. java.util.regex.Matcher.group",
+            "5. java.util.regex.Matcher.groupCount",
+            "6. java.util.regex.Matcher.start",
+            "7. java.util.regex.Matcher.end",
+            "8. java.util.regex.Matcher.appendReplacement",
+            "9. java.util.regex.Matcher.appendTail",
+            "10. java.util.regex.Matcher.lookingAt",
+            "",
+            "These methods provide the necessary functionality to work with regular expressions and capture groups in Java."
+        ]
+    },
+    "37": {
+        "Query": "Regex to match key with optional quotes and optional separator",
+        "GroundTruth": [
+            "java.util.regex.Pattern.compile()",
+            "java.util.regex.Pattern.matcher()"
+        ],
+        "Answer": [
+            "1. java.util.regex.Pattern.matches",
+            "2. java.util.regex.Matcher.find",
+            "3. java.util.regex.Matcher.group",
+            "4. java.util.regex.Matcher.start",
+            "5. java.util.regex.Matcher.end",
+            "6. java.util.regex.Matcher.matches",
+            "7. java.util.regex.Pattern.compile",
+            "8. java.util.regex.Pattern.matcher",
+            "9. java.util.regex.Pattern.quote",
+            "10. java.util.regex.Pattern.split"
+        ]
+    },
+    "38": {
+        "Query": "Spring boot 3.2.2 upgrade related Warnings - Batch application",
+        "GroundTruth": [
+            "org.springframework.beans.factory.support.BeanDefinitionRegistry.removeBeanDefinition()"
+        ],
+        "Answer": [
+            "Based on your programming problem and the need to upgrade Spring Boot, here are 10 Java API methods that could be useful:",
+            "",
+            "1. org.springframework.boot.SpringApplication.setWebApplicationType",
+            "2. org.springframework.boot.SpringApplication.run",
+            "3. org.springframework.boot.Banner.Mode",
+            "4. org.springframework.boot.autoconfigure.SpringBootApplication",
+            "5. org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration",
+            "6. org.springframework.data.jpa.repository.JpaRepository",
+            "7. org.springframework.stereotype.Service",
+            "8. org.springframework.batch.core.launch.JobLauncher",
+            "9. org.springframework.batch.core.repository.JobRepository",
+            "10. javax.persistence.Entity"
+        ]
+    },
+    "39": {
+        "Query": "Expected condition failed: waiting for visibility of element located by By.xpath:",
+        "GroundTruth": [
+            "org.openqa.selenium.WebElement.click()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can potentially help with solving the programming problem related to waiting for visibility of an element located by XPath:",
+            "",
+            "1. org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated",
+            "2. org.openqa.selenium.By.xpath",
+            "3. org.openqa.selenium.support.ui.WebDriverWait.until",
+            "4. org.openqa.selenium.WebElement.isDisplayed",
+            "5. org.openqa.selenium.WebDriver.findElement",
+            "6. org.openqa.selenium.WebDriver.findElements",
+            "7. org.openqa.selenium.support.ui.WebDriverWait.untilExpectedConditions.presenceOfElementLocated",
+            "8. org.openqa.selenium.support.ui.WebDriverWait.untilExpectedConditions.invisibilityOfElementLocated",
+            "9. org.openqa.selenium.support.ui.WebDriverWait.untilExpectedConditions.elementToBeClickable",
+            "10. org.openqa.selenium.By.id",
+            "",
+            "These are some commonly used methods in Selenium WebDriver and WebElement classes that can be useful for waiting for visibility of elements located using XPath."
+        ]
+    },
+    "40": {
+        "Query": "Java stream a list and create a single object",
+        "GroundTruth": [
+            "java.util.Collections.frequency()"
+        ],
+        "Answer": [
+            "1. java.util.stream.Stream.flatMap",
+            "2. java.util.stream.Collectors.toList",
+            "3. java.util.stream.Collectors.toSet",
+            "4. java.util.stream.Collectors.toMap",
+            "5. java.util.stream.Collectors.joining",
+            "6. java.util.stream.Collectors.groupingBy",
+            "7. java.util.stream.Collectors.maxBy",
+            "8. java.util.stream.Collectors.minBy",
+            "9. java.util.stream.Collectors.summingInt",
+            "10. java.util.stream.Collectors.averagingInt"
+        ]
+    },
+    "41": {
+        "Query": "Listener method using Spring and ActiveMQ throws \"Property name cannot be null\" exceptions repeatedly",
+        "GroundTruth": [
+            "org.springframework.jms.support.converter.MappingJackson2MessageConverter.setTypeIdPropertyName()"
+        ],
+        "Answer": [
+            "To solve the problem of \"Listener method using Spring and ActiveMQ throws 'Property name cannot be null' exceptions repeatedly,\" here are 10 Java API methods that you can consider:",
+            "",
+            "1. org.springframework.jms.listener.AbstractMessageListenerContainer.setMessageSelector",
+            "2. org.springframework.jms.listener.AbstractMessageListenerContainer.setDestinationName",
+            "3. org.springframework.jms.listener.AbstractMessageListenerContainer.setQueues",
+            "4. org.springframework.jms.listener.AbstractMessageListenerContainer.setSessionTransacted",
+            "5. org.springframework.jms.listener.AbstractMessageListenerContainer.setSessionAcknowledgeMode",
+            "6. org.springframework.jms.listener.AbstractMessageListenerContainer.setSessionAcknowledgeModeName",
+            "7. org.springframework.jms.listener.AbstractMessageListenerContainer.setConnectionFactory",
+            "8. org.springframework.jms.listener.AbstractMessageListenerContainer.setTransactionManager",
+            "9. org.apache.activemq.broker.TransportConnector.setBrokerURL",
+            "10. org.apache.activemq.jms.pool.PooledConnectionFactory.setBrokerURL",
+            "",
+            "Please note that these are just suggestions based on the limited information provided. The specific methods you need to use may depend on your code structure and requirements."
+        ]
+    },
+    "42": {
+        "Query": "Fluent way (builder style) of creating a Mockito mock with method stubs",
+        "GroundTruth": [
+            "org.mockito.stubbing.OngoingStubbing.thenReturn()",
+            "org.mockito.Mockito.when()"
+        ],
+        "Answer": [
+            "1. org.mockito.Mockito.mock(Class<T>)",
+            "2. org.mockito.MockSettings.stubOnly()",
+            "3. org.mockito.MockSettings.callRealMethods()",
+            "4. org.mockito.MockSettings.serializable()",
+            "5. org.mockito.stubbing.OngoingStubbing.thenReturn(T)",
+            "6. org.mockito.stubbing.OngoingStubbing.thenAnswer(Answer<T>)",
+            "7. org.mockito.stubbing.OngoingStubbing.thenThrow(Throwable)",
+            "8. org.mockito.stubbing.OngoingStubbing.thenCallRealMethod()",
+            "9. org.mockito.stubbing.OngoingStubbing.then(Answer<T>)",
+            "10. org.mockito.stubbing.OngoingStubbing.thenAnswer(Answer<T>)"
+        ]
+    },
+    "43": {
+        "Query": "Java Type Erasure during GSON",
+        "GroundTruth": [
+            "com.google.gson.reflect.TypeToken<T>.getParameterized()",
+            "com.google.gson.Gson.fromJson()"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can help you deal with Java Type Erasure during GSON:",
+            "",
+            "1. com.google.gson.JsonObject.entrySet",
+            "2. com.google.gson.JsonObject.get",
+            "3. com.google.gson.JsonObject.getAsJsonArray",
+            "4. com.google.gson.JsonObject.getAsJsonObject",
+            "5. com.google.gson.JsonObject.getAsJsonPrimitive",
+            "6. com.google.gson.JsonArray.get",
+            "7. com.google.gson.JsonArray.size",
+            "8. com.google.gson.JsonArray.iterator",
+            "9. com.google.gson.JsonParser.parseString",
+            "10. com.google.gson.JsonElement.isJsonArray"
+        ]
+    },
+    "44": {
+        "Query": "Swallowed PSQLException with \"the statement that has been close\"",
+        "GroundTruth": [
+            "java.sql.Statement.isClosed()"
+        ],
+        "Answer": [
+            "1. java.sql.Statement.close",
+            "2. java.sql.Connection.close",
+            "3. java.sql.PreparedStatement.close",
+            "4. java.sql.ResultSet.close",
+            "5. java.sql.CallableStatement.close",
+            "6. java.sql.Savepoint.release",
+            "7. java.sql.ResultSetMetaData.getColumnCount",
+            "8. java.sql.DatabaseMetaData.getTables",
+            "9. java.sql.SQLWarning.getNextWarning",
+            "10. java.sql.SQLException.printStackTrace"
+        ]
+    },
+    "45": {
+        "Query": "Can an enum constant be specified in both upper and lower case in a Spring endpoint?",
+        "GroundTruth": [
+            "org.springframework.format.FormatterRegistry.addConverter()",
+            "java.lang.String.toUpperCase()",
+            "java.lang.Enum.valueOf()"
+        ],
+        "Answer": [
+            "1. java.lang.String.toUpperCase",
+            "2. java.lang.String.toLowerCase",
+            "3. java.lang.Enum.valueOf",
+            "4. org.springframework.web.bind.annotation.GetMapping",
+            "5. org.springframework.web.bind.annotation.PostMapping",
+            "6. org.springframework.web.bind.annotation.PutMapping",
+            "7. org.springframework.web.bind.annotation.DeleteMapping",
+            "8. org.springframework.web.bind.annotation.PatchMapping",
+            "9. org.springframework.web.bind.annotation.RequestMethod.POST",
+            "10. org.springframework.web.bind.annotation.RequestMethod.GET"
+        ]
+    },
+    "46": {
+        "Query": "How to reply to a gateway from an error channel so it does not hang",
+        "GroundTruth": [
+            "org.springframework.integration.dsl.HeaderEnricherSpec.replyChannelExpression()"
+        ],
+        "Answer": [
+            "To reply to a gateway from an error channel so it does not hang, you can consider using the following Java API methods:",
+            "",
+            "1. javax.jms.Session.createProducer",
+            "2. javax.jms.MessageProducer.send",
+            "3. org.springframework.integration.gateway.MessagingGatewaySupport.setErrorChannel",
+            "4. org.springframework.jms.support.JmsHeaders.REPLY_TO",
+            "5. org.springframework.jms.support.JmsHeaders.CORRELATION_ID",
+            "6. org.springframework.messaging.support.GenericMessage",
+            "7. org.springframework.jms.core.JmsMessagingTemplate.convertAndSend",
+            "8. org.springframework.messaging.MessageChannel.send",
+            "9. org.springframework.jms.listener.SessionAwareMessageListener.onMessage",
+            "10. org.springframework.integration.handler.ReplyRequiredException",
+            "",
+            "These API methods from Java and various Spring frameworks can help you handle and reply to error channels effectively in a gateway scenario."
+        ]
+    },
+    "47": {
+        "Query": "How can I get the maximum value for Instant#ofEpochSecond(?)",
+        "GroundTruth": [
+            "java.time.Instant.MIN.getEpochSecond()",
+            "java.time.Instant.MAX.getEpochSecond()",
+            "java.time.Instant.getEpochSecond()"
+        ],
+        "Answer": [
+            "For the problem of finding the maximum value for `Instant#ofEpochSecond(...)`, the following Java API methods can be used:",
+            "",
+            "1. `Instant.ofEpochSecond(...)`",
+            "2. `ChronoUnit.SECONDS`",
+            "3. `Instant.MAX`",
+            "4. `Instant.now()`",
+            "5. `Instant.compare(...)`",
+            "6. `Instant.plus(...)`",
+            "7. `Instant.toEpochMilli()`",
+            "8. `Instant.atZone(...)`",
+            "9. `Instant.truncatedTo(...)`",
+            "10. `Instant.get(...)`",
+            "",
+            "These methods provide various ways to work with `Instant` objects and perform calculations, comparisons, and conversions."
+        ]
+    },
+    "48": {
+        "Query": "How to efficiently return values of a map using only part of the key/ID (composite)?",
+        "GroundTruth": [
+            "java.util.HashMap.get()",
+            "java.util.HashMap.put()",
+            "java.util.HashMap.computeIfAbsent()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can help you efficiently return values of a map using only part of the key/ID (composite):",
+            "",
+            "1. java.util.HashMap.containsKey",
+            "2. java.util.HashMap.get",
+            "3. java.util.HashMap.keySet",
+            "4. java.util.HashMap.values",
+            "5. java.util.HashMap.entrySet",
+            "6. java.util.Map.getOrDefault",
+            "7. java.util.Map.computeIfAbsent",
+            "8. java.util.Map.computeIfPresent",
+            "9. java.util.Map.compute",
+            "10. java.util.Collections.unmodifiableMap"
+        ]
+    },
+    "49": {
+        "Query": "@Rollback @Transactional is not working in acceptance test",
+        "GroundTruth": [
+            "org.springframework.data.jpa.repository.JpaRepository.deleteAll()"
+        ],
+        "Answer": [
+            "1. org.springframework.transaction.annotation.Transactional",
+            "2. org.springframework.test.annotation.Rollback",
+            "3. org.springframework.transaction.support.TransactionTemplate.execute",
+            "4. org.springframework.transaction.TransactionStatus.isRollbackOnly",
+            "5. org.springframework.transaction.support.TransactionSynchronizationManager.initSynchronization",
+            "6. org.springframework.transaction.annotation.Transient",
+            "7. org.springframework.transaction.annotation.DefaultTransactionAttribute.rollbackOn",
+            "8. org.springframework.transaction.TransactionDefinition",
+            "9. org.springframework.test.annotation.Commit",
+            "10. org.springframework.transaction.annotation.Propagation"
+        ]
+    },
+    "50": {
+        "Query": "Exposing Spring Boot actuator endpoints via Spring Security",
+        "GroundTruth": [
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity.securityMatcher()",
+            "org.springframework.security.config.annotation.web.configurers.EndpointRequest.toAnyEndpoint()",
+            "org.springframework.security.config.annotation.web.configurers.EndpointRequest.excluding()",
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests()",
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity.build()",
+            "org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.anyRequest()",
+            "org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.AuthorizedUrl.permitAll()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to expose Spring Boot actuator endpoints via Spring Security:",
+            "",
+            "1. org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest.to",
+            "2. org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest.toAnyEndpoint",
+            "3. org.springframework.boot.actuate.autoconfigure.security.servlet.EndpointRequest.toAnyEndpoint",
+            "4. org.springframework.boot.autoconfigure.security.servlet.PathRequest.toStaticResources",
+            "5. org.springframework.boot.autoconfigure.security.servlet.PathRequest.toH2Console",
+            "6. org.springframework.boot.autoconfigure.security.servlet.PathRequest.toCommonLocations",
+            "7. org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeRequests",
+            "8. org.springframework.security.config.annotation.web.builders.HttpSecurity.antMatcher",
+            "9. org.springframework.boot.autoconfigure.security.servlet.EndpointRequest.antMatchers",
+            "10. org.springframework.security.config.annotation.web.builders.HttpSecurity.permitAll"
+        ]
+    },
+    "51": {
+        "Query": "How to make half rounded border?",
+        "GroundTruth": [
+            "java.awt.geom.Path2D.moveTo()",
+            "java.awt.geom.Path2D.curveTo()",
+            "java.awt.geom.Path2D.lineTo()",
+            "java.awt.geom.Path2D.closePath()"
+        ],
+        "Answer": [
+            "1. java.awt.Graphics.drawRoundRect",
+            "2. java.awt.geom.RoundRectangle2D.Double",
+            "3. java.awt.Graphics2D.setRenderingHint",
+            "4. java.awt.RenderingHints.KEY_ANTIALIASING",
+            "5. java.awt.geom.RoundRectangle2D.Float",
+            "6. java.awt.geom.RoundRectangle2D",
+            "7. java.awt.geom.Arc2D.Double",
+            "8. java.awt.Color",
+            "9. java.awt.Stroke",
+            "10. java.awt.BasicStroke"
+        ]
+    },
+    "52": {
+        "Query": "Updating AWS credentials",
+        "GroundTruth": [
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.standard()",
+            "com.amazonaws.auth.STSAssumeRoleSessionCredentialsProvider.Builder.build()",
+            "com.amazonaws.auth.STSAssumeRoleSessionCredentialsProvider.Builder.Bulider()",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.withCredentials()",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.withRegion()",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.build()"
+        ],
+        "Answer": [
+            "To update AWS credentials in a Java program, you can use the following Java API methods:",
+            "",
+            "1. com.amazonaws.auth.BasicAWSCredentials",
+            "2. com.amazonaws.auth.AWSStaticCredentialsProvider",
+            "3. com.amazonaws.client.builder.AwsClientBuilder.EndpointConfiguration",
+            "4. com.amazonaws.regions.Region",
+            "5. com.amazonaws.services.identitymanagement.AmazonIdentityManagementClientBuilder",
+            "6. com.amazonaws.services.s3.AmazonS3ClientBuilder",
+            "7. com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder",
+            "8. com.amazonaws.services.sns.AmazonSNSClientBuilder",
+            "9. com.amazonaws.services.sqs.AmazonSQSClientBuilder",
+            "10. com.amazonaws.services.lambda.AWSLambdaClientBuilder"
+        ]
+    },
+    "53": {
+        "Query": "Group a map into another mapped based on a property within the map",
+        "GroundTruth": [
+            "java.util.stream.Collectors.groupingBy()",
+            "java.util.Map.Entry.getKey()",
+            "java.util.Map.get"
+        ],
+        "Answer": [
+            "1. java.util.stream.Collectors.groupingBy",
+            "2. java.util.stream.Collectors.toMap",
+            "3. java.util.stream.Collectors.toSet",
+            "4. java.util.Collections.singletonMap",
+            "5. java.util.Map.putIfAbsent",
+            "6. java.util.Map.computeIfAbsent",
+            "7. java.util.Map.computeIfPresent",
+            "8. java.util.Map.compute",
+            "9. java.util.Map.merge",
+            "10. java.util.Map.forEach"
+        ]
+    },
+    "54": {
+        "Query": "Filter Out Duplicates from a Stream By Property Value",
+        "GroundTruth": [
+            "java.util.stream.distinct()"
+        ],
+        "Answer": [
+            "To filter out duplicates from a stream by property value, you can use the following Java API methods:",
+            "",
+            "1. java.util.stream.Collectors.toList",
+            "2. java.util.stream.Collectors.toSet",
+            "3. java.util.stream.Stream.distinct",
+            "4. java.util.stream.Stream.filter",
+            "5. java.util.stream.Stream.collect",
+            "6. java.util.stream.Stream.groupingBy",
+            "7. java.util.stream.Stream.reduce",
+            "8. java.util.stream.Stream.sorted",
+            "9. java.util.stream.Stream.map",
+            "10. java.util.stream.Stream.flatMap",
+            "",
+            "These methods are part of the Java Stream API and provide various functionalities for filtering, collecting, grouping, sorting, mapping, and reducing elements in a stream."
+        ]
+    },
+    "55": {
+        "Query": "create a link with clicklistener on drawText",
+        "GroundTruth": [
+            "android.text.SpannableString.SpannableString()",
+            "android.text.SpannableString.setSpan",
+            "android.text.style.ClickableSpan.onClick",
+            "android.text.method.LinkMovementMethod.getInstance",
+            "android.widget.TextView.setMovementMethod",
+            "android.widget.TextView.setText"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that you can use to create a link with a click listener on drawText:",
+            "",
+            "1. javafx.scene.text.Font.getFamilies",
+            "2. javafx.scene.text.Font.getFontNames",
+            "3. javafx.scene.text.Font.getDefault",
+            "4. javafx.scene.text.Font.loadFont",
+            "5. javafx.scene.text.Font.loadFonts",
+            "6. javafx.scene.text.Font.getDefaultLoader",
+            "7. javafx.scene.text.Font.getFontLoader",
+            "8. javafx.scene.text.Font.getFontNamesByHierarchy",
+            "9. javafx.scene.text.Font.getLoadedFonts",
+            "10. javafx.scene.text.Font.getStylesheets",
+            "",
+            "Note: These methods are specific to JavaFX, which is commonly used for graphical user interfaces in Java applications. If you are not using JavaFX, please provide more details about your programming environment and requirements so that I can provide a more accurate answer."
+        ]
+    },
+    "56": {
+        "Query": "How to create Rest API in Jetty 12 using Handler.Abstract",
+        "GroundTruth": [
+            "org.eclipse.jetty.server.Request.getComponents()",
+            "org.eclipse.jetty.server.Request.getHttpURI().getQuery()",
+            "org.eclipse.jetty.server.Request.extractQueryParameters(org.eclipse.jetty.server.Request, java.nio.charset.StandardCharsets.UTF_8)",
+            "org.eclipse.jetty.util.Fields.getValue('Member')"
+        ],
+        "Answer": [
+            "To create a REST API in Jetty 12 using Handler.Abstract, here are 10 Java API methods you can consider:",
+            "",
+            "1. org.eclipse.jetty.server.Server - create a Jetty server instance",
+            "2. org.eclipse.jetty.server.Server.setHandler - set the handler for the server",
+            "3. org.eclipse.jetty.server.handler.AbstractHandler.handle - implement the handle method to handle requests",
+            "4. org.eclipse.jetty.server.Request - obtain information about the current request",
+            "5. org.eclipse.jetty.server.Request.getMethod - get the HTTP method of the request",
+            "6. org.eclipse.jetty.server.Request.getRequestURI - get the request URI",
+            "7. javax.servlet.http.HttpServletRequest - obtain additional information about the request",
+            "8. javax.servlet.http.HttpServletRequest.getPathInfo - get any additional path information following the request URI",
+            "9. javax.servlet.http.HttpServletRequest.getParameter - get query parameters from the request",
+            "10. javax.servlet.http.HttpServletResponse - handle the response by setting status codes, headers, and writing content",
+            "",
+            "These are just a few examples of the API methods you can use to create a REST API in Jetty using Handler.Abstract. Depending on your specific requirements, you may need to explore additional methods and classes provided by Jetty and the Servlet API."
+        ]
+    },
+    "57": {
+        "Query": "Deprecated KStreams TransformerSupplier to ProcessorSupplier",
+        "GroundTruth": [
+            "org.apache.kafka.streams.processor.api.ContextualProcessor.ContextualProcessor()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that could help with the programming problem of replacing Deprecated KStreams TransformerSupplier with ProcessorSupplier:",
+            "",
+            "1. org.apache.kafka.streams.kstream.TransformerSupplier",
+            "2. org.apache.kafka.streams.processor.ProcessorSupplier",
+            "3. org.apache.kafka.streams.kstream.Transformer",
+            "4. org.apache.kafka.streams.processor.Processor",
+            "5. org.apache.kafka.streams.kstream.TransformerWithContext",
+            "6. org.apache.kafka.streams.processor.ProcessorContext",
+            "7. org.apache.kafka.streams.processor.Cancellable",
+            "8. org.apache.kafka.streams.processor.To",
+            "9. org.apache.kafka.streams.processor.Punctuator",
+            "10. org.apache.kafka.streams.processor.PunctuationType",
+            "",
+            "These are just a few examples of the available Java API methods that could help with your programming problem. It is recommended to refer to the official Java documentation for more detailed information on their usage and parameters."
+        ]
+    },
+    "58": {
+        "Query": "Problem using File Append in Log4j 2 with runtime variable substitutions",
+        "GroundTruth": [
+            "org.apache.logging.log4j.core.appender.routing.Route()"
+        ],
+        "Answer": [
+            "1. org.apache.logging.log4j.core.config.ConfigurationBuilder.build",
+            "2. org.apache.logging.log4j.core.LoggerContext.start",
+            "3. org.apache.logging.log4j.core.config.builder.api.ConfigurationBuilder.setConfigurationName",
+            "4. org.apache.logging.log4j.core.appender.FileAppender.createAppender",
+            "5. org.apache.logging.log4j.core.appender.FileAppender.setAppend",
+            "6. org.apache.logging.log4j.core.appender.FileAppender.setFileName",
+            "7. org.apache.logging.log4j.core.appender.FileAppenderBuilder.setAppend",
+            "8. org.apache.logging.log4j.core.appender.FileAppenderBuilder.setFileName",
+            "9. org.apache.logging.log4j.core.util.Closer.closeSilent",
+            "10. org.apache.logging.log4j.core.util.CloseableThreadContext.CloseableThreadContext"
+        ]
+    },
+    "59": {
+        "Query": "Jakarta CDI force bean construction/register legacy event listeners",
+        "GroundTruth": [
+            "jakarta.enterprise.inject.Instance.forEach",
+            "java.util.Collections.synchronizedSet",
+            "java.util.HashSet.HashSet()",
+            "java.util.Set.add"
+        ],
+        "Answer": [
+            "1. javax.enterprise.event.Observes",
+            "2. javax.enterprise.event.ObservesAsync",
+            "3. javax.enterprise.inject.spi.BeanManager",
+            "4. javax.enterprise.inject.spi.Extension",
+            "5. javax.enterprise.inject.spi.ExternalResourceProducer",
+            "6. javax.enterprise.inject.spi.ProcessAnnotatedType",
+            "7. javax.enterprise.inject.spi.BeforeBeanDiscovery",
+            "8. javax.enterprise.inject.spi.AfterBeanDiscovery",
+            "9. javax.enterprise.inject.spi.CDI",
+            "10. javax.enterprise.inject.Instance"
+        ]
+    },
+    "60": {
+        "Query": "Java/Kotlin How do I iterate through a String, so that Combining characters stay with their base characters?",
+        "GroundTruth": [
+            "java.text.BreakIterator.getCharacterInstance",
+            "java.text.BreakIterator.setText",
+            "java.text.BreakIterator.first",
+            "java.text.BreakIterator.next",
+            "kotlin.sequences.SequenceBuilder.yield"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that you can use to iterate through a String, ensuring that combining characters stay with their base characters:",
+            "",
+            "1. java.text.BreakIterator.getCharacterInstance",
+            "2. java.text.BreakIterator.next",
+            "3. java.lang.Character.toChars",
+            "4. java.lang.Character.charCount",
+            "5. java.lang.Character.isHighSurrogate",
+            "6. java.lang.Character.isLowSurrogate",
+            "7. java.lang.Character.isSurrogatePair",
+            "8. java.lang.Character.toCodePoint",
+            "9. java.text.Normalizer.normalize",
+            "10. java.text.Normalizer.Form.NFD",
+            "",
+            "These methods will help you handle Unicode characters and combining characters effectively when iterating through a String."
+        ]
+    },
+    "61": {
+        "Query": "How to print all types of read and write access list to class fields for each methods of class in Java with JavaParser library",
+        "GroundTruth": [
+            "com.github.javaparser.StaticJavaParser.parse",
+            "com.github.javaparser.ast.CompilationUnit.findAll",
+            "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration.getNameAsString",
+            "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration.findAll",
+            "com.github.javaparser.ast.body.FieldDeclaration.getVariables",
+            "com.github.javaparser.ast.body.MethodDeclaration.getNameAsString",
+            "com.github.javaparser.ast.body.MethodDeclaration.findAll",
+            "com.github.javaparser.ast.expr.Expression.getChildNodes",
+            "java.io.File.File()",
+            "java.util.ArrayList.ArrayList()",
+            "java.util.List.stream",
+            "java.util.stream.Collectors.toList"
+        ],
+        "Answer": [
+            "1. com.github.javaparser.ast.body.FieldDeclaration.getVariables",
+            "2. com.github.javaparser.ast.body.VariableDeclarator.getNameAsString",
+            "3. com.github.javaparser.ast.body.VariableDeclarator.getRange",
+            "4. com.github.javaparser.ast.body.MethodDeclaration.getParameters",
+            "5. com.github.javaparser.ast.body.MethodDeclaration.getType",
+            "6. com.github.javaparser.ast.body.MethodDeclaration.getAllContainedComments",
+            "7. com.github.javaparser.ast.visitor.VoidVisitorAdapter.visit",
+            "8. com.github.javaparser.ast.visitor.ModifierVisitor.visit",
+            "9. com.github.javaparser.ast.type.Type.getTypeArguments",
+            "10. com.github.javaparser.ast.type.Type.toString"
+        ]
+    },
+    "62": {
+        "Query": "Unable to get micrometer metrics based on @Timed in springboot 3.2.2",
+        "GroundTruth": [
+            "io.micrometer.core.aop.TimedAspect.TimedAspect()"
+        ],
+        "Answer": [
+            "1. org.springframework.boot.actuate.metrics.CounterService.increment",
+            "2. io.micrometer.core.instrument.MeterRegistry.timer",
+            "3. org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryConfigurer.addTags",
+            "4. io.micrometer.core.instrument.Metrics.counter",
+            "5. org.springframework.boot.actuate.autoconfigure.metrics.MeterRegistryPostProcessor.bindTo",
+            "6. io.micrometer.core.annotation.Timed",
+            "7. org.springframework.boot.actuate.metrics.export.prometheus.PrometheusMetricsExportAutoConfiguration.bindPrometheusEndpoint",
+            "8. io.micrometer.spring.autoconfigure.MetricsAutoConfiguration.bindMeterRegistry",
+            "9. org.springframework.boot.actuate.metrics.CounterService.reset",
+            "10. io.micrometer.core.instrument.MeterRegistry.gauge"
+        ]
+    },
+    "63": {
+        "Query": "Selecting a TableColumn within a Tableview to open a Form",
+        "GroundTruth": [
+            "javafx.scene.control.TableView.setRowFactory",
+            "javafx.scene.control.TableRow.TableRow",
+            "javafx.scene.control.ContextMenu.ContextMenu",
+            "javafx.scene.control.MenuItem.MenuItem",
+            "javafx.scene.control.MenuItem.setOnAction",
+            "javafx.scene.control.ContextMenu.getItems",
+            "javafx.collections.ObservableList.add",
+            "javafx.beans.property.ReadOnlyObjectProperty.addListener",
+            "javafx.scene.control.TableRow.itemProperty",
+            "javafx.scene.control.TableRow.setContextMenu"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to handle the programming problem of selecting a TableColumn within a TableView to open a Form:",
+            "",
+            "1. javafx.scene.control.TableView.getColumns",
+            "2. javafx.scene.control.TableColumn.getCellObservableValue",
+            "3. javafx.scene.control.TableColumn.setCellValueFactory",
+            "4. javafx.beans.Observable.getValue",
+            "5. javafx.scene.control.TableColumn.setOnEditCommit",
+            "6. javafx.scene.control.TableColumn.getTableView",
+            "7. javafx.scene.control.TableView.getSelectionModel",
+            "8. javafx.scene.control.SelectionModel.getSelectedItem",
+            "9. javafx.scene.control.SelectionModel.select",
+            "10. javafx.stage.Stage.showAndWait"
+        ]
+    },
+    "64": {
+        "Query": "Which Java class to use to store creation timestamp in Spring Boot?",
+        "GroundTruth": [
+            "java.time.Instant.ofEpochSecond(long epochSecond)",
+            "java.time.Instant.ofEpochSecond(long epochSecond, long nanoAdjustment)"
+        ],
+        "Answer": [
+            "To store a creation timestamp in Spring Boot, you can use the following Java API methods:",
+            "",
+            "1. java.util.Date",
+            "2. java.util.Calendar",
+            "3. java.time.LocalDateTime",
+            "4. java.time.LocalTime",
+            "5. java.time.Instant",
+            "6. java.sql.Timestamp",
+            "7. org.joda.time.DateTime",
+            "8. org.joda.time.LocalDateTime",
+            "9. java.text.SimpleDateFormat",
+            "10. java.sql.Date",
+            "",
+            "These classes and methods can be used to represent and manipulate timestamps in Java for storing creation timestamps in your Spring Boot application."
+        ]
+    },
+    "65": {
+        "Query": "Virtual Threads don't work for POST request in Spring Boot WebFlux",
+        "GroundTruth": [
+            "org.aspectj.lang.ProceedingJoinPoint.proceed",
+            "org.springframework.core.task.AsyncTaskExecutor",
+            "java.lang.Thread.ofVirtual",
+            "java.lang.Thread.start",
+            "java.lang.Thread.join"
+        ],
+        "Answer": [
+            "1. org.springframework.web.reactive.function.server.ServerRequest.bodyToMono",
+            "2. org.springframework.web.reactive.function.server.ServerResponse.ok",
+            "3. org.springframework.web.reactive.function.server.RouterFunctions.route",
+            "4. org.springframework.http.MediaType.APPLICATION_JSON",
+            "5. org.springframework.web.reactive.function.server.HandlerFunction",
+            "6. org.springframework.web.reactive.function.BodyInserters.fromPublisher",
+            "7. org.springframework.web.reactive.function.client.WebClient.post",
+            "8. org.springframework.web.reactive.function.BodyExtractors.toMono",
+            "9. org.springframework.web.reactive.function.client.ExchangeFilterFunction",
+            "10. org.springframework.http.HttpStatus.OK"
+        ]
+    },
+    "66": {
+        "Query": "Find the remaining Enum",
+        "GroundTruth": [
+            "java.util.EnumSet<E>.complementOf(EnumSet<E> s)"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can be used to find the remaining Enum:",
+            "",
+            "1. java.util.EnumSet.complementOf",
+            "2. java.util.EnumSet.copyOf",
+            "3. java.util.EnumSet.of",
+            "4. java.util.EnumSet.range",
+            "5. java.util.EnumSet.allOf",
+            "6. java.util.EnumSet.noneOf",
+            "7. java.util.EnumSet.contains",
+            "8. java.util.EnumSet.addAll",
+            "9. java.util.EnumSet.removeAll",
+            "10. java.util.EnumSet.retainAll"
+        ]
+    },
+    "67": {
+        "Query": "Run (execute) JUnit 5 Suites with Gradle task",
+        "GroundTruth": [
+            "org.gradle.api.tasks.TaskContainer.register",
+            "org.gradle.api.tasks.testing.Test.useJUnitPlatform",
+            "org.gradle.api.tasks.testing.Test.setTestClassesDirs",
+            "org.gradle.api.tasks.testing.Test.setClasspath",
+            "org.gradle.api.tasks.testing.Test.systemProperty",
+            "org.gradle.api.tasks.testing.Test.setIgnoreFailures",
+            "org.gradle.api.tasks.testing.Test.include"
+        ],
+        "Answer": [
+            "1. org.junit.platform.console.ConsoleLauncher.execute",
+            "2. org.gradle.api.tasks.testing.Test.useJUnitPlatform",
+            "3. org.gradle.api.tasks.testing.Test.setTestClassesDirs",
+            "4. org.gradle.api.tasks.testing.Test.setIncludeEngines",
+            "5. org.gradle.api.tasks.testing.Test.setIncludeTags",
+            "6. org.gradle.api.tasks.testing.AbstractTestTask.include",
+            "7. org.gradle.api.tasks.testing.AbstractTestTask.exclude",
+            "8. org.gradle.api.Task.setDependsOn",
+            "9. org.gradle.api.Project.afterEvaluate",
+            "10. org.gradle.api.tasks.TaskContainer.register"
+        ]
+    },
+    "68": {
+        "Query": "How to sort when Integers are stored as Strings in DB using Pageable in Springboot",
+        "GroundTruth": [
+            "org.springframework.data.repository.PagingAndSortingRepository.findByVideoIdSortedByStartTimeStamp",
+            "org.springframework.data.domain.Page"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to sort when Integers are stored as Strings in a DB using Pageable in Springboot:",
+            "",
+            "1. org.springframework.data.domain.PageRequest.of",
+            "2. org.springframework.data.domain.Sort.by",
+            "3. org.springframework.data.domain.PageSortAssembler.applySort",
+            "4. org.springframework.data.domain.Pageable.getSort",
+            "5. org.springframework.data.domain.Sort.Order.asc",
+            "6. org.springframework.data.domain.Sort.Order.desc",
+            "7. org.springframework.data.domain.Sort.Order.by",
+            "8. org.springframework.data.jpa.domain.JpaSort.unsafe",
+            "9. java.util.Comparator.comparing",
+            "10. java.util.Collections.sort"
+        ]
+    },
+    "69": {
+        "Query": "Deadlock in Java with ReentrantLock and Lock",
+        "GroundTruth": [
+            "java.util.concurrent.locks.ReentrantLock.ReentrantLock()"
+        ],
+        "Answer": [
+            "Given the problem of dealing with deadlock in Java with ReentrantLock and Lock, here are 10 Java API methods that can be useful for solving this problem:",
+            "",
+            "1. java.util.concurrent.locks.Lock.lock",
+            "2. java.util.concurrent.locks.Lock.unlock",
+            "3. java.util.concurrent.locks.ReentrantLock.lockInterruptibly",
+            "4. java.util.concurrent.locks.ReentrantLock.tryLock",
+            "5. java.util.concurrent.locks.Condition.await",
+            "6. java.util.concurrent.locks.Condition.signal",
+            "7. java.util.concurrent.locks.Condition.signalAll",
+            "8. java.util.concurrent.locks.LockSupport.park",
+            "9. java.util.concurrent.locks.LockSupport.unpark",
+            "10. java.lang.Thread.interrupt",
+            "",
+            "These methods are part of the Java API and can be used to manage locks, conditions, thread parking, and interruption, which are essential for dealing with potential deadlocks when using ReentrantLock and Lock in Java."
+        ]
+    },
+    "70": {
+        "Query": "Show .bin video from web in a videoView/webView",
+        "GroundTruth": [
+            "java.net.URL.openConnection",
+            "java.net.HttpURLConnection.setRequestMethod",
+            "java.net.HttpURLConnection.setConnectTimeout",
+            "java.net.HttpURLConnection.setReadTimeout",
+            "java.net.HttpURLConnection.connect",
+            "java.net.HttpURLConnection.getInputStream",
+            "java.io.InputStreamReader.InputStreamReader()",
+            "java.io.BufferedReader.BufferedReader()",
+            "java.io.BufferedReader.readLine",
+            "java.io.BufferedInputStream.BufferedInputStream()",
+            "java.io.BufferedInputStream.read",
+            "java.io.InputStream.close",
+            "java.io.InputStreamReader.close",
+            "java.io.BufferedReader.close",
+            "java.net.MalformedURLException.printStackTrace",
+            "java.io.BufferedInputStream.close",
+            "android.app.Activity.runOnUiThread",
+            "android.widget.ImageView.setImageBitmap",
+            "java.io.FileOutputStream.close"
+        ],
+        "Answer": [
+            "1. java.net.URL.openConnection",
+            "2. java.io.InputStream",
+            "3. java.io.BufferedInputStream",
+            "4. android.webkit.WebView",
+            "5. android.webkit.WebViewClient",
+            "6. android.widget.VideoView",
+            "7. android.media.MediaPlayer",
+            "8. java.io.FileOutputStream",
+            "9. java.io.BufferedOutputStream",
+            "10. android.os.AsyncTask"
+        ]
+    },
+    "71": {
+        "Query": "How to update recipients of already sent DocuSign envelope?",
+        "GroundTruth": [
+            "com.docusign.esign.api.EnvelopesApi.EnvelopesApi()",
+            "com.docusign.esign.api.EnvelopesApi.updateRecipients",
+            "com.docusign.esign.model.Envelope.setEmailSubject",
+            "com.docusign.esign.model.Envelope.getRecipients",
+            "com.docusign.esign.model.RecipientsUpdateSummary.getRecipientUpdateResults",
+            "com.docusign.esign.model.RecipientsUpdateResult.getErrorDetails",
+            "com.docusign.esign.model.Recipient.setEmail"
+        ],
+        "Answer": [
+            "To update recipients of an already sent DocuSign envelope, you can use the DocuSign eSignature REST API. Here are 10 Java API methods that can help you accomplish this task:",
+            "",
+            "1. com.docusign.esign.api.EnvelopesApi.updateRecipients",
+            "2. com.docusign.esign.api.TabsApi.createTab",
+            "3. com.docusign.esign.api.TabsApi.updateTab",
+            "4. com.docusign.esign.api.TemplatesApi.getTemplate",
+            "5. com.docusign.esign.api.EnvelopesApi.listStatusChanges",
+            "6. com.docusign.esign.model.Recipients",
+            "7. com.docusign.esign.model.Tabs",
+            "8. com.docusign.esign.model.TemplateSummary",
+            "9. com.docusign.esign.model.TemplateTabs",
+            "10. com.docusign.esign.model.TemplateRole",
+            "",
+            "These are just a few example API methods, and depending on the specific requirements, you may need to use additional methods or different variations of the above methods. The DocuSign Java SDK provides convenient wrapper classes for making API calls, which you can use to interact with the DocuSign eSignature API."
+        ]
+    },
+    "72": {
+        "Query": "Proper way of concatenating lists with single elements in a single logical line in Java?",
+        "GroundTruth": [
+            "java.util.ArrayList.addAll",
+            "java.util.List.copyOf"
+        ],
+        "Answer": [
+            "1. java.util.stream.Stream.of",
+            "2. java.util.stream.Collectors.toList",
+            "3. java.util.ArrayList.addAll",
+            "4. java.util.Arrays.asList",
+            "5. java.util.Collections.addAll",
+            "6. java.util.List.of",
+            "7. java.util.stream.Stream.concat",
+            "8. java.util.stream.StreamBuilder",
+            "9. java.util.List.addAll",
+            "10. java.util.StringJoiner"
+        ]
+    },
+    "73": {
+        "Query": "How can I create a java.net.URI with a query parameter that contains an ampersand in the value",
+        "GroundTruth": [
+            "javax.ws.rs.core.UriBuilder.UriBuilder()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to create a java.net.URI with a query parameter that contains an ampersand in the value:",
+            "",
+            "1. java.net.URI(String)",
+            "2. java.net.URLEncoder.encode(String, String)",
+            "3. java.net.URLDecoder.decode(String, String)",
+            "4. java.net.URLEncoder.encode(String, Charset)",
+            "5. java.net.URLDecoder.decode(String, Charset)",
+            "6. java.net.URLEncoder.encode(String, CharsetEncoder)",
+            "7. java.net.URLDecoder.decode(String, CharsetDecoder)",
+            "8. java.net.URI.Builder.query(String)",
+            "9. java.net.URI.Builder.query(URLEncoder.encode(String, String))",
+            "10. java.net.URI.Builder.query(URLEncoder.encode(String, Charset))"
+        ]
+    },
+    "74": {
+        "Query": "Use ConcurrentHashMap to replace HazelCast IMap with locking",
+        "GroundTruth": [
+            "java.util.concurrent.ConcurrentHashMap.computeIfPresent"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to replace HazelCast IMap with locking using ConcurrentHashMap:",
+            "",
+            "1. java.util.concurrent.ConcurrentHashMap.put",
+            "2. java.util.concurrent.ConcurrentHashMap.putIfAbsent",
+            "3. java.util.concurrent.ConcurrentHashMap.get",
+            "4. java.util.concurrent.ConcurrentHashMap.containsKey",
+            "5. java.util.concurrent.ConcurrentHashMap.remove",
+            "6. java.util.concurrent.ConcurrentHashMap.replace",
+            "7. java.util.concurrent.ConcurrentHashMap.compute",
+            "8. java.util.concurrent.ConcurrentHashMap.computeIfAbsent",
+            "9. java.util.concurrent.ConcurrentHashMap.computeIfPresent",
+            "10. java.util.concurrent.ConcurrentHashMap.merge"
+        ]
+    },
+    "75": {
+        "Query": "Convert String Array to xlsx using Apache poi?",
+        "GroundTruth": [
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook.SXSSFWorkbook()",
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet",
+            "org.apache.poi.xssf.streaming.SXSSFSheet.createRow",
+            "org.apache.poi.xssf.streaming.SXSSFRow.createCell",
+            "org.apache.poi.xssf.streaming.SXSSFCell.setCellValue",
+            "java.util.concurrent.atomic.AtomicReference.AtomicReference()",
+            "java.util.stream.Stream.iterate",
+            "java.util.stream.Stream.limit",
+            "java.util.stream.Stream.forEach",
+            "java.nio.file.Files.newOutputStream",
+            "java.nio.file.Path.of",
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook.write",
+            "java.io.OutputStream.flush",
+            "java.io.IOException.printStackTrace",
+            "java.lang.RuntimeException.RuntimeException()"
+        ],
+        "Answer": [
+            "1. org.apache.poi.xssf.usermodel.XSSFWorkbook()",
+            "2. org.apache.poi.xssf.usermodel.XSSFSheet.createRow(int)",
+            "3. org.apache.poi.xssf.usermodel.XSSFRow.createCell(int)",
+            "4. org.apache.poi.ss.usermodel.Cell.setCellValue(java.lang.String)",
+            "5. org.apache.poi.ss.usermodel.Workbook.write(java.io.OutputStream)",
+            "6. org.apache.poi.ss.usermodel.Workbook.close()",
+            "7. org.apache.poi.ss.usermodel.Row.createCell(int, org.apache.poi.ss.usermodel.CellType)",
+            "8. org.apache.poi.ss.usermodel.Row.createCell(int, org.apache.poi.ss.usermodel.CellType, java.lang.String)",
+            "9. org.apache.poi.ss.usermodel.Workbook.createSheet(java.lang.String)",
+            "10. org.apache.poi.ss.usermodel.Sheet.autoSizeColumn(int)"
+        ]
+    },
+    "76": {
+        "Query": "Unable to understand the time consumption by Java threads",
+        "GroundTruth": [
+            "java.lang.System.currentTimeMillis()"
+        ],
+        "Answer": [
+            "1. java.lang.Thread.start",
+            "2. java.lang.Thread.join",
+            "3. java.lang.Thread.sleep",
+            "4. java.util.concurrent.ExecutorService.execute",
+            "5. java.util.concurrent.ExecutorService.submit",
+            "6. java.util.concurrent.ExecutorService.shutdown",
+            "7. java.util.concurrent.ExecutorService.awaitTermination",
+            "8. java.util.concurrent.Future.get",
+            "9. java.util.concurrent.CountDownLatch.await",
+            "10. java.util.concurrent.CyclicBarrier.await"
+        ]
+    },
+    "77": {
+        "Query": "Why does my ImageIcon disappear after using setLocation() on JFrame?",
+        "GroundTruth": [
+            "java.lang.Thread.sleep()"
+        ],
+        "Answer": [
+            "1. javax.swing.ImageIcon.setImage",
+            "2. javax.swing.JFrame.getContentPane",
+            "3. javax.swing.JFrame.add",
+            "4. javax.swing.JFrame.setVisible",
+            "5. javax.swing.JFrame.setLocation",
+            "6. javax.swing.JLabel.setIcon",
+            "7. java.awt.Component.setBounds",
+            "8. java.awt.Container.getComponent",
+            "9. java.awt.Container.add",
+            "10. java.awt.Component.repaint"
+        ]
+    },
+    "78": {
+        "Query": "Spring Data JPA/ Hibernate get one column value based on the id",
+        "GroundTruth": [
+            "org.springframework.data.jpa.repository.JpaRepository.findById"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that you can use to get one column value based on the id in Spring Data JPA/ Hibernate:",
+            "",
+            "1. org.springframework.data.jpa.repository.JpaRepository.findById",
+            "2. org.springframework.data.jpa.repository.JpaSpecificationExecutor.findOne",
+            "3. org.springframework.data.jpa.repository.JpaRepository.getOne",
+            "4. org.springframework.data.jpa.repository.JpaSpecificationExecutor.findOneBySpecification",
+            "5. org.springframework.data.jpa.repository.Query.getSingleResult",
+            "6. org.hibernate.Session.get",
+            "7. org.hibernate.Criteria.setProjection",
+            "8. org.hibernate.criterion.Projections.property",
+            "9. javax.persistence.EntityManager.find",
+            "10. javax.persistence.Query.getSingleResult"
+        ]
+    },
+    "79": {
+        "Query": "Spark ignores Iceberg Nessie catalog",
+        "GroundTruth": [
+            "org.apache.spark.sql.SparkSession.read",
+            "org.apache.spark.sql.DataFrameReader.option",
+            "org.apache.spark.sql.DataFrameReader.csv",
+            "org.apache.spark.sql.Dataset.writeTo",
+            "org.apache.spark.sql.DataFrameWriter.createOrReplace"
+        ],
+        "Answer": [
+            "1. org.apache.spark.sql.SparkSession.read",
+            "2. org.apache.spark.sql.Dataset.write",
+            "3. org.apache.iceberg.catalog.Catalog.createTable",
+            "4. org.apache.iceberg.catalog.Catalog.loadTable",
+            "5. org.apache.iceberg.catalog.Table.refresh",
+            "6. org.apache.iceberg.SnapshotTableOperations.addFile",
+            "7. org.apache.iceberg.DataFile.exists",
+            "8. org.apache.iceberg.DataFile.delete",
+            "9. org.apache.iceberg.TableScan.snapshot",
+            "10. org.apache.iceberg.TableScan.withSnapshot"
+        ]
+    },
+    "80": {
+        "Query": "Why is my image motion so choppy when moving it with keybindings?",
+        "GroundTruth": [
+            "java.awt.Toolkit.getDefaultToolkit",
+            "java.awt.Toolkit.sync"
+        ],
+        "Answer": [
+            "1. java.awt.Image.getScaledInstance",
+            "2. java.awt.Graphics.drawImage",
+            "3. javax.swing.Timer.start",
+            "4. java.awt.event.KeyEvent.getKeyCode",
+            "5. java.awt.event.KeyAdapter.keyPressed",
+            "6. java.awt.event.KeyAdapter.keyReleased",
+            "7. java.awt.event.ActionListener.actionPerformed",
+            "8. javax.swing.JComponent.repaint",
+            "9. java.awt.Graphics2D.setRenderingHint",
+            "10. java.awt.RenderingHints.KEY_RENDERING"
+        ]
+    },
+    "81": {
+        "Query": "How to set the size of a DialogFragment in Android",
+        "GroundTruth": [
+            "androidx.fragment.app.DialogFragment.setOnShowListener",
+            "androidx.fragment.app.DialogFragment.getDialog",
+            "android.view.WindowManager.LayoutParams.width",
+            "android.view.WindowManager.LayoutParams.height",
+            "android.view.WindowManager.getDefaultDisplay",
+            "android.view.Display.getSize",
+            "android.view.Display.getMetrics",
+            "android.view.WindowInsets.getInsetsIgnoringVisibility"
+        ],
+        "Answer": [
+            "1. android.app.DialogFragment.getDialog().getWindow().setLayout",
+            "2. android.view.ViewGroup.LayoutParams.MATCH_PARENT",
+            "3. android.view.ViewGroup.LayoutParams.WRAP_CONTENT",
+            "4. android.util.DisplayMetrics",
+            "5. android.content.Context.getResources().getDisplayMetrics()",
+            "6. android.view.WindowManager.LayoutParams.FLAG_FULLSCREEN",
+            "7. android.view.WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON",
+            "8. android.view.ViewGroup.LayoutParams",
+            "9. android.view.WindowManager.LayoutParams",
+            "10. android.widget.LinearLayout.LayoutParams"
+        ]
+    },
+    "82": {
+        "Query": "Rendering properly using GridBagLayout",
+        "GroundTruth": [
+            "java.awt.GridBagConstraints.anchor",
+            "java.awt.GridBagConstraints.gridx",
+            "java.awt.GridBagConstraints.gridy",
+            "java.awt.GridBagConstraints.insets",
+            "java.awt.GridBagConstraints.fill",
+            "java.awt.GridBagConstraints.weightx",
+            "java.awt.GridBagConstraints.weighty",
+            "javax.swing.BorderFactory.createTitledBorder"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can be useful for rendering properly using GridBagLayout:",
+            "",
+            "1. java.awt.GridBagConstraints.anchor",
+            "2. java.awt.GridBagConstraints.fill",
+            "3. java.awt.GridBagConstraints.gridwidth",
+            "4. java.awt.GridBagConstraints.gridheight",
+            "5. java.awt.GridBagLayout.setConstraints",
+            "6. java.awt.GridBagConstraints.weightx",
+            "7. java.awt.GridBagConstraints.weighty",
+            "8. java.awt.Container.add",
+            "9. java.awt.Container.remove",
+            "10. java.awt.Container.revalidate",
+            "",
+            "These methods can help with configuring and managing the layout constraints and adding/removing components from the container using GridBagLayout."
+        ]
+    },
+    "83": {
+        "Query": "How do I implement executable directives in Quarkus GraphQL",
+        "GroundTruth": [
+            "io.smallrye.graphql.execution.context.SmallRyeContext.getDataFetchingEnvironment",
+            "graphql.language.SelectionSet.getChildren",
+            "graphql.language.Node.instanceof",
+            "graphql.language.Field.getName",
+            "java.util.List.stream",
+            "java.util.stream.Stream.filter",
+            "java.util.Optional.ifPresent",
+            "graphql.language.Field.getDirectives",
+            "java.util.List.size",
+            "java.util.List.get",
+            "java.util.List.add"
+        ],
+        "Answer": [
+            "To implement executable directives in Quarkus GraphQL, you can make use of the following Java API methods:",
+            "",
+            "1. io.smallrye.graphql.api.DirectiveOnField.getMethodName",
+            "2. io.smallrye.graphql.api.DirectiveOnField.getArguments",
+            "3. io.smallrye.graphql.api.DirectiveOnMethod.getMethodName",
+            "4. io.smallrye.graphql.api.DirectiveOnMethod.getArguments",
+            "5. io.smallrye.graphql.execution.directive.DirectiveFetcher.setResultTransformer",
+            "6. io.smallrye.graphql.execution.directive.DirectiveFetcher.setTargetElement",
+            "7. io.smallrye.graphql.execution.directive.DirectiveFetcher.setTargetPath",
+            "8. io.smallrye.graphql.execution.directive.DirectiveFetcher.setExecutingElement",
+            "9. io.smallrye.graphql.execution.directive.DirectiveFetcher.setValidatingElement",
+            "10. io.smallrye.graphql.execution.directive.DirectiveFetcher.setImplementingType",
+            "",
+            "These API methods provide the necessary functionalities for implementing executable directives in Quarkus GraphQL."
+        ]
+    },
+    "84": {
+        "Query": "How to adjust the hours in working hours calendar",
+        "GroundTruth": [
+            "java.time.LocalDate.of",
+            "java.time.LocalDateTime.of",
+            "java.time.Duration.between",
+            "java.time.LocalDateTime.plusDays",
+            "java.time.LocalDateTime.plusSeconds",
+            "java.time.LocalDate.getDayOfWeek",
+            "java.util.HashSet.add",
+            "java.util.HashMap.put",
+            "java.time.LocalDateTime.toLocalDate",
+            "java.time.LocalDateTime.toLocalTime",
+            "java.time.LocalTime.isBefore",
+            "java.time.LocalTime.isAfter",
+            "java.time.LocalTime.of",
+            "java.util.Set.contains",
+            "java.util.Map.containsKey",
+            "java.util.Optional.of",
+            "java.time.LocalDate.plusDays",
+            "java.time.LocalDate.getDayOfWeek.getValue",
+            "java.time.LocalDateTime.withHour",
+            "java.time.LocalDateTime.withMinute",
+            "java.time.LocalDateTime.withSecond",
+            "java.time.LocalDateTime.withNano"
+        ],
+        "Answer": [
+            "To adjust the hours in a working hours calendar, you can use the following Java API methods:",
+            "",
+            "1. java.util.Calendar.setTimeZone",
+            "2. java.util.Calendar.setTime",
+            "3. java.util.Calendar.get",
+            "4. java.util.Calendar.set",
+            "5. java.util.Calendar.roll",
+            "6. java.util.Calendar.add",
+            "7. java.util.Date.getTime",
+            "8. java.util.Date.setTime",
+            "9. java.time.LocalTime.plusHours",
+            "10. java.time.LocalTime.minusHours"
+        ]
+    },
+    "85": {
+        "Query": "how to add statement import into xml (schema/xsd) using java",
+        "GroundTruth": [
+            "org.w3c.dom.Document.getDocumentElement()"
+        ],
+        "Answer": [
+            "To add an import statement into an XML schema (xsd) using Java, here are 10 API methods that can be used:",
+            "",
+            "1. javax.xml.parsers.DocumentBuilderFactory",
+            "2. javax.xml.parsers.DocumentBuilder",
+            "3. org.w3c.dom.Document",
+            "4. org.w3c.dom.Element",
+            "5. org.w3c.dom.Node",
+            "6. org.w3c.dom.NodeList",
+            "7. org.w3c.dom.NamedNodeMap",
+            "8. org.w3c.dom.Attr",
+            "9. javax.xml.transform.TransformerFactory",
+            "10. javax.xml.transform.Transformer",
+            "",
+            "These API methods can be used to parse the XML schema, locate the position where you want to add the import statement, create the import statement as a new XML element, and insert it into the DOM structure of the schema. Finally, you can use a Transformer to output the modified schema to a file or a string."
+        ]
+    },
+    "86": {
+        "Query": "How can I ask the JVM if a file has been marked for deletion via File.deleteOnExit()?",
+        "GroundTruth": [
+            "java.lang.Class.forName",
+            "java.lang.Class.getDeclaredField",
+            "java.lang.reflect.Field.setAccessible",
+            "java.lang.reflect.Field.get",
+            "java.util.LinkedHashSet.LinkedHashSet()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to ask the JVM if a file has been marked for deletion via File.deleteOnExit():",
+            "",
+            "1. java.lang.Runtime.addShutdownHook",
+            "2. java.lang.Runtime.removeShutdownHook",
+            "3. java.io.File.deleteOnExit",
+            "4. java.io.File.exists",
+            "5. java.io.File.getCanonicalPath",
+            "6. java.io.File.getAbsolutePath",
+            "7. java.io.File.isDirectory",
+            "8. java.io.File.isFile",
+            "9. java.io.File.lastModified",
+            "10. java.io.File.length"
+        ]
+    },
+    "87": {
+        "Query": "H2 embedded database not initialized when using Spring's lazy initialization",
+        "GroundTruth": [
+            "org.springframework.boot.LazyInitializationExcludeFilter.forBeanTypes"
+        ],
+        "Answer": [
+            "1. org.h2.store.fs.FileUtils.createDirectory",
+            "2. org.h2.store.fs.FileUtils.newOutputStream",
+            "3. org.h2.store.fs.FileUtils.newInputStream",
+            "4. org.h2.store.fs.FileUtils.createTempFile",
+            "5. org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder.build",
+            "6. org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder.setType",
+            "7. org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseBuilder.addScript",
+            "8. org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean.afterPropertiesSet",
+            "9. org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean.getObject",
+            "10. org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactoryBean.isRunning"
+        ]
+    },
+    "88": {
+        "Query": "Java: Casting Object to primitive array using Class.cast()",
+        "GroundTruth": [
+            "java.lang.Class.cast"
+        ],
+        "Answer": [
+            "1. java.lang.Class.cast",
+            "2. java.lang.reflect.Array.getLength",
+            "3. java.lang.reflect.Array.get",
+            "4. java.lang.reflect.Array.set",
+            "5. java.lang.reflect.Array.newInstance",
+            "6. java.lang.reflect.Array.getType",
+            "7. java.util.Arrays.copyOf",
+            "8. java.util.Objects.requireNonNull",
+            "9. java.util.Objects.toString",
+            "10. java.util.stream.IntStream.of"
+        ]
+    },
+    "89": {
+        "Query": "Deserializing Json from String with Rest Client and Object Mapper",
+        "GroundTruth": [
+            "com.fasterxml.jackson.databind.ObjectMapper.readValue"
+        ],
+        "Answer": [
+            "1. com.fasterxml.jackson.databind.ObjectMapper.readValue",
+            "2. javax.ws.rs.client.Client",
+            "3. javax.ws.rs.client.ClientBuilder",
+            "4. javax.ws.rs.client.Entity",
+            "5. javax.ws.rs.client.Invocation.Builder",
+            "6. javax.ws.rs.client.WebTarget",
+            "7. javax.ws.rs.core.MediaType.APPLICATION_JSON",
+            "8. javax.ws.rs.core.Response.readEntity",
+            "9. javax.ws.rs.core.Response.getStatus",
+            "10. javax.ws.rs.client.ClientResponseException.getResponse"
+        ]
+    },
+    "90": {
+        "Query": "Spring Boot 2.7 to SprintBoot3 Migration Issue with HttpClient",
+        "GroundTruth": [
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder.create",
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder.setDefaultSocketConfig",
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder.build",
+            "org.apache.hc.client5.http.impl.classic.HttpClients.custom",
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder.setProxy",
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder.setConnectionManager",
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder.build",
+            "org.apache.hc.core5.util.TimeValue.ofMilliseconds",
+            "org.apache.hc.core5.http.config.ConnectionConfig.custom",
+            "org.apache.hc.core5.http.config.ConnectionConfig.Builder.setTimeToLive",
+            "org.apache.hc.core5.http.config.ConnectionConfig.Builder.build"
+        ],
+        "Answer": [
+            "1. org.springframework.web.reactive.function.client.WebClient.builder",
+            "2. org.springframework.web.client.RestTemplate.exchange",
+            "3. org.springframework.web.reactive.function.client.WebClient.get",
+            "4. org.springframework.http.HttpHeaders.set",
+            "5. org.springframework.http.MediaType.APPLICATION_JSON_VALUE",
+            "6. java.net.http.HttpClient.newBuilder",
+            "7. java.net.http.HttpRequest.newBuilder",
+            "8. java.net.URI.create",
+            "9. java.net.http.HttpClient.send",
+            "10. java.net.http.HttpResponse.body"
+        ]
+    },
+    "91": {
+        "Query": "Pausing the timer",
+        "GroundTruth": [
+            "java.util.concurrent.ScheduledExecutorService.scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit)"
+        ],
+        "Answer": [
+            "1. java.util.Timer.schedule",
+            "2. java.util.TimerTask.cancel",
+            "3. java.lang.Thread.sleep",
+            "4. java.util.concurrent.CountDownLatch.await",
+            "5. java.util.concurrent.CountDownLatch.countDown",
+            "6. java.util.concurrent.Semaphore.acquire",
+            "7. java.util.concurrent.Semaphore.release",
+            "8. java.util.concurrent.CyclicBarrier.await",
+            "9. java.util.concurrent.Exchanger.exchange",
+            "10. java.util.concurrent.locks.Condition.await"
+        ]
+    },
+    "92": {
+        "Query": "How do I make Togglebutton work properly inside tableView column?",
+        "GroundTruth": [
+            "javafx.beans.property.BooleanProperty.addListener",
+            "javafx.beans.property.BooleanProperty",
+            "javafx.scene.control.TableColumn.setCellValueFactory",
+            "javafx.scene.control.TableColumn.setCellFactory",
+            "javafx.scene.control.ToggleButton",
+            "javafx.scene.control.cell.CheckBoxTableCell",
+            "javafx.scene.control.cell.CheckBoxTableCell.forTableColumn"
+        ],
+        "Answer": [
+            "1. javafx.scene.control.TableColumn.setCellFactory",
+            "2. javafx.scene.control.cell.CheckBoxTableCell.forTableColumn",
+            "3. javafx.scene.control.TableColumn.setCellValueFactory",
+            "4. javafx.scene.control.TableColumn.setTableColumnCellFactory",
+            "5. javafx.scene.control.cell.TextFieldTableCell.forTableColumn",
+            "6. javafx.scene.control.cell.ComboBoxTableCell.forTableColumn",
+            "7. javafx.scene.control.TableColumn.setEditable",
+            "8. javafx.beans.property.adapter.JavaBeanBooleanPropertyBuilder.build",
+            "9. javafx.beans.property.SimpleBooleanProperty",
+            "10. javafx.beans.property.adapter.JavaBeanBooleanPropertyBuilder.newBuilder"
+        ]
+    },
+    "93": {
+        "Query": "Spring Hibernate 6 - Change application.properties environment on start",
+        "GroundTruth": [
+            "java.sql.DriverManager.registerDriver()"
+        ],
+        "Answer": [
+            "1. org.springframework.core.env.ConfigurableEnvironment.getPropertySources()",
+            "2. org.springframework.core.io.support.ResourcePatternResolver.getResources()",
+            "3. org.springframework.core.io.support.PropertiesLoaderUtils.loadProperties()",
+            "4. org.springframework.core.env.AbstractPropertyResolver.getProperty()",
+            "5. org.springframework.core.env.MutablePropertySources.addFirst()",
+            "6. org.springframework.orm.hibernate5.LocalSessionFactoryBean.setHibernateProperties()",
+            "7. org.springframework.core.env.MutablePropertySources.addLast()",
+            "8. org.springframework.core.env.PropertiesPropertySource.PropertiesPropertySource()",
+            "9. org.springframework.core.env.PropertySource.getProperty()",
+            "10. org.springframework.orm.hibernate5.LocalSessionFactoryBean.setDataSource()"
+        ]
+    },
+    "94": {
+        "Query": "Java LocalTime.parse working in spring boot on local PC but not working in Docker container",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatter.withLocale()"
+        ],
+        "Answer": [
+            "1. java.time.LocalTime.parse",
+            "2. java.time.format.DateTimeFormatter.ofPattern",
+            "3. java.time.format.DateTimeParseException",
+            "4. java.util.Locale",
+            "5. java.util.TimeZone.getDefault",
+            "6. java.util.Date.from",
+            "7. java.sql.Time.valueOf",
+            "8. java.text.SimpleDateFormat.parse",
+            "9. java.text.DateFormat.getDateInstance",
+            "10. java.text.DateFormatSymbols.getInstance"
+        ]
+    },
+    "95": {
+        "Query": "JPanel overdraws overlapping JComcoBox",
+        "GroundTruth": [
+            "java.awt.Component.setBackground",
+            "java.awt.Component.repaint",
+            "java.awt.Container.add",
+            "java.awt.Container.setPreferredSize",
+            "java.awt.Container.setLayout",
+            "javax.swing.JFrame.JFrame()",
+            "javax.swing.JPanel.JPanel()",
+            "javax.swing.SwingUtilities.invokeLater",
+            "javax.swing.Timer.Timer()"
+        ],
+        "Answer": [
+            "1. javax.swing.JComponent.repaint",
+            "2. javax.swing.JComponent.revalidate",
+            "3. javax.swing.JComboBox.getLocation",
+            "4. javax.swing.JComboBox.getSize",
+            "5. java.awt.Rectangle.intersection",
+            "6. java.awt.Component.setBounds",
+            "7. java.awt.Component.setVisible",
+            "8. java.awt.Component.getParent",
+            "9. java.awt.Container.validate",
+            "10. java.awt.Container.repaint"
+        ]
+    },
+    "96": {
+        "Query": "Persisting an associated detached entity by cascade in Spring Data Jpa. Is it possible?",
+        "GroundTruth": [
+            "java.util.Optional.orElseGet",
+            "java.util.Set.add"
+        ],
+        "Answer": [
+            "1. org.springframework.data.jpa.repository.JpaRepository.save",
+            "2. org.springframework.data.jpa.repository.JpaRepository.saveAll",
+            "3. org.springframework.data.jpa.repository.support.SimpleJpaRepository.save",
+            "4. org.springframework.data.jpa.repository.support.SimpleJpaRepository.saveAll",
+            "5. javax.persistence.EntityManager.persist",
+            "6. javax.persistence.EntityManager.merge",
+            "7. javax.persistence.EntityManager.refresh",
+            "8. javax.persistence.EntityManager.flush",
+            "9. javax.persistence.EntityManager.getTransaction",
+            "10. javax.persistence.EntityManager.getTransaction().commit"
+        ]
+    },
+    "97": {
+        "Query": "It gives error since I closed the scanner in main method but I created a new scanner in the method",
+        "GroundTruth": [
+            "java.util.Scanner.nextLine",
+            "java.util.Scanner.parseInt",
+            "java.util.Scanner.parseDouble",
+            "java.io.PrintStream.println"
+        ],
+        "Answer": [
+            "1. java.util.Scanner.close()",
+            "2. java.util.Scanner.nextLine()",
+            "3. java.util.Scanner.next()",
+            "4. java.util.Scanner.nextInt()",
+            "5. java.util.Scanner.hasNextLine()",
+            "6. java.util.Scanner.hasNext()",
+            "7. java.util.Scanner.useDelimiter()",
+            "8. java.util.Scanner.findInLine()",
+            "9. java.util.Scanner.delimiter()",
+            "10. java.util.Scanner.reset()"
+        ]
+    },
+    "98": {
+        "Query": "Parallel service calls with Spring Boot 3.2 and virtual threads",
+        "GroundTruth": [
+            "java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor()"
+        ],
+        "Answer": [
+            "As an experienced Java developer, I would recommend the following Java API methods for parallel service calls with Spring Boot 3.2 and virtual threads:",
+            "",
+            "1. java.util.concurrent.Executors.newFixedThreadPool",
+            "2. java.util.concurrent.ExecutorService.submit",
+            "3. java.util.concurrent.Future.get",
+            "4. java.util.concurrent.CompletableFuture.supplyAsync",
+            "5. java.util.concurrent.CompletableFuture.thenCombine",
+            "6. java.util.concurrent.CompletableFuture.thenApply",
+            "7. java.util.concurrent.CompletableFuture.allOf",
+            "8. org.springframework.web.client.AsyncRestTemplate.exchange",
+            "9. org.springframework.web.client.AsyncRestTemplate.getForEntity",
+            "10. org.springframework.amqp.rabbit.core.RabbitTemplate.send",
+            "",
+            "These API methods can help you manage and execute parallel service calls efficiently with Spring Boot 3.2 and virtual threads."
+        ]
+    },
+    "99": {
+        "Query": "Difficulty capturing fast mouse movements in Java Swing paint app",
+        "GroundTruth": [
+            "java.awt.image.BufferedImage.BufferedImage()"
+        ],
+        "Answer": [
+            "1. java.awt.Component.addMouseMotionListener",
+            "2. java.awt.event.MouseMotionListener.mouseDragged",
+            "3. java.awt.event.MouseMotionListener.mouseMoved",
+            "4. java.awt.event.MouseEvent.getPoint",
+            "5. java.awt.event.MouseEvent.getX",
+            "6. java.awt.event.MouseEvent.getY",
+            "7. java.awt.event.InputEvent.getModifiers",
+            "8. java.awt.event.InputEvent.BUTTON1_MASK",
+            "9. java.awt.Robot.mouseMove",
+            "10. java.awt.Robot.mousePress"
+        ]
+    },
+    "100": {
+        "Query": "Error in build org.mockito.exceptions.base.MockitoException: ClassCastException",
+        "GroundTruth": [
+            "org.mockito.Mockito.mock()"
+        ],
+        "Answer": [
+            "1. org.mockito.Mockito.mock",
+            "2. org.mockito.Mockito.when",
+            "3. org.mockito.Mockito.verify",
+            "4. org.mockito.ArgumentMatchers.any",
+            "5. org.mockito.Mockito.doReturn",
+            "6. org.mockito.Mockito.doThrow",
+            "7. org.mockito.Mockito.spy",
+            "8. org.mockito.Mockito.mockingDetails",
+            "9. org.mockito.MockitoAnnotations.initMocks",
+            "10. org.mockito.junit.MockitoJUnitRunner"
+        ]
+    },
+    "101": {
+        "Query": "Thread BLOCKED on InetAddress.getByName 0.0.0.0",
+        "GroundTruth": [
+            "java.net.InetAddress.getLocalHost()"
+        ],
+        "Answer": [
+            "1. java.net.InetAddress.getByName",
+            "2. java.net.InetAddress.getLocalHost",
+            "3. java.net.InetAddress.getAllByName",
+            "4. java.net.NetworkInterface.getNetworkInterfaces",
+            "5. java.net.NetworkInterface.getByInetAddress",
+            "6. java.net.NetworkInterface.getByName",
+            "7. java.net.NetworkInterface.getDisplayName",
+            "8. java.net.NetworkInterface.getMTU",
+            "9. java.net.NetworkInterface.getHardwareAddress",
+            "10. java.net.Socket.bind"
+        ]
+    },
+    "102": {
+        "Query": "Assertj: Using the index when asserting list elements via predicate",
+        "GroundTruth": [
+            "org.assertj.core.api.AbstractMapAssert<SELF,ACTUAL,K,V>.allSatisfy(BiConsumer<? super K,? super V> entryRequirements)"
+        ],
+        "Answer": [
+            "1. org.assertj.core.api.AbstractListAssert.containsExactly",
+            "2. org.assertj.core.api.AbstractListAssert.containsExactlyInAnyOrderElementsOf",
+            "3. org.assertj.core.api.AbstractListAssert.contains",
+            "4. org.assertj.core.api.AbstractListAssert.containsAnyOf",
+            "5. org.assertj.core.api.AbstractListAssert.containsExactlyElementsOf",
+            "6. org.assertj.core.api.AbstractListAssert.containsSequence",
+            "7. org.assertj.core.api.AbstractListAssert.containsSubsequence",
+            "8. org.assertj.core.api.AbstractListAssert.doesNotContain",
+            "9. org.assertj.core.api.AbstractListAssert.doesNotContainAnyElementsOf",
+            "10. org.assertj.core.api.AbstractListAssert.doesNotContainAnyElementsOf&#40;Predicate&#41;"
+        ]
+    },
+    "103": {
+        "Query": "javafx pane white artifact when rendering text and rounded rect",
+        "GroundTruth": [
+            "javax.swing.JComponent.setBackground(Color bg)"
+        ],
+        "Answer": [
+            "1. javafx.scene.shape.Rectangle.setArcWidth",
+            "2. javafx.scene.shape.Rectangle.setArcHeight",
+            "3. javafx.scene.text.Text.setText",
+            "4. javafx.scene.text.Text.setFont",
+            "5. javafx.scene.text.Text.setFill",
+            "6. javafx.scene.layout.Pane.getChildren",
+            "7. javafx.scene.layout.Pane.getChildrenUnmodifiable",
+            "8. javafx.scene.layout.Pane.getChildrenUnmodifiable.size",
+            "9. javafx.scene.layout.Pane.getChildrenUnmodifiable.get",
+            "10. javafx.scene.layout.Pane.getChildrenUnmodifiable.contains"
+        ]
+    },
+    "104": {
+        "Query": "Java 21 virtual thread executor performing worse than executor with pooled OS threads?",
+        "GroundTruth": [
+            "java.util.concurrent.ForkJoinPool.commonPool()"
+        ],
+        "Answer": [
+            "1. java.util.concurrent.Executors.newFixedThreadPool",
+            "2. java.util.concurrent.Executors.newCachedThreadPool",
+            "3. java.util.concurrent.ExecutorService.submit",
+            "4. java.util.concurrent.Future.get",
+            "5. java.util.concurrent.ThreadFactory",
+            "6. java.util.concurrent.CountDownLatch",
+            "7. java.util.concurrent.CyclicBarrier",
+            "8. java.util.concurrent.Semaphore",
+            "9. java.util.concurrent.CompletableFuture.supplyAsync",
+            "10. java.util.concurrent.locks.ReentrantLock"
+        ]
+    },
+    "105": {
+        "Query": "How to determine how will springboot handle a field of json when converting it to a Dto?",
+        "GroundTruth": [
+            "java.util.Optional.isPresent",
+            "org.springframework.data.repository.OptionalWrapper.findByName"
+        ],
+        "Answer": [
+            "1. com.fasterxml.jackson.databind.ObjectMapper.readValue",
+            "2. org.springframework.http.converter.json.MappingJackson2HttpMessageConverter.write",
+            "3. org.springframework.messaging.simp.stomp.StompHeaderAccessor.getDestination",
+            "4. com.fasterxml.jackson.databind.JsonNode.get",
+            "5. org.springframework.data.mongodb.core.convert.MappingMongoConverter.write",
+            "6. com.fasterxml.jackson.databind.ObjectMapper.treeToValue",
+            "7. org.springframework.web.bind.annotation.RequestBody",
+            "8. org.springframework.boot.configurationprocessor.json.JSONObject",
+            "9. com.fasterxml.jackson.databind.JsonNode.fields",
+            "10. org.springframework.web.bind.annotation.ModelAttribute"
+        ]
+    },
+    "106": {
+        "Query": "How to specify partition count on cache creation using Ignite thin client?",
+        "GroundTruth": [
+            "org.apache.ignite.configuration.CacheConfiguration.setAffinity",
+            "org.apache.ignite.configuration.CacheConfiguration.CacheConfiguration()",
+            "org.apache.ignite.cache.affinity.rendezvous.RendezvousAffinityFunction.setPartitions",
+            "org.apache.ignite.cache.affinity.rendezvous.RendezvousAffinityFunction.RendezvousAffinityFunction()",
+            "java.lang.String"
+        ],
+        "Answer": [
+            "To specify partition count on cache creation using Ignite thin client, you can use the following Java API methods:",
+            "",
+            "1. org.apache.ignite.Ignition.start",
+            "2. org.apache.ignite.configuration.IgniteConfiguration.setCacheConfiguration",
+            "3. org.apache.ignite.cache.CacheConfiguration.setAffinity",
+            "4. org.apache.ignite.cache.affinity.AffinityFunction.setPartitions",
+            "5. org.apache.ignite.configuration.CacheConfiguration.setBackups",
+            "6. org.apache.ignite.configuration.CacheConfiguration.setAffinityMapper",
+            "7. org.apache.ignite.configuration.CacheConfiguration.setQueryEntities",
+            "8. org.apache.ignite.configuration.IgniteConfiguration.setClientMode",
+            "9. org.apache.ignite.configuration.IgniteConfiguration.setPeerClassLoadingEnabled",
+            "10. org.apache.ignite.cache.CacheMode.PARTITIONED"
+        ]
+    },
+    "107": {
+        "Query": "Java 21 structured concurrency, need predictable subtask exception ordering",
+        "GroundTruth": [
+            "java.util.concurrent.StructuredTaskScope.StructuredTaskScope()"
+        ],
+        "Answer": [
+            "For the programming problem of Java 21 structured concurrency, needing predictable subtask exception ordering, here are 10 Java API methods that can be helpful:",
+            "",
+            "1. java.util.concurrent.CompletionStage.exceptionally",
+            "2. java.util.concurrent.CompletionStage.handle",
+            "3. java.util.concurrent.CompletionStage.whenComplete",
+            "4. java.util.concurrent.CompletableFuture.orTimeout",
+            "5. java.util.concurrent.CompletableFuture.completeOnTimeout",
+            "6. java.util.concurrent.CompletableFuture.exceptionally",
+            "7. java.util.concurrent.CompletableFuture.handle",
+            "8. java.util.concurrent.CompletableFuture.whenComplete",
+            "9. java.util.concurrent.ExecutorService.submit",
+            "10. java.util.concurrent.ExecutorService.invokeAll",
+            "",
+            "These API methods provide features and functionalities related to structured concurrency, handling exceptions, ordering subtasks, and managing concurrency in Java applications. By utilizing these methods effectively, you can achieve predictable exception ordering in a structured concurrent programming model."
+        ]
+    },
+    "108": {
+        "Query": "How to sort a list of objects ascending by a property, then descending by another property in Java?",
+        "GroundTruth": [
+            "java.util.Comparator.comparing",
+            "java.util.Comparator.reverseOrder"
+        ],
+        "Answer": [
+            "1. java.util.Collections.sort",
+            "2. java.util.Comparator.comparing",
+            "3. java.util.Comparator.reversed",
+            "4. java.util.Arrays.asList",
+            "5. java.util.ArrayList.sort",
+            "6. java.util.stream.Collectors.toList",
+            "7. java.util.Collection.reverse",
+            "8. java.util.Collections.reverseOrder",
+            "9. java.util.Collections.reverse",
+            "10. java.util.Comparator.thenComparing"
+        ]
+    },
+    "109": {
+        "Query": "Android Studio, java, onActivityResult is not being triggered using Intent",
+        "GroundTruth": [
+            "android.content.Intent.putExtra",
+            "android.app.Activity.setResult",
+            "android.app.Activity.finish",
+            "androidx.activity.result.ActivityResultLauncher.launch"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that could be relevant to your programming problem:",
+            "",
+            "1. android.content.Intent.putExtra",
+            "2. android.content.Intent.getExtras",
+            "3. android.content.Intent.getParcelableExtra",
+            "4. android.content.Intent.getStringExtra",
+            "5. android.content.Intent.getBooleanExtra",
+            "6. android.content.Intent.getIntExtra",
+            "7. android.content.Intent.getData",
+            "8. android.content.Intent.setData",
+            "9. android.content.Intent.setAction",
+            "10. android.content.Intent.setFlags"
+        ]
+    },
+    "110": {
+        "Query": "Mockito - doThrow (or thenThrow) with Exception constructed with passed argument",
+        "GroundTruth": [
+            "org.mockito.stubbing.OngoingStubbing.thenAnswer"
+        ],
+        "Answer": [
+            "1. org.mockito.Mockito.doThrow",
+            "2. org.mockito.Mockito.doAnswer",
+            "3. org.mockito.Mockito.doNothing",
+            "4. org.mockito.Mockito.doReturn",
+            "5. org.mockito.Mockito.verify",
+            "6. org.mockito.Mockito.when",
+            "7. org.mockito.Mockito.spy",
+            "8. org.mockito.Mockito.mock",
+            "9. org.mockito.Mockito.inOrder",
+            "10. org.mockito.Mockito.times"
+        ]
+    },
+    "111": {
+        "Query": "How to obtain an Executor?",
+        "GroundTruth": [
+            "java.util.concurrent.ExecutorService.__init__",
+            "java.util.concurrent.Executor.newCachedThreadPool()",
+            "java.util.concurrent.Executor.newFixedThreadPool()",
+            "java.util.concurrent.Executor.newVirtualThreadPerTaskExecutor()"
+        ],
+        "Answer": [
+            "1. java.util.concurrent.Executors.newCachedThreadPool",
+            "2. java.util.concurrent.Executors.newFixedThreadPool",
+            "3. java.util.concurrent.Executors.newScheduledThreadPool",
+            "4. java.util.concurrent.Executors.newSingleThreadExecutor",
+            "5. java.util.concurrent.Executors.newWorkStealingPool",
+            "6. java.util.concurrent.Executors.newSingleThreadScheduledExecutor",
+            "7. java.util.concurrent.Executors.newWorkStealingPool",
+            "8. java.util.concurrent.Executors.newSingleThreadScheduledExecutor",
+            "9. java.util.concurrent.Executors.privilegedThreadFactory",
+            "10. java.util.concurrent.Executors.defaultThreadFactory"
+        ]
+    },
+    "112": {
+        "Query": "Java PKCS7 signature issue",
+        "GroundTruth": [
+            "java.security.cert.X509Certificate.getEncoded(String encoding)"
+        ],
+        "Answer": [
+            "To solve the Java PKCS7 signature issue, you can consider using the following Java API methods:",
+            "",
+            "1. java.security.Signature.getInstance",
+            "2. java.security.Signature.initSign",
+            "3. java.security.Signature.update",
+            "4. java.security.Signature.sign",
+            "5. java.security.Signature.initVerify",
+            "6. java.security.Signature.verify",
+            "7. java.security.KeyStore.getInstance",
+            "8. java.security.KeyStore.load",
+            "9. java.security.KeyStore.getEntry",
+            "10. java.security.PrivateKey.getEncoded",
+            "",
+            "These methods will help you with creating and verifying PKCS7 signatures, managing keys and certificates, and loading and manipulating the keystore."
+        ]
+    },
+    "113": {
+        "Query": "GraphQL alias/change name of input type field name",
+        "GroundTruth": [
+            "graphql.schema.DataFetchingEnvironment.getArguments"
+        ],
+        "Answer": [
+            "1. graphql.schema.GraphQLArgument.transformName",
+            "2. graphql.schema.GraphQLFieldDefinition.transformName",
+            "3. graphql.schema.GraphQLInputObjectField.transformName",
+            "4. graphql.schema.GraphQLInputObjectType.transformInputObjectFields",
+            "5. graphql.schema.GraphQLInputTypeUtil.substituteType",
+            "6. graphql.schema.GraphQLList.transform",
+            "7. graphql.schema.GraphQLNonNull.transform",
+            "8. graphql.schema.GraphQLObjectType.transformFields",
+            "9. graphql.schema.GraphQLSchema.transform",
+            "10. graphql.schema.GraphQLUnionType.transformMemberTypes"
+        ]
+    },
+    "114": {
+        "Query": "Complex Java 17 regex with multiple token types and segments",
+        "GroundTruth": [
+            "java.util.regex.Pattern.compile",
+            "java.util.regex.Matcher.find",
+            "java.util.regex.Matcher.group",
+            "java.util.List.of"
+        ],
+        "Answer": [
+            "1. java.util.regex.Pattern.compile",
+            "2. java.util.regex.Matcher.find",
+            "3. java.util.regex.Matcher.group",
+            "4. java.util.regex.Matcher.start",
+            "5. java.util.regex.Matcher.end",
+            "6. java.util.regex.Matcher.reset",
+            "7. java.util.regex.Matcher.matches",
+            "8. java.util.regex.Matcher.groupCount",
+            "9. java.util.regex.Matcher.group(String name)",
+            "10. java.util.regex.Matcher.appendReplacement"
+        ]
+    },
+    "115": {
+        "Query": "Deprecated Environment.getExternalStorageDirectory().getAbsolutePath() returns different values than the new one getExternalFilesDir(null)?",
+        "GroundTruth": [
+            "android.os.Environment.getExternalStorageDirectory().getAbsolutePath()"
+        ],
+        "Answer": [
+            "1. android.os.Environment.isExternalStorageLegacy()",
+            "2. android.os.Environment.getExternalStorageDirectory()",
+            "3. android.os.Environment.getStorageState(File)",
+            "4. android.os.Environment.getExternalStorageState(File)",
+            "5. android.os.Environment.getExternalStoragePublicDirectory(String)",
+            "6. android.os.Environment.getExternalStoragePublicDirectories(String)",
+            "7. android.content.Context.getExternalFilesDir(String)",
+            "8. android.content.Context.getExternalFilesDirs(String)",
+            "9. android.content.Context.getExternalCacheDir()",
+            "10. android.content.Context.getExternalCacheDirs()"
+        ]
+    },
+    "116": {
+        "Query": "set perspective camera as subscene camera in fxml file",
+        "GroundTruth": [
+            "javafx.scene.PerspectiveCamera.PerspectiveCamera()",
+            "javafx.util.Builder.Builder()",
+            "javafx.util.BuilderFactory.BuilderFactory()"
+        ],
+        "Answer": [
+            "1. javafx.scene.SceneBuilder.setCamera(javafx.scene.Node)",
+            "2. javafx.scene.Camera.getTransform()",
+            "3. javafx.scene.PerspectiveCamera.setFieldOfView(double)",
+            "4. javafx.scene.PerspectiveCamera.setFarClip(double)",
+            "5. javafx.scene.PerspectiveCamera.setNearClip(double)",
+            "6. javafx.scene.PerspectiveCamera.setTranslateX(double)",
+            "7. javafx.scene.PerspectiveCamera.setTranslateY(double)",
+            "8. javafx.scene.PerspectiveCamera.setTranslateZ(double)",
+            "9. javafx.scene.PerspectiveCamera.setRotationAxis(javafx.geometry.Point3D)",
+            "10. javafx.scene.PerspectiveCamera.setRotate(double)"
+        ]
+    },
+    "117": {
+        "Query": "Exception javax/management/openmbean/CompositeData using AMQP-client in WildFly built-in ActiveMQ Artemis server",
+        "GroundTruth": [
+            "org.apache.activemq.artemis.protocol.amqp.__init__"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can help you with the programming problem of handling the \"javax/management/openmbean/CompositeData\" exception when using AMQP-client in WildFly built-in ActiveMQ Artemis server:",
+            "",
+            "1. javax.management.openmbean.CompositeData#from(javax.management.openmbean.CompositeType, java.util.Map)",
+            "2. javax.management.openmbean.CompositeData#get(javax.management.openmbean.CompositeType, java.lang.String)",
+            "3. javax.management.openmbean.CompositeType#get(java.lang.String)",
+            "4. javax.management.openmbean.CompositeType#keySet()",
+            "5. javax.management.openmbean.CompositeDataSupport#CompositeDataSupport(javax.management.openmbean.CompositeType, java.util.Map)",
+            "6. javax.management.openmbean.CompositeDataSupport#put(javax.management.openmbean.CompositeType, java.lang.String, java.lang.Object)",
+            "7. javax.jms.Connection#createSession(boolean, int)",
+            "8. org.apache.activemq.artemis.core.config.Configuration#addAcceptorConfiguration(org.apache.activemq.artemis.spi.core.remoting.AcceptorConfiguration)",
+            "9. org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnectorFactory#NettyConnectorFactory(java.util.Map, org.apache.activemq.artemis.uri.URISchema)",
+            "10. org.apache.activemq.artemis.jms.client.ActiveMQInitialContextFactory#getUser(Hashtable<?, ?>)",
+            "",
+            "Please note that these methods may need to be used in combination with other methods and libraries based on your specific use case. It is recommended to refer to the official Java API documentation for detailed explanations and examples of these methods."
+        ]
+    },
+    "118": {
+        "Query": "Keep ordering by merging multiple slow sources in akka streams",
+        "GroundTruth": [
+            "akka.stream.javadsl.Source.from",
+            "akka.stream.javadsl.Source.map",
+            "akka.stream.javadsl.Source.flatMapConcat",
+            "akka.stream.javadsl.Source.buffer",
+            "akka.stream.javadsl.Source.preMaterialize",
+            "akka.japi.Pair.second"
+        ],
+        "Answer": [
+            "1. akka.stream.javadsl.Source.combine",
+            "2. akka.stream.javadsl.Source.zip",
+            "3. akka.stream.javadsl.Source.merge",
+            "4. akka.stream.javadsl.Source.concat",
+            "5. akka.stream.javadsl.Source.zipN",
+            "6. akka.stream.javadsl.Source.zipWith",
+            "7. akka.stream.javadsl.Source.mergeMat",
+            "8. akka.stream.javadsl.Source.concatMat",
+            "9. akka.stream.javadsl.Source.combineMat",
+            "10. akka.stream.javadsl.Source.concatMany"
+        ]
+    },
+    "119": {
+        "Query": "In PDFBox, annotations appear in the rendered image but not in an imported object",
+        "GroundTruth": [
+            "org.apache.pdfbox.rendering.PDFRenderer.PDFRenderer()",
+            "org.apache.pdfbox.rendering.PDFRenderer.setAnnotationsFilter"
+        ],
+        "Answer": [
+            "1. org.apache.pdfbox.pdmodel.PDPage.getAnnotations",
+            "2. org.apache.pdfbox.pdmodel.PDAnnotation",
+            "3. org.apache.pdfbox.pdmodel.PDAnnotation.getRectangle",
+            "4. org.apache.pdfbox.pdmodel.PDAnnotation.getSubtype",
+            "5. org.apache.pdfbox.pdmodel.PDAnnotation.getContents",
+            "6. org.apache.pdfbox.pdmodel.PDAnnotation.getAnnotationName",
+            "7. org.apache.pdfbox.pdmodel.PDPage.findAnnotations",
+            "8. org.apache.pdfbox.pdmodel.PDPage.getAnnotations",
+            "9. org.apache.pdfbox.pdmodel.PDPage.getAnnotations",
+            "10. org.apache.pdfbox.pdmodel.PDAnnotation.getAnnotationName"
+        ]
+    },
+    "120": {
+        "Query": "Spring Boot @Cachebale annotation not working as expected",
+        "GroundTruth": [
+            "org.springframework.boot.ApplicationRunner.run"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be useful for resolving issues related to the Spring Boot @Cacheable annotation:",
+            "",
+            "1. org.springframework.cache.annotation.Cacheable",
+            "2. org.springframework.cache.annotation.CacheConfig",
+            "3. org.springframework.cache.CacheManager",
+            "4. org.springframework.cache.interceptor.CacheInterceptor",
+            "5. org.springframework.cache.interceptor.CacheAspectSupport",
+            "6. org.springframework.cache.annotation.CacheEvict",
+            "7. org.springframework.cache.annotation.Caching",
+            "8. org.springframework.cache.annotation.CachePut",
+            "9. org.springframework.cache.annotation.EnableCaching",
+            "10. org.springframework.cache.annotation.CachingConfigurer",
+            "",
+            "These API methods can be helpful in configuring, managing, and troubleshooting Spring Boot's caching mechanism."
+        ]
+    },
+    "121": {
+        "Query": "In Java, How to fragment String according to Font.canDisplay method",
+        "GroundTruth": [
+            "java.text.AttributedString.addAttribute",
+            "java.text.AttributedString.AttributedString()",
+            "java.text.StringCharacterIterator.getIndex",
+            "java.text.StringCharacterIterator.StringCharacterIterator",
+            "java.awt.Font.canDisplayUpTo",
+            "java.awt.Font.deriveFont",
+            "java.lang.String.length",
+            "java.lang.String.codePointAt",
+            "java.lang.String.format",
+            "java.util.List.get"
+        ],
+        "Answer": [
+            "1. java.awt.Font.canDisplay(char)",
+            "2. java.lang.String.substring(int)",
+            "3. java.text.BreakIterator.getCharacterInstance()",
+            "4. java.util.ListIterator.previousIndex()",
+            "5. java.util.regex.Pattern.split(CharSequence)",
+            "6. java.nio.charset.CharsetEncoder.canEncode(char)",
+            "7. java.io.Reader.read(char[], int, int)",
+            "8. java.io.FileReader.read()",
+            "9. java.util.StringTokenizer.nextElement()",
+            "10. java.nio.file.Files.newBufferedReader()"
+        ]
+    },
+    "122": {
+        "Query": "JavaFX Canvas TextFill Rotate",
+        "GroundTruth": [
+            "javafx.scene.canvas.Canvas.getGraphicsContext2D",
+            "javafx.scene.canvas.GraphicsContext.clearRect",
+            "javafx.scene.canvas.GraphicsContext.fillText",
+            "javafx.scene.canvas.GraphicsContext.save",
+            "javafx.scene.canvas.GraphicsContext.restore",
+            "javafx.scene.canvas.GraphicsContext.setTransform",
+            "javafx.scene.layout.BorderPane.setBottom",
+            "javafx.scene.layout.BorderPane.setCenter",
+            "javafx.scene.layout.Pane.getChildren",
+            "javafx.scene.text.Text.Text()",
+            "javafx.scene.text.Text.setFont",
+            "javafx.scene.text.Text.setFill",
+            "javafx.scene.text.Text.setRotate",
+            "javafx.scene.text.Text.getBoundsInLocal",
+            "javafx.scene.transform.Rotate.Rotate()"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can be used to address the programming problem of JavaFX Canvas TextFill Rotate:",
+            "",
+            "1. javafx.scene.canvas.GraphicsContext.fillText",
+            "2. javafx.scene.canvas.GraphicsContext.setFill",
+            "3. javafx.scene.canvas.GraphicsContext.setFillRule",
+            "4. javafx.scene.canvas.GraphicsContext.getFont",
+            "5. javafx.scene.canvas.GraphicsContext.rotate",
+            "6. javafx.scene.canvas.GraphicsContext.save",
+            "7. javafx.scene.canvas.GraphicsContext.setTextAlign",
+            "8. javafx.scene.canvas.GraphicsContext.setTextBaseline",
+            "9. javafx.scene.canvas.GraphicsContext.setTransform",
+            "10. javafx.scene.canvas.GraphicsContext.transform",
+            "",
+            "These methods are part of the JavaFX API and can be used to control text rendering, fill colors, rotation, alignment, baseline, and transformations on a Canvas element."
+        ]
+    },
+    "123": {
+        "Query": "How to RecursiveComparisonConfiguration in AssertJ?",
+        "GroundTruth": [
+            "org.assertj.core.api.AbstractAssert.usingRecursiveComparison()"
+        ],
+        "Answer": [
+            "1. org.assertj.core.api.Assertions.assertThat",
+            "2. org.assertj.core.api.RecursiveComparisonAssert.withConfiguration",
+            "3. org.assertj.core.api.RecursiveComparisonAssert.withIgnoreFields",
+            "4. org.assertj.core.api.RecursiveComparisonAssert.withEqualsForFields",
+            "5. org.assertj.core.api.RecursiveComparisonAssert.withEqualsForFieldsOfTypes",
+            "6. org.assertj.core.api.RecursiveComparisonAssert.withTypeComparators",
+            "7. org.assertj.core.api.RecursiveComparisonAssert.withComparatorForFields",
+            "8. org.assertj.core.api.RecursiveComparisonAssert.withIgnoreCollectionOrder",
+            "9. org.assertj.core.api.RecursiveComparisonAssert.withStrictTypeChecking",
+            "10. org.assertj.core.api.RecursiveComparisonConfiguration.setIgnoreExtraFields"
+        ]
+    },
+    "124": {
+        "Query": "Trying to make an object, use it and then store it a list using a single statement",
+        "GroundTruth": [
+            "java.util.ArrayList.add",
+            "java.util.List.of"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be useful for creating an object, using it, and storing it in a list using a single statement:",
+            "",
+            "1. java.util.ArrayList.add",
+            "2. java.util.ArrayList.stream",
+            "3. java.util.stream.Stream.map",
+            "4. java.util.stream.Collectors.toList",
+            "5. java.util.function.Supplier.get",
+            "6. java.util.function.Consumer.accept",
+            "7. java.util.function.Function.apply",
+            "8. java.util.Collections.singletonList",
+            "9. java.util.Collections.addAll",
+            "10. java.util.Arrays.asList"
+        ]
+    },
+    "125": {
+        "Query": "Javafx textfield expanding to width of popup window",
+        "GroundTruth": [
+            "javafx.scene.control.Control.USE_PREF_SIZE"
+        ],
+        "Answer": [
+            "1. javafx.scene.control.PopupControl.show",
+            "2. javafx.stage.Window.widthProperty",
+            "3. javafx.scene.layout.Region.widthProperty",
+            "4. javafx.scene.control.TextField.prefWidthProperty",
+            "5. javafx.scene.control.PopupControl.isShowing",
+            "6. javafx.stage.PopupWindow.getWidth",
+            "7. javafx.stage.Screen.getPrimary",
+            "8. javafx.scene.Node.getScene",
+            "9. javafx.scene.Scene.getWindow",
+            "10. javafx.stage.Window.getX"
+        ]
+    },
+    "126": {
+        "Query": "Error in module system when registering controlsFX validator for combo box in JavaFX project",
+        "GroundTruth": [
+            "java.lang.module.ModuleDescriptor.Opens.of"
+        ],
+        "Answer": [
+            "For the problem of \"Error in module system when registering controlsFX validator for combo box in JavaFX project\", here are 10 Java API methods that may be helpful:",
+            "",
+            "1. javafx.scene.control.ComboBox.setItems",
+            "2. javafx.scene.control.ComboBox.setConverter",
+            "3. javafx.scene.control.ComboBox.setValue",
+            "4. javafx.scene.control.ComboBox.setPromptText",
+            "5. javafx.beans.property.StringProperty.addListener",
+            "6. org.controlsfx.validation.ValidationSupport.registerValidator",
+            "7. org.controlsfx.control.textfield.TextFields.bindAutoCompletion",
+            "8. javafx.scene.control.TextInputControl.getValidators",
+            "9. javafx.beans.property.ObjectProperty.addListener",
+            "10. javafx.scene.control.ComboBox.getEditor",
+            "",
+            "These methods focus on handling the combobox and form validation in a JavaFX project using the ControlsFX library. By utilizing these methods, you can manage the module system error and properly register controlsFX validator for the combobox."
+        ]
+    },
+    "127": {
+        "Query": "Java Swing: ATM_Interface Key Events Not Detected After Initializing Authentification Class",
+        "GroundTruth": [
+            "java.awt.event.ActionListener.ActionListener()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that could be useful for the given programming problem:",
+            "",
+            "1. java.awt.event.ActionListener.actionPerformed",
+            "2. java.awt.event.KeyEvent.getKeyCode",
+            "3. java.awt.event.KeyListener.keyPressed",
+            "4. java.awt.event.KeyListener.keyReleased",
+            "5. java.awt.event.KeyListener.keyTyped",
+            "6. javax.swing.JFrame.addKeyListener",
+            "7. javax.swing.JTextField.addKeyListener",
+            "8. javax.swing.JButton.addActionListener",
+            "9. javax.swing.JPasswordField.getPassword",
+            "10. java.lang.String.equals",
+            "",
+            "These API methods can help with detecting key events and handling user authentication in a Swing ATM interface."
+        ]
+    },
+    "128": {
+        "Query": "Monad Map with two values in Java Functional Programming",
+        "GroundTruth": [
+            "java.util.Optional<T>.flatMap()"
+        ],
+        "Answer": [
+            "Based on the problem of creating a Monad Map with two values in Java Functional Programming, here are 10 Java API methods that might be relevant:",
+            "",
+            "1. java.util.Map.put(K key, V value)",
+            "2. java.util.Map.get(Object key)",
+            "3. java.util.Map.containsKey(Object key)",
+            "4. java.util.Map.size()",
+            "5. java.util.Map.values()",
+            "6. java.util.Map.keySet()",
+            "7. java.util.Map.entrySet()",
+            "8. java.util.Map.remove(Object key)",
+            "9. java.util.Map.clear()",
+            "10. java.util.Optional.map(Function<? super T,? extends U> mapper)",
+            "",
+            "These methods can help you create and manipulate a Map object that represents a Monad with two values in a functional programming style using Java."
+        ]
+    },
+    "129": {
+        "Query": "Is Joda DateTime supported by Hibernate 6?",
+        "GroundTruth": [
+            "java.time.ZonedDateTime.of"
+        ],
+        "Answer": [
+            "1. org.hibernate.type.descriptor.java.JodaTimeJavaDescriptor",
+            "2. org.hibernate.type.descriptor.JdbcTypeNameMapper",
+            "3. org.hibernate.dialect.function.StandardAnsiSqlAggregationFunctions.AggregateFunction",
+            "4. org.hibernate.dialect.function.StandardSQLFunction.ParametersParser",
+            "5. org.hibernate.jmx.StatsServiceMBean",
+            "6. org.hibernate.jpa.internal.EntityManagerImpl.lock",
+            "7. org.hibernate.loader.custom.sql.SQLQueryParser",
+            "8. org.hibernate.query.criteria.Junction",
+            "9. org.hibernate.usertype.DynamicParameterizedType",
+            "10. org.hibernate.transform.DistinctResultTransformer"
+        ]
+    },
+    "130": {
+        "Query": "Is it guaranteed that constraint violation is flagged at the end of transactional block?",
+        "GroundTruth": [
+            "org.springframework.data.jpa.repository.JpaRepository.saveAndFlush"
+        ],
+        "Answer": [
+            "1. javax.persistence.EntityTransaction.commit",
+            "2. javax.persistence.EntityTransaction.rollback",
+            "3. javax.validation.Validator.validate",
+            "4. javax.transaction.TransactionManager.commit",
+            "5. javax.transaction.TransactionManager.rollback",
+            "6. javax.validation.executable.ExecutableValidator.validateReturnValue",
+            "7. javax.validation.executable.ExecutableValidator.validateParameters",
+            "8. javax.persistence.EntityManager.flush",
+            "9. javax.persistence.EntityManager.getTransaction",
+            "10. java.sql.Connection.rollback"
+        ]
+    },
+    "131": {
+        "Query": "\"ScrollView\" doesn't work in \"AlertDialog\"?",
+        "GroundTruth": [
+            "android.app.Dialog.requestWindowFeature",
+            "android.app.Dialog.setContentView"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to address the problem of ScrollView not working in AlertDialog:",
+            "",
+            "1. android.widget.ScrollView.isSmoothScrollingEnabled",
+            "2. android.widget.ScrollView.fullScroll",
+            "3. android.widget.ScrollView.pageScroll",
+            "4. android.widget.ScrollView.scrollTo",
+            "5. android.widget.ScrollView.scrollBy",
+            "6. android.widget.ScrollView.smoothScrollTo",
+            "7. android.widget.ScrollView.smoothScrollBy",
+            "8. android.widget.ScrollView.fling",
+            "9. android.widget.ScrollView.arrowScroll",
+            "10. android.widget.ScrollView.computeScroll",
+            "",
+            "These methods are part of the Android API and provide various functions to control the scrolling behavior of a ScrollView widget within an AlertDialog."
+        ]
+    },
+    "132": {
+        "Query": "Will JVM optimise this mathmatical operation?",
+        "GroundTruth": [
+            "java.time.Instant.ofEpochMilli",
+            "java.time.Instant.truncatedTo",
+            "java.time.Instant.toEpochMilli"
+        ],
+        "Answer": [
+            "To determine if the JVM will optimize a mathematical operation, you can consider these Java API methods:",
+            "",
+            "1. java.lang.Math",
+            "   - pow",
+            "   - sqrt",
+            "   - absolute",
+            "   - ceil",
+            "   - floor",
+            "   - round",
+            "   - min",
+            "   - max",
+            "",
+            "2. java.lang.Integer",
+            "   - bitCount",
+            "   - toHexString",
+            "   - reverse",
+            "",
+            "3. java.lang.Float",
+            "   - compare",
+            "   - isNaN",
+            "",
+            "4. java.lang.Double",
+            "   - compare",
+            "   - isNaN",
+            "",
+            "5. java.util.Math",
+            "   - log",
+            "   - sin",
+            "   - cos",
+            "   - tan",
+            "",
+            "6. java.util.Random",
+            "   - nextInt",
+            "   - nextDouble",
+            "",
+            "7. java.util.concurrent.atomic.AtomicInteger",
+            "   - incrementAndGet",
+            "   - decrementAndGet",
+            "   - getAndIncrement",
+            "",
+            "8. java.util.BitSet",
+            "   - set",
+            "   - clear",
+            "   - get",
+            "   - cardinality",
+            "",
+            "9. java.util.Arrays",
+            "   - sort",
+            "   - binarySearch",
+            "",
+            "10. java.util.regex.Pattern",
+            "    - matches",
+            "    - split",
+            "",
+            "These API methods can help you with various mathematical operations and perform optimizations based on the specific mathematical operation being performed."
+        ]
+    },
+    "133": {
+        "Query": "\"error: cannot find symbol import com.liferay.portal.kernel.uuid.PortalUUID;\" in Liferay 7.4",
+        "GroundTruth": [
+            "java.util.UUID.generate()"
+        ],
+        "Answer": [
+            "1. com.liferay.portal.kernel.uuid.PortalUUID.generate()",
+            "2. com.liferay.portal.kernel.util.PortalUtil.getClassName(Class<?> clazz)",
+            "3. com.liferay.portal.kernel.util.PortalUtil.getCompanyId(HttpServletRequest request)",
+            "4. com.liferay.portal.kernel.util.PortalUtil.getOriginalServletRequest(HttpServletRequest request)",
+            "5. com.liferay.portal.kernel.util.PortalUtil.getPlidFromPortletId(long groupId, String portletId)",
+            "6. com.liferay.portal.kernel.util.PortalUtil.getPortalURL(HttpServletRequest request)",
+            "7. com.liferay.portal.kernel.util.PortalUtil.getThemeDisplay(HttpServletRequest request)",
+            "8. com.liferay.portal.kernel.util.PortalUtil.getUserName(HttpServletRequest request)",
+            "9. com.liferay.portal.kernel.util.PortalUtil.getUserId(HttpServletRequest request)",
+            "10. com.liferay.portal.kernel.util.PortalUtil.isAuthTokenValid(HttpServletRequest request)"
+        ]
+    },
+    "134": {
+        "Query": "'EOF reached while reading' with Spring RestClient and Wiremock using JdkClientHttpRequestFactory",
+        "GroundTruth": [
+            "java.net.http.HttpClient.newBuilder"
+        ],
+        "Answer": [
+            "1. org.springframework.http.client.ClientHttpRequest.execute",
+            "2. org.springframework.http.client.support.HttpAccessor.createRequest",
+            "3. org.springframework.http.client.support.HttpAccessor.createRequestCallback",
+            "4. org.springframework.http.client.support.HttpAccessor.createResponseExtractor",
+            "5. org.springframework.http.client.support.HttpAccessor.requestCallback",
+            "6. org.springframework.http.client.support.HttpAccessor.responseExtractor",
+            "7. org.springframework.http.client.support.HttpAccessor.preProcessResponse",
+            "8. org.springframework.http.client.support.HttpAccessor.postProcessResponse",
+            "9. org.springframework.http.client.support.HttpAccessor.handleError",
+            "10. org.springframework.http.client.support.HttpAccessor.handleIOException"
+        ]
+    },
+    "135": {
+        "Query": "Given java enum class, find enum by value",
+        "GroundTruth": [
+            "java.util.EnumSet<E>.allOf()"
+        ],
+        "Answer": [
+            "1. java.util.EnumSet.allOf  ",
+            "2. java.util.EnumSet.noneOf  ",
+            "3. java.util.Enum.valueOf  ",
+            "4. java.util.Enum.values  ",
+            "5. java.util.Enum.name  ",
+            "6. java.util.Enum.equals    ",
+            "7. java.util.Enum.compareTo",
+            "8. java.util.Enum.valueOf  ",
+            "9. java.util.Enum.valueOf  ",
+            "10. java.util.Enum.getDeclaringClass  "
+        ]
+    },
+    "136": {
+        "Query": "ISO-8601 week data representation for basic temporal operations",
+        "GroundTruth": [
+            "org.threeten.extra.YearWeek.parse",
+            "org.threeten.extra.YearWeek.isBefore",
+            "org.threeten.extra.YearWeek.isAfter",
+            "java.time.temporal.ChronoUnit.WEEKS",
+            "java.time.temporal.ChronoUnit.between",
+            "org.threeten.extra.YearWeek.until"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can be used for ISO-8601 week data representation and basic temporal operations:",
+            "",
+            "1. java.time.LocalDate.getYear",
+            "2. java.time.temporal.WeekFields.ISO.getFirstDayOfWeek",
+            "3. java.time.temporal.WeekFields.ISO.getFirstDayOfWeekValue",
+            "4. java.time.temporal.WeekFields.ISO.getFirstWeekBasedYear",
+            "5. java.time.temporal.WeekFields.ISO.getMinimalDaysInFirstWeek",
+            "6. java.time.temporal.WeekFields.ISO.weekOfWeekBasedYear",
+            "7. java.time.temporal.WeekFields.ISO.weekBasedYear",
+            "8. java.time.temporal.IsoFields.WEEK_OF_WEEK_BASED_YEAR",
+            "9. java.time.temporal.IsoFields.WEEK_BASED_YEAR",
+            "10. java.time.temporal.IsoFields.WEEK_BASED_YEARS",
+            "",
+            "Please note that these are just some of the many available methods in the Java API for working with ISO-8601 week data representation and temporal operations. Depending on your specific requirements, you may need to use additional methods or APIs."
+        ]
+    },
+    "137": {
+        "Query": "Copy file in share point at a particular location using latest graph api and java",
+        "GroundTruth": [
+            "com.microsoft.graph.models.Drive.getId",
+            "com.microsoft.graph.requests.GraphServiceClient.Builder",
+            "com.microsoft.graph.requests.DriveRequestBuilder.byDriveId",
+            "com.microsoft.graph.requests.DriveItemCollectionRequestBuilder.byDriveItemId",
+            "com.microsoft.graph.requests.DriveItemContentRequestBuilder.content().put"
+        ],
+        "Answer": [
+            "1. com.microsoft.graph.requests.extensions.DriveItemCollectionRequestBuilder.items",
+            "2. com.microsoft.graph.models.extensions.DriveItem",
+            "3. com.microsoft.graph.models.extensions.DriveItem.createUploadSession",
+            "4. com.microsoft.graph.http.IHttpRequest.send",
+            "5. java.net.HttpURLConnection.getOutputStream",
+            "6. java.io.FileInputStream",
+            "7. java.io.FileOutputStream",
+            "8. java.nio.channels.FileChannel.transferFrom",
+            "9. com.google.common.io.ByteStreams.toByteArray",
+            "10. org.apache.commons.io.IOUtils.toByteArray"
+        ]
+    },
+    "138": {
+        "Query": "Execute Date arithmetic without daylight saving adjustment",
+        "GroundTruth": [
+            "java.time.LocalDateTime.parse",
+            "java.time.LocalDateTime.plusDays",
+            "java.time.LocalDateTime.atZone",
+            "java.time.ZoneId.of",
+            "java.time.ZonedDateTime.of"
+        ],
+        "Answer": [
+            "To execute Date arithmetic without daylight saving adjustment in Java, you can use the following Java API methods:",
+            "",
+            "1. java.time.LocalDate.plusDays",
+            "2. java.time.LocalDate.plusWeeks",
+            "3. java.time.LocalDate.plusMonths",
+            "4. java.time.LocalDate.plusYears",
+            "5. java.time.LocalDate.minusDays",
+            "6. java.time.LocalDate.minusWeeks",
+            "7. java.time.LocalDate.minusMonths",
+            "8. java.time.LocalDate.minusYears",
+            "9. java.time.LocalDateTime.plusSeconds",
+            "10. java.time.LocalDateTime.minusSeconds"
+        ]
+    },
+    "139": {
+        "Query": "jdbcTemplate.batchUpdate not aplicable error",
+        "GroundTruth": [
+            "org.springframework.jdbc.core.JdbcTemplate.batchUpdate(String sql, BatchPreparedStatementSetter pss)"
+        ],
+        "Answer": [
+            "1. org.springframework.jdbc.core.JdbcTemplate.batchUpdate",
+            "2. org.springframework.jdbc.core.JdbcTemplate.update",
+            "3. org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.batchUpdate",
+            "4. org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate.update",
+            "5. org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils.createBatch",
+            "6. org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils.createBatchSqlParameterSource",
+            "7. org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils.createBatchUpdate",
+            "8. org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils.createBatchUpdateSqlParameterSource",
+            "9. org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils.createBatchUpdateStatement",
+            "10. org.springframework.jdbc.core.namedparam.SqlParameterSourceUtils.createBatchUpdateTypedMapSqlParameterSource"
+        ]
+    },
+    "140": {
+        "Query": "How to know DriverManagerDataSource has a connection pool",
+        "GroundTruth": [
+            "org.springframework.jdbc.datasource.DriverManagerDataSource.DriverManagerDataSource()"
+        ],
+        "Answer": [
+            "To determine if the DriverManagerDataSource has a connection pool, you can consider using the following Java API methods:",
+            "",
+            "1. org.springframework.jdbc.datasource.DriverManagerDataSource.getConnection()",
+            "2. org.springframework.jdbc.datasource.DriverManagerDataSource.setConnectionProperties()",
+            "3. org.springframework.jdbc.datasource.DriverManagerDataSource.getUrl()",
+            "4. org.springframework.jdbc.datasource.DriverManagerDataSource.getMaxActive()",
+            "5. org.springframework.jdbc.datasource.DriverManagerDataSource.getMaxIdle()",
+            "6. org.springframework.jdbc.datasource.DriverManagerDataSource.getMinIdle()",
+            "7. org.springframework.jdbc.datasource.DriverManagerDataSource.getMaxWait()",
+            "8. org.springframework.jdbc.datasource.DriverManagerDataSource.getUsername()",
+            "9. org.springframework.jdbc.datasource.DriverManagerDataSource.getPassword()",
+            "10. org.springframework.jdbc.datasource.DriverManagerDataSource.getPoolPreparedStatements()"
+        ]
+    },
+    "141": {
+        "Query": "SolrJ deleteById does not deletes data in Solr",
+        "GroundTruth": [
+            "org.apache.solr.client.solrj.SolrRequest.commitWithin"
+        ],
+        "Answer": [
+            "1. org.apache.solr.client.solrj.SolrClient.deleteById",
+            "2. org.apache.solr.client.solrj.SolrClient.commit",
+            "3. org.apache.solr.client.solrj.SolrClient.optimize",
+            "4. org.apache.solr.client.solrj.SolrClient.add",
+            "5. org.apache.solr.client.solrj.SolrClient.addBeans",
+            "6. org.apache.solr.client.solrj.SolrClient.addByQuery",
+            "7. org.apache.solr.client.solrj.SolrClient.deleteByIds",
+            "8. org.apache.solr.client.solrj.SolrClient.softCommit",
+            "9. org.apache.solr.client.solrj.SolrClient.rollback",
+            "10. org.apache.solr.client.solrj.SolrClient.deleteByQuery"
+        ]
+    },
+    "142": {
+        "Query": "JavaFX SplitPane Divider hover color css",
+        "GroundTruth": [
+            "javafx.css.PseudoClass.getPseudoClass",
+            "javafx.scene.control.SplitPane.addEventFilter",
+            "javafx.scene.control.SplitPane.getItems"
+        ],
+        "Answer": [
+            "1. javafx.scene.control.SplitPane.setDividerPositions",
+            "2. javafx.scene.control.SplitPane.getDividers",
+            "3. javafx.scene.control.SplitPane.getDividers.get",
+            "4. javafx.scene.control.SplitPane.getDividers.size",
+            "5. javafx.scene.control.SplitPane.getHorizontalDivider",
+            "6. javafx.scene.control.SplitPane.getVerticalDivider",
+            "7. javafx.scene.control.SplitPane.Divider.position",
+            "8. javafx.scene.control.SplitPane.Divider.positionProperty",
+            "9. javafx.scene.control.SplitPane.Divider.visibleAmount",
+            "10. javafx.scene.control.SplitPane.Divider.hoverProperty"
+        ]
+    },
+    "143": {
+        "Query": "Deserialize JSON into record with generic type",
+        "GroundTruth": [
+            "com.fasterxml.jackson.databind.ObjectMapper.readValue",
+            "com.fasterxml.jackson.core.type.TypeReference.__init__"
+        ],
+        "Answer": [
+            "1. com.fasterxml.jackson.databind.ObjectMapper.readValue",
+            "2. com.google.gson.Gson.fromJson",
+            "3. org.json.JSONObject.toBean",
+            "4. com.squareup.moshi.Moshi.adapter",
+            "5. org.springframework.boot.configurationprocessor.json.JSONObject.toJavaObject",
+            "6. jakarta.json.bind.Jsonb.fromJson",
+            "7. org.apache.kafka.common.serialization.Deserializer.deserialize",
+            "8. com.fasterxml.jackson.dataformat.yaml.YAMLFactory.createParser",
+            "9. org.eclipse.persistence.jaxb.JAXBContextFactory.createContext",
+            "10. com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider.readFrom"
+        ]
+    },
+    "144": {
+        "Query": "Convert a Map<T, Value> to a List<T> based on parameter of the object and value",
+        "GroundTruth": [
+            "java.util.stream.Collectors.groupingBy",
+            "java.util.stream.Collectors.collectingAndThen",
+            "java.util.stream.Collectors.maxBy",
+            "java.util.Optional.get",
+            "java.util.stream.Collectors.toList",
+            "java.util.stream.Stream.map",
+            "java.util.Map.Entry.getKey"
+        ],
+        "Answer": [
+            "1. java.util.Map.entrySet",
+            "2. java.util.Map.values",
+            "3. java.util.Map.keySet",
+            "4. java.util.Map.forEach",
+            "5. java.util.Map.put",
+            "6. java.util.Map.get",
+            "7. java.util.Map.containsKey",
+            "8. java.util.Map.containsValue",
+            "9. java.util.Map.remove",
+            "10. java.util.Map.clear"
+        ]
+    },
+    "145": {
+        "Query": "Converting arrays to linked lists en masse",
+        "GroundTruth": [
+            "java.util.LinkedList.LinkedList",
+            "java.util.List.of"
+        ],
+        "Answer": [
+            "1. java.util.Arrays.asList",
+            "2. java.util.LinkedList.addAll",
+            "3. java.util.LinkedList.addAll(int, Collection)",
+            "4. java.util.LinkedList.clear",
+            "5. java.util.LinkedList.contains",
+            "6. java.util.LinkedList.containsAll",
+            "7. java.util.LinkedList.getFirst",
+            "8. java.util.LinkedList.getLast",
+            "9. java.util.LinkedList.indexOf",
+            "10. java.util.LinkedList.lastIndexOf"
+        ]
+    },
+    "146": {
+        "Query": "Count half hours since midnight Europe/London",
+        "GroundTruth": [
+            "java.time.OffsetDateTime.atZoneSameInstant(java.time.ZoneId)",
+            "java.time.ZonedDateTime.truncatedTo(java.time.temporal.TemporalUnit)",
+            "java.time.temporal.ChronoUnit.DAYS"
+        ],
+        "Answer": [
+            "Sure! Here are ten Java API methods that can be helpful for counting half hours since midnight in the Europe/London timezone:",
+            "",
+            "1. java.time.ZoneId.of",
+            "2. java.time.ZonedDateTime.now",
+            "3. java.time.ZonedDateTime.getOffset",
+            "4. java.time.Duration.between",
+            "5. java.time.Duration.toHours",
+            "6. java.time.Duration.toMinutes",
+            "7. java.time.LocalTime.MIDNIGHT",
+            "8. java.time.ZonedDateTime.withZoneSameInstant",
+            "9. java.time.ZonedDateTime.toLocalTime",
+            "10. java.time.LocalTime.toSecondOfDay",
+            "",
+            "These methods are part of the java.time package in Java 8 and later versions, which provides a rich set of date and time classes to work with. They allow you to handle time zones, durations, and date and time calculations with ease."
+        ]
+    },
+    "147": {
+        "Query": "Fully-qualified class name of links while parsing Javadoc",
+        "GroundTruth": [
+            "com.sun.source.util.DocTrees.instance",
+            "com.sun.source.util.Trees.instance",
+            "com.sun.source.util.TreePath.getCompilationUnit",
+            "com.sun.source.doctree.DocCommentTree.accept",
+            "com.sun.source.doctree.LinkTree.getReference",
+            "com.sun.source.util.SimpleDocTreeVisitor.visitLink",
+            "com.sun.source.util.TreeScanner.scan",
+            "com.sun.source.tree.ImportTree.getQualifiedIdentifier",
+            "java.lang.String.substring",
+            "java.lang.String.lastIndexOf"
+        ],
+        "Answer": [
+            "1. javax.lang.model.element.Element.getQualifiedName",
+            "2. com.sun.source.doctree.DocTree",
+            "3. java.net.URI",
+            "4. com.sun.javadoc.SourcePosition",
+            "5. javax.lang.model.element.Name",
+            "6. javax.tools.DocumentationTool",
+            "7. javax.tools.JavaFileObject",
+            "8. javax.tools.ToolProvider",
+            "9. com.sun.javadoc.Doc",
+            "10. javax.lang.model.util.SimpleElementVisitor6"
+        ]
+    },
+    "148": {
+        "Query": "How to populate all elements of a declared variable with the value of 1. In Java",
+        "GroundTruth": [
+            "java.util.Arrays.fill()"
+        ],
+        "Answer": [
+            "To populate all elements of a declared variable with the value of 1 in Java, you can use the following Java API methods:",
+            "",
+            "1. java.util.Arrays.fill",
+            "2. java.util.Arrays.setAll",
+            "3. java.util.Arrays.fill(Object[], int, int, Object)",
+            "4. java.util.Stream.fill",
+            "5. java.util.Collections.fill",
+            "6. java.util.Collections.nCopies",
+            "7. java.util.stream.IntStream.fill",
+            "8. java.util.stream.DoubleStream.fill",
+            "9. java.util.stream.LongStream.fill",
+            "10. java.util.stream.IntStream.generate",
+            "",
+            "These methods provide different ways to populate elements of an array or collection with a specific value. You can choose the most appropriate method based on your specific requirements."
+        ]
+    },
+    "149": {
+        "Query": "java List with all combinations of 8 booleans",
+        "GroundTruth": [
+            "java.util.ArrayList.ArrayList()",
+            "java.util.List.of",
+            "java.util.List.isEmpty",
+            "java.util.ArrayList.add",
+            "java.util.List.size",
+            "java.util.List.get"
+        ],
+        "Answer": [
+            "To generate all combinations of 8 booleans, you can use the following Java API methods:",
+            "",
+            "1. java.util.Arrays.copyOfRange",
+            "2. java.util.Arrays.fill",
+            "3. java.util.Arrays.toString",
+            "4. java.util.BitSet",
+            "5. java.util.Collections.frequency",
+            "6. java.util.LinkedList",
+            "7. java.util.ListIterator",
+            "8. java.util.Stack",
+            "9. java.util.StringTokenizer",
+            "10. java.util.Vector",
+            "",
+            "These API methods can be used to manipulate and generate the combinations of booleans in different ways. Depending on your specific requirements, you can choose the appropriate methods to solve your programming problem."
+        ]
+    },
+    "150": {
+        "Query": "Find smallest palindrome for given input string",
+        "GroundTruth": [
+            "java.lang.StringBuilder.StringBuilder()",
+            "java.lang.StringBuilder.append(java.lang.String)",
+            "java.lang.StringBuilder.reverse()",
+            "java.lang.StringBuilder.toString()",
+            "java.lang.String.length()",
+            "java.lang.String.charAt(int)"
+        ],
+        "Answer": [
+            "1. java.lang.StringBuilder.reverse",
+            "2. java.lang.StringBuilder.toString",
+            "3. java.lang.StringBuilder",
+            "4. java.lang.String",
+            "5. java.util.Objects.requireNonNull",
+            "6. java.util.Objects.equals",
+            "7. java.util.Arrays.equals",
+            "8. java.util.Collections.reverse",
+            "9. java.util.Collections.swap",
+            "10. java.util.Collections.sort"
+        ]
+    },
+    "151": {
+        "Query": "cancel button without any action method throws and exception",
+        "GroundTruth": [
+            "org.apache.struts.actions.DispatchAction.DispatchAction()"
+        ],
+        "Answer": [
+            "1. java.awt.event.ActionListener.actionPerformed",
+            "2. javax.swing.AbstractButton.setEnabled",
+            "3. javax.swing.JPanel.add",
+            "4. javax.swing.JFrame.dispose",
+            "5. java.awt.Component.setFocusable",
+            "6. javax.swing.JButton.doClick",
+            "7. java.awt.Window.setVisible",
+            "8. javax.swing.JComponent.revalidate",
+            "9. javax.swing.AbstractButton.setAction",
+            "10. javax.swing.AbstractButton.removeActionListener"
+        ]
+    },
+    "152": {
+        "Query": "Grouping by multiple fields and counting using in Java 8",
+        "GroundTruth": [
+            "java.util.function.Function.identity()",
+            "java.util.HashMap.HashMap()"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that may be useful for grouping by multiple fields and counting in Java 8:",
+            "",
+            "1. java.util.stream.Collectors.groupingBy",
+            "2. java.util.stream.Collectors.counting",
+            "3. java.util.stream.Collectors.summingInt",
+            "4. java.util.stream.Collectors.summarizingInt",
+            "5. java.util.stream.Collectors.mapping",
+            "6. java.util.stream.Collectors.toSet",
+            "7. java.util.stream.Collectors.toMap",
+            "8. java.util.stream.Collectors.joining",
+            "9. java.util.stream.Collectors.partitioningBy",
+            "10. java.util.stream.Stream.concat",
+            "",
+            "These methods are part of the Java 8 Stream API and provide powerful tools for grouping, counting, and aggregating elements in a collection. You can use them to solve problems like counting occurrences of different values or grouping elements by multiple criteria."
+        ]
+    },
+    "153": {
+        "Query": "JUnit - How to mock local variable object method call",
+        "GroundTruth": [
+            "org.mockito.Mockito.mock",
+            "org.mockito.Mockito.when",
+            "org.mockito.Mockito.doReturn",
+            "org.mockito.Mockito.spy",
+            "org.junit.jupiter.api.Assertions.assertThrows"
+        ],
+        "Answer": [
+            "1. org.mockito.Mockito.mock",
+            "2. org.mockito.Mockito.when",
+            "3. org.mockito.Mockito.verify",
+            "4. org.mockito.Mockito.any",
+            "5. org.mockito.Mockito.spy",
+            "6. org.mockito.Mockito.reset",
+            "7. org.mockito.Mockito.times",
+            "8. org.mockito.Mockito.doReturn",
+            "9. org.mockito.Mockito.doThrow",
+            "10. org.mockito.Mockito.doNothing"
+        ]
+    },
+    "154": {
+        "Query": "Changing the internal size of the scroll Pane after reducing the scale of the canvas",
+        "GroundTruth": [
+            "javafx.scene.control.ScrollPane.setContent",
+            "javafx.scene.Group.Group",
+            "javafx.scene.transform.Scale.Scale",
+            "javafx.scene.Node.getTransforms"
+        ],
+        "Answer": [
+            "Assuming you are using Swing for your Java program, here are 10 Java API methods that can help you change the internal size of the scroll pane after reducing the scale of the canvas:",
+            "",
+            "1. java.awt.Canvas.getPreferredSize()",
+            "2. java.awt.ScrollPane.getViewport()",
+            "3. java.awt.ScrollPane.getViewport().getPreferredSize()",
+            "4. java.awt.ScrollPane.getViewport().setSize()",
+            "5. java.awt.ScrollPane.setScrollMode()",
+            "6. java.awt.ScrollPane.setWheelScrollingEnabled()",
+            "7. java.awt.Canvas.repaint()",
+            "8. java.awt.Canvas.revalidate()",
+            "9. java.awt.Canvas.repaint(long, int, int, int, int)",
+            "10. java.awt.Component.invalidate()"
+        ]
+    },
+    "155": {
+        "Query": "How to group a list by multiple fields in Java?",
+        "GroundTruth": [
+            "java.util.stream.Collectors.groupingBy"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to group a list by multiple fields:",
+            "",
+            "1. java.util.stream.Collectors.groupingBy",
+            "2. java.util.stream.Collectors.groupingByConcurrent",
+            "3. java.util.stream.Collectors.groupingByConcurrent with downstream collector",
+            "4. java.util.stream.Collectors.toMap with a merge function",
+            "5. java.util.stream.Collectors.toMap with a merge function and parallel stream",
+            "6. java.util.stream.Collectors.toMap with a merge function and concurrent map",
+            "7. java.util.stream.Collectors.groupingBy with multiple fields",
+            "8. java.util.stream.Collectors.groupingByConcurrent with multiple fields",
+            "9. java.util.stream.Collectors.toMap with multiple fields and a merge function",
+            "10. java.util.stream.Collectors.toMap with multiple fields and a merge function and parallel stream"
+        ]
+    },
+    "156": {
+        "Query": "Does neo4j java driver rollback transactions automatically when an error occurs?",
+        "GroundTruth": [
+            "org.neo4j.driver.v1.Transaction.isOpen()",
+            "org.neo4j.driver.v1.Transaction.close()",
+            "org.neo4j.driver.v1.Session.beginTransaction()"
+        ],
+        "Answer": [
+            "To answer the programming problem \"Does neo4j java driver rollback transactions automatically when an error occurs?\", here are 10 Java API methods that can be used:",
+            "",
+            "1. org.neo4j.driver.v1.Transaction - rollback",
+            "2. org.neo4j.driver.v1.Transaction - success",
+            "3. org.neo4j.driver.v1.Transaction - close",
+            "4. org.neo4j.driver.v1.Transaction - run",
+            "5. org.neo4j.driver.v1.Transaction - runAsync",
+            "6. org.neo4j.driver.v1.Transaction - runAsyncWithMetadata",
+            "7. org.neo4j.driver.v1.Transaction - runAsyncWithMetadataAndContext",
+            "8. org.neo4j.driver.v1.Driver - session",
+            "9. org.neo4j.driver.v1.Session - beginTransaction",
+            "10. org.neo4j.driver.v1.Session - close",
+            "",
+            "These methods can be utilized to manage transactions and perform rollback operations efficiently when an error occurs during the execution of the Neo4j queries."
+        ]
+    },
+    "157": {
+        "Query": "Character::IsEmoji not working for Characters with numbers in them?",
+        "GroundTruth": [
+            "java.lang.Character.isEmojiPresentation(int codePoint)"
+        ],
+        "Answer": [
+            "To address the problem of Character::IsEmoji not working for characters with numbers, here are 10 Java API methods that can be used:",
+            "",
+            "1. java.lang.Character.isSurrogate",
+            "2. java.lang.Character.isBmpCodePoint",
+            "3. java.lang.Character.isHighSurrogate",
+            "4. java.lang.Character.isLowSurrogate",
+            "5. java.lang.Character.isUnicodeIdentifierPart",
+            "6. java.lang.Character.isUnicodeIdentifierStart",
+            "7. java.lang.Character.isValidCodePoint",
+            "8. java.lang.Character.charCount",
+            "9. java.lang.Character.codePointAt",
+            "10. java.lang.Character.codePointBefore"
+        ]
+    },
+    "158": {
+        "Query": "KeyEvent in java does not work for alphabets or numerics but works fine for control, alt,up and down.but was not working for alphabets or numbers",
+        "GroundTruth": [
+            "javax.swing.text.Document.addUndoableEditListener",
+            "javax.swing.undo.UndoManager.UndoManager()",
+            "javax.swing.JScrollPane.JScrollPane()",
+            "javax.swing.JTextArea.getInputMap",
+            "javax.swing.InputMap.put",
+            "javax.swing.KeyStroke.getKeyStroke",
+            "javax.swing.ActionMap.put",
+            "javax.swing.AbstractAction.AbstractAction()",
+            "javax.swing.undo.UndoManager.canUndo",
+            "javax.swing.undo.UndoManager.undo",
+            "javax.swing.undo.UndoManager.canRedo",
+            "javax.swing.undo.UndoManager.redo"
+        ],
+        "Answer": [
+            "1. java.awt.event.KeyEvent.getKeyCode()",
+            "2. java.awt.event.KeyEvent.getKeyChar()",
+            "3. java.awt.event.KeyEvent.isActionKey()",
+            "4. java.awt.event.KeyEvent.isAltDown()",
+            "5. java.awt.event.KeyEvent.isControlDown()",
+            "6. java.awt.event.KeyEvent.isShiftDown()",
+            "7. java.awt.event.KeyEvent.isMetaDown()",
+            "8. java.awt.event.KeyAdapter.keyPressed()",
+            "9. java.awt.event.KeyAdapter.keyReleased()",
+            "10. java.awt.event.KeyAdapter.keyTyped()"
+        ]
+    },
+    "159": {
+        "Query": "Java regular expression for masked alphanumeric codes",
+        "GroundTruth": [
+            "java.util.regex.Matcher.compile",
+            "java.util.regex.Pattern.matcher",
+            "java.util.regex.Matcher.find",
+            "java.util.regex.Matcher.group",
+            "java.lang.StringBuffer.StringBuffer()",
+            "java.util.regex.Matcher.appendReplacement",
+            "java.util.regex.Matcher.appendTail",
+            "java.lang.StringBuffer.toString",
+            "java.util.Collections.nCopies",
+            "java.lang.String.join"
+        ],
+        "Answer": [
+            "1. java.util.regex.Pattern.compile",
+            "2. java.util.regex.Matcher.matches",
+            "3. java.util.regex.Matcher.find",
+            "4. java.lang.String.replaceAll",
+            "5. java.lang.String.replaceFirst",
+            "6. java.lang.String.matches",
+            "7. java.util.regex.Pattern.quote",
+            "8. java.util.regex.Pattern.matcher",
+            "9. java.util.regex.Matcher.group",
+            "10. java.util.regex.Matcher.groupCount"
+        ]
+    },
+    "160": {
+        "Query": "JavaFX bug, cannot set any event to TableColumn",
+        "GroundTruth": [
+            "javafx.scene.control.TableColumn.DEFAULT_CELL_FACTORY.call",
+            "javafx.beans.property.Property.bind",
+            "javafx.scene.control.TableColumn.widthProperty",
+            "javafx.scene.control.Label.<init>",
+            "javafx.scene.control.Label.prefWidthProperty",
+            "javafx.scene.control.Label.setOnMouseEntered"
+        ],
+        "Answer": [
+            "For the programming problem of not being able to set any event to TableColumn in JavaFX, you can consider using the following Java API methods:",
+            "",
+            "1. javafx.scene.control.TableColumn.setOnEditStart",
+            "2. javafx.scene.control.TableColumn.setOnEditCommit",
+            "3. javafx.scene.control.TableColumn.setOnEditCancel",
+            "4. javafx.scene.control.TableColumn.setOnEditCommit",
+            "5. javafx.scene.control.TableColumn.setCellFactory",
+            "6. javafx.scene.control.TableCell.setOnEditStart",
+            "7. javafx.scene.control.TableCell.setOnEditCommit",
+            "8. javafx.scene.control.TableCell.setOnEditCancel",
+            "9. javafx.scene.control.TableColumnBase.setEditable",
+            "10. javafx.scene.control.TableColumnBase.getColumns",
+            "",
+            "These methods can help you handle events related to editing and modifying the contents of a TableColumn in JavaFX."
+        ]
+    },
+    "161": {
+        "Query": "Java Stream, Need to update list of list objects",
+        "GroundTruth": [
+            "java.util.List.stream",
+            "java.util.stream.Stream.filter",
+            "java.util.stream.Stream.flatMap",
+            "java.util.stream.Stream.forEach"
+        ],
+        "Answer": [
+            "Sure! Here are 10 Java API methods that can be useful for updating a list of list objects using Java Streams:",
+            "",
+            "1. java.util.stream.Stream.flatMap",
+            "2. java.util.stream.Stream.collect",
+            "3. java.util.stream.Collectors.groupingBy",
+            "4. java.util.stream.Collectors.toList",
+            "5. java.util.stream.Collectors.toSet",
+            "6. java.util.stream.Stream.map",
+            "7. java.util.stream.Stream.filter",
+            "8. java.util.stream.Stream.distinct",
+            "9. java.util.stream.Stream.sorted",
+            "10. java.util.List.replaceAll",
+            "",
+            "These methods can help you manipulate and update lists of list objects efficiently using Java Streams."
+        ]
+    },
+    "162": {
+        "Query": "Unexpected result calling collect method on a Java Stream",
+        "GroundTruth": [
+            "java.util.List.stream",
+            "java.util.stream.Collectors.collect",
+            "java.util.concurrent.atomic.AtomicInteger.AtomicInteger()"
+        ],
+        "Answer": [
+            "1. java.util.stream.Collectors.toList",
+            "2. java.util.stream.Collectors.toSet",
+            "3. java.util.stream.Collectors.toMap",
+            "4. java.util.stream.Collectors.toCollection",
+            "5. java.util.stream.Collectors.groupingBy",
+            "6. java.util.stream.Collectors.partitioningBy",
+            "7. java.util.stream.Collectors.joining",
+            "8. java.util.stream.Collectors.summingInt",
+            "9. java.util.stream.Collectors.summarizingInt",
+            "10. java.util.stream.Collectors.groupingByConcurrent"
+        ]
+    },
+    "163": {
+        "Query": "JavaFX resize ImageView in center of BorderPane",
+        "GroundTruth": [
+            "javafx.beans.property.ObjectProperty.addListener",
+            "javafx.beans.value.ChangeListener.changed",
+            "javafx.scene.layout.Region.layoutChildren",
+            "javafx.scene.layout.Region.layoutInArea",
+            "javafx.scene.layout.Region.getHeight",
+            "javafx.scene.layout.Region.getWidth",
+            "javafx.scene.image.ImageView.setFitWidth",
+            "javafx.scene.image.ImageView.setFitHeight",
+            "javafx.scene.layout.Region.getChildren.add",
+            "javafx.scene.layout.Region.getChildren.remove",
+            "javafx.beans.property.SimpleObjectProperty.SimpleObjectProperty()"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to resize an ImageView in the center of a BorderPane in JavaFX:",
+            "",
+            "1. javafx.scene.layout.BorderPane.setCenter()",
+            "2. javafx.geometry.Pos.CENTER",
+            "3. javafx.scene.image.ImageView.setFitWidth()",
+            "4. javafx.scene.image.ImageView.setFitHeight()",
+            "5. javafx.scene.layout.Region.getWidth()",
+            "6. javafx.scene.layout.Region.getHeight()",
+            "7. javafx.scene.layout.Pane.layout()",
+            "8. javafx.scene.layout.Pane.getChildren()",
+            "9. javafx.scene.layout.Region.maxWidth()",
+            "10. javafx.scene.layout.Region.maxHeight()"
+        ]
+    },
+    "164": {
+        "Query": "Replace com.sun.jndi.dns.DnsContextFactory Wildfly23 JDK17",
+        "GroundTruth": [
+            "javax.naming.spi.NamingManager.getURLContext"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can help in replacing the com.sun.jndi.dns.DnsContextFactory in Wildfly23 with JDK17:",
+            "",
+            "1. javax.naming.InitialContext.getInitialContext()",
+            "2. javax.naming.InitialContext.lookup()",
+            "3. javax.naming.directory.DirContext.getAttributes()",
+            "4. javax.naming.directory.DirContext.createSubcontext()",
+            "5. javax.naming.directory.DirContext.modifyAttributes()",
+            "6. javax.naming.directory.DirContext.rename()",
+            "7. javax.naming.directory.DirContext.search()",
+            "8. javax.naming.directory.DirContext.unbind()",
+            "9. javax.naming.directory.DirContext.bind()",
+            "10. javax.naming.directory.DirContext.listBindings()",
+            "",
+            "Note: These methods belong to the `javax.naming` and `javax.naming.directory` packages, which provide APIs for accessing and using naming and directory services in Java."
+        ]
+    },
+    "165": {
+        "Query": "How to print a value by comparing 2 fields inside JSON - RestAssured",
+        "GroundTruth": [
+            "com.google.gson.Gson.fromJson",
+            "com.google.gson.JsonArray.size",
+            "com.google.gson.JsonArray.get",
+            "com.google.gson.JsonObject.getAsJsonObject",
+            "com.google.gson.JsonObject.getAsString"
+        ],
+        "Answer": [
+            "1. io.restassured.path.json.JsonPath.getString",
+            "2. io.restassured.path.json.JsonPath.getList",
+            "3. io.restassured.path.json.JsonPath.getMap",
+            "4. io.restassured.path.json.JsonPath.get",
+            "5. io.restassured.path.json.JsonPath.from",
+            "6. io.restassured.response.Response.jsonPath",
+            "7. io.restassured.path.json.JsonPath.with",
+            "8. io.restassured.path.json.JsonPath.using",
+            "9. io.restassured.path.json.JsonPath.withRoot",
+            "10. io.restassured.path.json.JsonPath.param"
+        ]
+    },
+    "166": {
+        "Query": "HBox doesn't fill parent GridPane when rotated by 90 degrees",
+        "GroundTruth": [
+            "javafx.scene.Group.Group()"
+        ],
+        "Answer": [
+            "1. javafx.geometry.Pos.BASELINE_CENTER",
+            "2. javafx.scene.layout.GridPane.setColumnIndex",
+            "3. javafx.scene.layout.GridPane.setRowIndex",
+            "4. javafx.scene.layout.GridPane.setColumnSpan",
+            "5. javafx.scene.layout.GridPane.setRowSpan",
+            "6. javafx.scene.layout.Priority.ALWAYS",
+            "7. javafx.scene.layout.Region.setMinWidth",
+            "8. javafx.scene.layout.Region.setMinHeight",
+            "9. javafx.scene.layout.HBox.setFillHeight",
+            "10. javafx.scene.layout.HBox.setAlignment"
+        ]
+    },
+    "167": {
+        "Query": "How to turn a optional of an string array into a optional of a string?",
+        "GroundTruth": [
+            "java.util.Optional.map(Function<? super T, ? extends U> mapper)"
+        ],
+        "Answer": [
+            "The following 10 Java API methods can be used to turn an `Optional<String[]>` into an `Optional<String>`:",
+            "",
+            "1. `Optional.map`: java.util.Optional.map",
+            "2. `Optional.flatMap`: java.util.Optional.flatMap",
+            "3. `Stream.of`: java.util.stream.Stream.of",
+            "4. `Stream.flatMap`: java.util.stream.Stream.flatMap",
+            "5. `Stream.findFirst`: java.util.stream.Stream.findFirst",
+            "6. `Stream.reduce`: java.util.stream.Stream.reduce",
+            "7. `Stream.collect`: java.util.stream.Stream.collect",
+            "8. `Arrays.stream`: java.util.Arrays.stream",
+            "9. `Optional.orElse`: java.util.Optional.orElse",
+            "10. `Optional.orElseGet`: java.util.Optional.orElseGet"
+        ]
+    },
+    "168": {
+        "Query": "How to get all tables from .accdb file and parse it to return in Java Spring Boot MVC",
+        "GroundTruth": [
+            "java.sql.DriverManager.getConnection",
+            "java.sql.Connection.getMetaData",
+            "java.sql.DatabaseMetaData.getTables",
+            "java.sql.Statement.executeQuery",
+            "java.sql.Statement.executeQuery",
+            "java.sql.ResultSet.next",
+            "java.sql.ResultSetMetaData.getColumnCount",
+            "java.sql.ResultSetMetaData.getColumnName",
+            "java.sql.ResultSet.getObject"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to get all tables from a .accdb file and parse it to return in Java Spring Boot MVC:",
+            "",
+            "1. java.sql.DriverManager.getConnection",
+            "2. java.sql.Connection.createStatement",
+            "3. java.sql.Statement.executeQuery",
+            "4. java.sql.ResultSet.getMetaData",
+            "5. java.sql.ResultSet.next",
+            "6. java.sql.ResultSet.getString",
+            "7. java.sql.DatabaseMetaData.getTables",
+            "8. java.sql.DatabaseMetaData.getColumns",
+            "9. org.apache.poi.openxml4j.opc.OPCPackage.open",
+            "10. org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheetAt",
+            "",
+            "Note: These methods require the appropriate JDBC driver and Apache POI library to be included in your project dependencies."
+        ]
+    },
+    "169": {
+        "Query": "Application on using JavaFX keeps on freezing even though I'm using Concurrent methods",
+        "GroundTruth": [
+            "javafx.application.Platform.runLater(Runnable runnable)"
+        ],
+        "Answer": [
+            "1. javafx.application.Platform.runLater",
+            "2. javafx.concurrent.Task",
+            "3. javafx.concurrent.Service",
+            "4. javafx.concurrent.Worker",
+            "5. javafx.scene.control.ProgressIndicator",
+            "6. javafx.concurrent.WorkerStateEvent",
+            "7. javafx.application.Application.launch",
+            "8. javafx.scene.layout.Pane.getChildren",
+            "9. javafx.animation.AnimationTimer",
+            "10. javafx.beans.property.ObjectProperty"
+        ]
+    },
+    "170": {
+        "Query": "How to convert \"Tue Feb 27 2024 16:35:30 GMT+0800\" String to ZonedDateTime type",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatter.ofPattern",
+            "java.time.OffsetDateTime.parse",
+            "java.time.OffsetDateTime.toZonedDateTime",
+            "java.time.ZonedDateTime.withZoneSameInfstant",
+            "java.time.ZoneId.of"
+        ],
+        "Answer": [
+            "Here are 10 Java API methods that can be used to convert a String to ZonedDateTime type:",
+            "",
+            "1. java.time.format.DateTimeFormatter.ofPattern",
+            "2. java.time.format.DateTimeFormatter.parse",
+            "3. java.time.ZoneId.of",
+            "4. java.time.ZonedDateTime.parse",
+            "5. java.time.Instant.parse",
+            "6. java.time.ZoneOffset.ofTotalSeconds",
+            "7. java.time.ZoneId.systemDefault",
+            "8. java.util.Locale.getDefault",
+            "9. java.time.format.DateTimeFormatter.withLocale",
+            "10. java.time.ZonedDateTime.toInstant"
+        ]
+    },
+    "171": {
+        "Query": "Compare two different java collection objects with a common attribute using java streams api",
+        "GroundTruth": [
+            "java.util.HashMap.HashMap()",
+            "java.util.HashMap.put",
+            "java.util.HashMap.get",
+            "java.util.Set.forEach"
+        ],
+        "Answer": [
+            "Given the programming problem of comparing two different Java collection objects with a common attribute using Java streams API, here are 10 Java API methods that can be used:",
+            "",
+            "1. java.util.stream.Stream.filter",
+            "2. java.util.stream.Stream.map",
+            "3. java.util.stream.Stream.collect",
+            "4. java.util.stream.Stream.toList",
+            "5. java.util.stream.Stream.toSet",
+            "6. java.util.stream.Stream.groupingBy",
+            "7. java.util.stream.Stream.min",
+            "8. java.util.stream.Stream.max",
+            "9. java.util.stream.Stream.sorted",
+            "10. java.util.Comparator.comparing",
+            "",
+            "These methods can be utilized to filter, transform, and collect elements from the collections, perform grouping, find minimum and maximum elements, and sort elements based on the common attribute."
+        ]
+    }
+}

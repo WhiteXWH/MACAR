@@ -1,0 +1,2195 @@
+{
+    "0": {
+        "Query": "Error 401 with Websockets and Spring Boot Security",
+        "GroundTruth": [
+            "org.springframework.web.socket.sockjs.client.SockJsClient.SockJsClient(List<Transport> transports)",
+            "org.springframework.messaging.converter.StringMessageConverter.StringMessageConverter()"
+        ],
+        "APIClasses": [
+            "org.springframework.web.socket.sockjs.client.SockJsClient",
+            "org.springframework.messaging.converter.StringMessageConverter"
+        ]
+    },
+    "1": {
+        "Query": "Media3 ExoPlayer Update Notification Title during playback",
+        "GroundTruth": [
+            "javafx.scene.media.MediaPlayer.replaceMediaItem()"
+        ],
+        "APIClasses": [
+            "javafx.scene.media.MediaPlayer"
+        ]
+    },
+    "2": {
+        "Query": "How do I handle multiple button in javafx",
+        "GroundTruth": [
+            "javafx.scene.control.Button.getScene",
+            "javafx.stage.Stage.setRoot",
+            "javafx.fxml.FXMLLoader.load",
+            "java.lang.ClassLoader.getResource"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.Button",
+            "java.lang.ClassLoader",
+            "javafx.stage.Stage",
+            "javafx.fxml.FXMLLoader"
+        ]
+    },
+    "3": {
+        "Query": "How can I add watermark with apache pdfbox",
+        "GroundTruth": [
+            "org.apache.pdfbox.pdmodel.PDPageContentStream.PDPageContentStream(PDDocument doc, PDAppearanceStream appearance)",
+            "org.apache.pdfbox.pdmodel.PDPageContentStream.PDPageContentStream(PDDocument document, PDPage sourcePage, boolean appendContent, boolean compress)"
+        ],
+        "APIClasses": [
+            "org.apache.pdfbox.pdmodel.PDPageContentStream"
+        ]
+    },
+    "4": {
+        "Query": "After migrating to Java 17, the date is displayed inaccurately",
+        "GroundTruth": [
+            "java.time.ZonedDateTime.toLocalDate",
+            "java.time.ZonedDateTime.getOffset",
+            "java.time.Instant.atZone",
+            "java.time.ZoneRulesProvider.getVersions"
+        ],
+        "APIClasses": [
+            "java.time.ZoneRulesProvider",
+            "java.time.Instant",
+            "java.time.ZonedDateTime"
+        ]
+    },
+    "5": {
+        "Query": "How to Modify Only First Nested RecyclerView (child) element at Position 0 of Parent RecyclerView?",
+        "GroundTruth": [
+            "android.widget.TextView.setTypeface"
+        ],
+        "APIClasses": [
+            "android.widget.TextView"
+        ]
+    },
+    "6": {
+        "Query": "Split text into numbers or decimal numbers and strings in java",
+        "GroundTruth": [
+            "java.lang.String.split"
+        ],
+        "APIClasses": [
+            "java.lang.String"
+        ]
+    },
+    "7": {
+        "Query": "xyz.froud.jvisa.JVisaException: in viRead(): Timeout expired before operation completed. (0xBFFF0015)",
+        "GroundTruth": [
+            "xyz.froud.jvisa.JVisaInstrument.setWriteTerminator",
+            "xyz.froud.jvisa.JVisaInstrument.setReadTerminationCharacter",
+            "xyz.froud.jvisa.JVisaInstrument.setReadTerminationCharacterEnabled"
+        ],
+        "APIClasses": [
+            "xyz.froud.jvisa.JVisaInstrument"
+        ]
+    },
+    "8": {
+        "Query": "Allign one string on the left and second one on the right side of textView",
+        "GroundTruth": [
+            "android.view.ViewTreeObserver.removeOnPreDrawListener",
+            "android.widget.TextView.getWidth",
+            "android.widget.TextView.getPaddingStart",
+            "android.widget.TextView.getCompoundPaddingEnd",
+            "android.widget.TextView.getPaint",
+            "android.graphics.Paint.measureText",
+            "android.graphics.drawable.Drawable.setBounds",
+            "android.text.SpannableString.setSpan",
+            "android.text.style.ImageSpan.ALIGN_BASELINE",
+            "android.widget.TextView.setText"
+        ],
+        "APIClasses": [
+            "android.graphics.drawable.Drawable",
+            "android.text.style.ImageSpan",
+            "android.text.SpannableString",
+            "android.widget.TextView",
+            "android.graphics.Paint",
+            "android.view.ViewTreeObserver"
+        ]
+    },
+    "9": {
+        "Query": "Ordering descending in jOOQ when order by parameters are numbers/positions",
+        "GroundTruth": [
+            "com.datastax.oss.driver.api.querybuilder.QueryBuilder.inline()",
+            "com.datastax.oss.driver.api.querybuilder.select.Select.orderBy()"
+        ],
+        "APIClasses": [
+            "com.datastax.oss.driver.api.querybuilder.QueryBuilder",
+            "com.datastax.oss.driver.api.querybuilder.select.Select"
+        ]
+    },
+    "10": {
+        "Query": "SpringBoot handle validation exceptions from API and JPA layer differently",
+        "GroundTruth": [
+            "org.springframework.http.ResponseEntity.ResponseEntity()",
+            "org.springframework.http.ResponseEntity.status",
+            "org.springframework.http.HttpStatus.BAD_REQUEST",
+            "org.springframework.http.ResponseEntity.body",
+            "javax.validation.ConstraintViolationException.getStackTrace",
+            "java.lang.StackTraceElement.getClassName",
+            "java.lang.String.toLowerCase",
+            "java.lang.String.contains"
+        ],
+        "APIClasses": [
+            "org.springframework.http.ResponseEntity",
+            "java.lang.String",
+            "java.lang.StackTraceElement",
+            "org.springframework.http.HttpStatus",
+            "javax.validation.ConstraintViolationException"
+        ]
+    },
+    "11": {
+        "Query": "How do I set style of my separator in javafx?",
+        "GroundTruth": [
+            "javafx.scene.control.Separator.setStyle()"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.Separator"
+        ]
+    },
+    "12": {
+        "Query": "Problem with Authorities(Authorization) when using OAuth 2.0 Resource Server JWT",
+        "GroundTruth": [
+            "org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter.setAuthorityPrefix()"
+        ],
+        "APIClasses": [
+            "org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter"
+        ]
+    },
+    "13": {
+        "Query": "getChildren().removeAll() does not remove nodes",
+        "GroundTruth": [
+            "java.util.List.clear()"
+        ],
+        "APIClasses": [
+            "java.util.List"
+        ]
+    },
+    "14": {
+        "Query": "Springboot Kafka autoconfiguration - SSL Bundle for SASL_PLAINTEXT with SCRAM-SHA-512",
+        "GroundTruth": [
+            "org.springframework.boot.autoconfigure.kafka.KafkaProperties.buildAdminProperties()"
+        ],
+        "APIClasses": [
+            "org.springframework.boot.autoconfigure.kafka.KafkaProperties"
+        ]
+    },
+    "15": {
+        "Query": "sonarLint: Invoke method(s) only conditionally",
+        "GroundTruth": [
+            "org.slf4j.Logger.isErrorEnabled()"
+        ],
+        "APIClasses": [
+            "org.slf4j.Logger"
+        ]
+    },
+    "16": {
+        "Query": "How can I interpret this error? Required type: Supplier<R, Provided: Collector<Object, capture of ?, java.util.List<java.lang.Object>>",
+        "GroundTruth": [
+            "java.util.stream.IntStream.range()",
+            "java.util.stream.IntStream.boxed()",
+            "java.util.stream.BaseStream.collect()",
+            "java.util.stream.Collectors.toList()"
+        ],
+        "APIClasses": [
+            "java.util.stream.Collectors",
+            "java.util.stream.IntStream",
+            "java.util.stream.BaseStream"
+        ]
+    },
+    "17": {
+        "Query": "itext8 signing return pdf with error ber validation",
+        "GroundTruth": [
+            "com.itextpdf.pdfa.PdfADocument.PdfADocument()"
+        ],
+        "APIClasses": [
+            "com.itextpdf.pdfa.PdfADocument"
+        ]
+    },
+    "18": {
+        "Query": "java.lang.IllegalArgumentException: Parameter value [2023-12-25T17:19:54.622Z] did not match expected type [java.time.ZonedDateTime (n/a)]",
+        "GroundTruth": [
+            "java.time.OffsetDateTime"
+        ],
+        "APIClasses": [
+            "java.time"
+        ]
+    },
+    "19": {
+        "Query": "How do I hide the secondary colors at the bottom of the ColorPicker pop-up",
+        "GroundTruth": [
+            "javafx.scene.Node.lookup",
+            "javafx.scene.Parent.getChildrenUnmodifiable",
+            "java.util.Collection.forEach",
+            "javafx.scene.Node.isVisible",
+            "javafx.scene.Node.setVisible",
+            "javafx.scene.Node.isManaged",
+            "javafx.scene.Node.setManaged",
+            "javafx.scene.Node.getStyleClass",
+            "java.util.List.stream",
+            "java.util.stream.Stream.anyMatch",
+            "javafx.scene.layout.Region"
+        ],
+        "APIClasses": [
+            "java.util.stream.Stream",
+            "javafx.scene.Node",
+            "javafx.scene.layout",
+            "java.util.List",
+            "javafx.scene.Parent",
+            "java.util.Collection"
+        ]
+    },
+    "20": {
+        "Query": "What Java function can I use on macOS to play a proper alert sound upon the proper device, at the proper volume?",
+        "GroundTruth": [
+            "java.awt.Toolkit.getDefaultToolkit()"
+        ],
+        "APIClasses": [
+            "java.awt.Toolkit"
+        ]
+    },
+    "21": {
+        "Query": "Concatenated flux where second flux is created on-the-fly with last value of first flux?",
+        "GroundTruth": [
+            "reactor.core.publisher.Flux.cache",
+            "reactor.core.publisher.Mono.defer",
+            "reactor.core.publisher.Flux.last",
+            "reactor.core.publisher.Flux.next",
+            "reactor.core.publisher.Flux.concatWith",
+            "reactor.core.publisher.Mono.flatMapMany",
+            "reactor.test.StepVerifier.create",
+            "reactor.test.StepVerifier.expectNext",
+            "reactor.test.StepVerifier.verifyComplete"
+        ],
+        "APIClasses": [
+            "reactor.test.StepVerifier",
+            "reactor.core.publisher.Flux",
+            "reactor.core.publisher.Mono"
+        ]
+    },
+    "22": {
+        "Query": "Zooming moves the camera on the y-axis instead of z-axis",
+        "GroundTruth": [
+            "javafx.scene.PerspectiveCamera.getFieldOfView()",
+            "javafx.scene.PerspectiveCamera.setFieldOfView()",
+            "javafx.scene.input.ScrollEvent.getDeltaY()"
+        ],
+        "APIClasses": [
+            "javafx.scene.input.ScrollEvent",
+            "javafx.scene.PerspectiveCamera"
+        ]
+    },
+    "23": {
+        "Query": "Is there a faster way to remove duplicates among N containers?",
+        "GroundTruth": [
+            "java.util.Map.entrySet",
+            "java.util.Set.removeIf",
+            "java.util.Map.Entry.getValue"
+        ],
+        "APIClasses": [
+            "java.util.Set",
+            "java.util.Map.Entry",
+            "java.util.Map"
+        ]
+    },
+    "24": {
+        "Query": "Java Project Panama result from reading from MemorySegment differs from ByteBuffer",
+        "GroundTruth": [
+            "java.nio.ByteBuffer.asDoubleBuffer()"
+        ],
+        "APIClasses": [
+            "java.nio.ByteBuffer"
+        ]
+    },
+    "25": {
+        "Query": "How to set backpress Android back button not working in fragment",
+        "GroundTruth": [
+            "androidx.activity.OnBackPressedDispatcher.addCallback()"
+        ],
+        "APIClasses": [
+            "androidx.activity.OnBackPressedDispatcher"
+        ]
+    },
+    "26": {
+        "Query": "Warning \"Value is never used as Publisher\" in Mockito code. Can one suppress it?",
+        "GroundTruth": [
+            "org.mockito.Mockito.when()",
+            "org.mockito.stubbing.OngoingStubbing.thenReturn()"
+        ],
+        "APIClasses": [
+            "org.mockito.stubbing.OngoingStubbing",
+            "org.mockito.Mockito"
+        ]
+    },
+    "27": {
+        "Query": "Customizing JPopupMenu in JFileChooser: Accessing Internal Components",
+        "GroundTruth": [
+            "javax.swing.JComponent.getComponentPopupMenu()"
+        ],
+        "APIClasses": [
+            "javax.swing.JComponent"
+        ]
+    },
+    "28": {
+        "Query": "Error parsing time with two decimal digits in Java 17, but succeeds in Java 8",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatterBuilder.appendFraction()"
+        ],
+        "APIClasses": [
+            "java.time.format.DateTimeFormatterBuilder"
+        ]
+    },
+    "29": {
+        "Query": "OpenGL ES 3.0 - Textures black",
+        "GroundTruth": [
+            "android.opengl.GLUtils.texImage2D (int target, int level, Bitmap bitmap, int border)"
+        ],
+        "APIClasses": [
+            "android.opengl.GLUtils"
+        ]
+    },
+    "30": {
+        "Query": "converting startDatetime to localtime using UTC timezone",
+        "GroundTruth": [
+            "java.time.ZonedDateTime.withZoneSameInstant()",
+            "java.time.ZonedDateTime.withZoneSameLocal()"
+        ],
+        "APIClasses": [
+            "java.time.ZonedDateTime"
+        ]
+    },
+    "31": {
+        "Query": "I got the error \"java.text.ParseException: Unparseable date: \"1/10/24 7:00 PM\"\" when trying to parse",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatter.ofPattern()",
+            "java.time.LocalDateTime.parse()"
+        ],
+        "APIClasses": [
+            "java.time.format.DateTimeFormatter",
+            "java.time.LocalDateTime"
+        ]
+    },
+    "32": {
+        "Query": "Testing when an object is being cast with Mockito leads to ClassCastException",
+        "GroundTruth": [
+            "org.mockito.Mockito.mock()"
+        ],
+        "APIClasses": [
+            "org.mockito.Mockito"
+        ]
+    },
+    "33": {
+        "Query": "Convert Response to key with values",
+        "GroundTruth": [
+            "java.util.Map.put()"
+        ],
+        "APIClasses": [
+            "java.util.Map"
+        ]
+    },
+    "34": {
+        "Query": "BeanMatchers Could not generate two distinct values after 128 attempts of type java.time.Instant",
+        "GroundTruth": [
+            "com.google.code.bean-matchers.registerValueGenerator()",
+            "java.util.Arrays.asList()",
+            "java.time.Instant.now()",
+            "java.time.Instant.minusSeconds()",
+            "java.util.Random.nextInt()",
+            "java.util.List.get()"
+        ],
+        "APIClasses": [
+            "java.util.List",
+            "java.util.Random",
+            "java.time.Instant",
+            "com.google.code.bean-matchers",
+            "java.util.Arrays"
+        ]
+    },
+    "35": {
+        "Query": "Conversion of java.util.Date to OffsetDateTime",
+        "GroundTruth": [
+            "java.time.OffsetDateTime.now",
+            "java.time.OffsetDateTime.truncatedTo"
+        ],
+        "APIClasses": [
+            "java.time.OffsetDateTime"
+        ]
+    },
+    "36": {
+        "Query": "How to write a regex referencing the capture group in the replacement with a lookahead?",
+        "GroundTruth": [
+            "java.util.regex.Matcher.replaceFirst()"
+        ],
+        "APIClasses": [
+            "java.util.regex.Matcher"
+        ]
+    },
+    "37": {
+        "Query": "Regex to match key with optional quotes and optional separator",
+        "GroundTruth": [
+            "java.util.regex.Pattern.compile()",
+            "java.util.regex.Pattern.matcher()"
+        ],
+        "APIClasses": [
+            "java.util.regex.Pattern"
+        ]
+    },
+    "38": {
+        "Query": "Spring boot 3.2.2 upgrade related Warnings - Batch application",
+        "GroundTruth": [
+            "org.springframework.beans.factory.support.BeanDefinitionRegistry.removeBeanDefinition()"
+        ],
+        "APIClasses": [
+            "org.springframework.beans.factory.support.BeanDefinitionRegistry"
+        ]
+    },
+    "39": {
+        "Query": "Expected condition failed: waiting for visibility of element located by By.xpath:",
+        "GroundTruth": [
+            "org.openqa.selenium.WebElement.click()"
+        ],
+        "APIClasses": [
+            "org.openqa.selenium.WebElement"
+        ]
+    },
+    "40": {
+        "Query": "Java stream a list and create a single object",
+        "GroundTruth": [
+            "java.util.Collections.frequency()"
+        ],
+        "APIClasses": [
+            "java.util.Collections"
+        ]
+    },
+    "41": {
+        "Query": "Listener method using Spring and ActiveMQ throws \"Property name cannot be null\" exceptions repeatedly",
+        "GroundTruth": [
+            "org.springframework.jms.support.converter.MappingJackson2MessageConverter.setTypeIdPropertyName()"
+        ],
+        "APIClasses": [
+            "org.springframework.jms.support.converter.MappingJackson2MessageConverter"
+        ]
+    },
+    "42": {
+        "Query": "Fluent way (builder style) of creating a Mockito mock with method stubs",
+        "GroundTruth": [
+            "org.mockito.stubbing.OngoingStubbing.thenReturn()",
+            "org.mockito.Mockito.when()"
+        ],
+        "APIClasses": [
+            "org.mockito.stubbing.OngoingStubbing",
+            "org.mockito.Mockito"
+        ]
+    },
+    "43": {
+        "Query": "Java Type Erasure during GSON",
+        "GroundTruth": [
+            "com.google.gson.reflect.TypeToken<T>.getParameterized()",
+            "com.google.gson.Gson.fromJson()"
+        ],
+        "APIClasses": [
+            "com.google.gson.Gson",
+            "com.google.gson.reflect.TypeToken<T>"
+        ]
+    },
+    "44": {
+        "Query": "Swallowed PSQLException with \"the statement that has been close\"",
+        "GroundTruth": [
+            "java.sql.Statement.isClosed()"
+        ],
+        "APIClasses": [
+            "java.sql.Statement"
+        ]
+    },
+    "45": {
+        "Query": "Can an enum constant be specified in both upper and lower case in a Spring endpoint?",
+        "GroundTruth": [
+            "org.springframework.format.FormatterRegistry.addConverter()",
+            "java.lang.String.toUpperCase()",
+            "java.lang.Enum.valueOf()"
+        ],
+        "APIClasses": [
+            "java.lang.Enum",
+            "org.springframework.format.FormatterRegistry",
+            "java.lang.String"
+        ]
+    },
+    "46": {
+        "Query": "How to reply to a gateway from an error channel so it does not hang",
+        "GroundTruth": [
+            "org.springframework.integration.dsl.HeaderEnricherSpec.replyChannelExpression()"
+        ],
+        "APIClasses": [
+            "org.springframework.integration.dsl.HeaderEnricherSpec"
+        ]
+    },
+    "47": {
+        "Query": "How can I get the maximum value for Instant#ofEpochSecond(?)",
+        "GroundTruth": [
+            "java.time.Instant.MIN.getEpochSecond()",
+            "java.time.Instant.MAX.getEpochSecond()",
+            "java.time.Instant.getEpochSecond()"
+        ],
+        "APIClasses": [
+            "java.time.Instant.MIN",
+            "java.time.Instant",
+            "java.time.Instant.MAX"
+        ]
+    },
+    "48": {
+        "Query": "How to efficiently return values of a map using only part of the key/ID (composite)?",
+        "GroundTruth": [
+            "java.util.HashMap.get()",
+            "java.util.HashMap.put()",
+            "java.util.HashMap.computeIfAbsent()"
+        ],
+        "APIClasses": [
+            "java.util.HashMap"
+        ]
+    },
+    "49": {
+        "Query": "@Rollback @Transactional is not working in acceptance test",
+        "GroundTruth": [
+            "org.springframework.data.jpa.repository.JpaRepository.deleteAll()"
+        ],
+        "APIClasses": [
+            "org.springframework.data.jpa.repository.JpaRepository"
+        ]
+    },
+    "50": {
+        "Query": "Exposing Spring Boot actuator endpoints via Spring Security",
+        "GroundTruth": [
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity.securityMatcher()",
+            "org.springframework.security.config.annotation.web.configurers.EndpointRequest.toAnyEndpoint()",
+            "org.springframework.security.config.annotation.web.configurers.EndpointRequest.excluding()",
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity.authorizeHttpRequests()",
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity.build()",
+            "org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.anyRequest()",
+            "org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.AuthorizedUrl.permitAll()"
+        ],
+        "APIClasses": [
+            "org.springframework.security.config.annotation.web.builders.HttpSecurity",
+            "org.springframework.security.config.annotation.web.configurers.EndpointRequest",
+            "org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry",
+            "org.springframework.security.config.annotation.web.configurers.ExpressionUrlAuthorizationConfigurer.AuthorizedUrl"
+        ]
+    },
+    "51": {
+        "Query": "How to make half rounded border?",
+        "GroundTruth": [
+            "java.awt.geom.Path2D.moveTo()",
+            "java.awt.geom.Path2D.curveTo()",
+            "java.awt.geom.Path2D.lineTo()",
+            "java.awt.geom.Path2D.closePath()"
+        ],
+        "APIClasses": [
+            "java.awt.geom.Path2D"
+        ]
+    },
+    "52": {
+        "Query": "Updating AWS credentials",
+        "GroundTruth": [
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.standard()",
+            "com.amazonaws.auth.STSAssumeRoleSessionCredentialsProvider.Builder.build()",
+            "com.amazonaws.auth.STSAssumeRoleSessionCredentialsProvider.Builder.Bulider()",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.withCredentials()",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.withRegion()",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder.build()"
+        ],
+        "APIClasses": [
+            "com.amazonaws.auth.STSAssumeRoleSessionCredentialsProvider.Builder",
+            "com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder"
+        ]
+    },
+    "53": {
+        "Query": "Group a map into another mapped based on a property within the map",
+        "GroundTruth": [
+            "java.util.stream.Collectors.groupingBy()",
+            "java.util.Map.Entry.getKey()",
+            "java.util.Map.get"
+        ],
+        "APIClasses": [
+            "java.util.Map",
+            "java.util.Map.Entry",
+            "java.util.stream.Collectors"
+        ]
+    },
+    "54": {
+        "Query": "Filter Out Duplicates from a Stream By Property Value",
+        "GroundTruth": [
+            "java.util.stream.distinct()"
+        ],
+        "APIClasses": [
+            "java.util.stream"
+        ]
+    },
+    "55": {
+        "Query": "create a link with clicklistener on drawText",
+        "GroundTruth": [
+            "android.text.SpannableString.SpannableString()",
+            "android.text.SpannableString.setSpan",
+            "android.text.style.ClickableSpan.onClick",
+            "android.text.method.LinkMovementMethod.getInstance",
+            "android.widget.TextView.setMovementMethod",
+            "android.widget.TextView.setText"
+        ],
+        "APIClasses": [
+            "android.text.method.LinkMovementMethod",
+            "android.widget.TextView",
+            "android.text.style.ClickableSpan",
+            "android.text.SpannableString"
+        ]
+    },
+    "56": {
+        "Query": "How to create Rest API in Jetty 12 using Handler.Abstract",
+        "GroundTruth": [
+            "org.eclipse.jetty.server.Request.getComponents()",
+            "org.eclipse.jetty.server.Request.getHttpURI().getQuery()",
+            "org.eclipse.jetty.server.Request.extractQueryParameters(org.eclipse.jetty.server.Request, java.nio.charset.StandardCharsets.UTF_8)",
+            "org.eclipse.jetty.util.Fields.getValue('Member')"
+        ],
+        "APIClasses": [
+            "org.eclipse.jetty.server.Request.getHttpURI()",
+            "org.eclipse.jetty.util.Fields",
+            "org.eclipse.jetty.server.Request",
+            "org.eclipse.jetty.server.Request.extractQueryParameters(org.eclipse.jetty.server.Request, java.nio.charset.StandardCharsets"
+        ]
+    },
+    "57": {
+        "Query": "Deprecated KStreams TransformerSupplier to ProcessorSupplier",
+        "GroundTruth": [
+            "org.apache.kafka.streams.processor.api.ContextualProcessor.ContextualProcessor()"
+        ],
+        "APIClasses": [
+            "org.apache.kafka.streams.processor.api.ContextualProcessor"
+        ]
+    },
+    "58": {
+        "Query": "Problem using File Append in Log4j 2 with runtime variable substitutions",
+        "GroundTruth": [
+            "org.apache.logging.log4j.core.appender.routing.Route()"
+        ],
+        "APIClasses": [
+            "org.apache.logging.log4j.core.appender.routing"
+        ]
+    },
+    "59": {
+        "Query": "Jakarta CDI force bean construction/register legacy event listeners",
+        "GroundTruth": [
+            "jakarta.enterprise.inject.Instance.forEach",
+            "java.util.Collections.synchronizedSet",
+            "java.util.HashSet.HashSet()",
+            "java.util.Set.add"
+        ],
+        "APIClasses": [
+            "java.util.Set",
+            "java.util.HashSet",
+            "java.util.Collections",
+            "jakarta.enterprise.inject.Instance"
+        ]
+    },
+    "60": {
+        "Query": "Java/Kotlin How do I iterate through a String, so that Combining characters stay with their base characters?",
+        "GroundTruth": [
+            "java.text.BreakIterator.getCharacterInstance",
+            "java.text.BreakIterator.setText",
+            "java.text.BreakIterator.first",
+            "java.text.BreakIterator.next",
+            "kotlin.sequences.SequenceBuilder.yield"
+        ],
+        "APIClasses": [
+            "java.text.BreakIterator",
+            "kotlin.sequences.SequenceBuilder"
+        ]
+    },
+    "61": {
+        "Query": "How to print all types of read and write access list to class fields for each methods of class in Java with JavaParser library",
+        "GroundTruth": [
+            "com.github.javaparser.StaticJavaParser.parse",
+            "com.github.javaparser.ast.CompilationUnit.findAll",
+            "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration.getNameAsString",
+            "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration.findAll",
+            "com.github.javaparser.ast.body.FieldDeclaration.getVariables",
+            "com.github.javaparser.ast.body.MethodDeclaration.getNameAsString",
+            "com.github.javaparser.ast.body.MethodDeclaration.findAll",
+            "com.github.javaparser.ast.expr.Expression.getChildNodes",
+            "java.io.File.File()",
+            "java.util.ArrayList.ArrayList()",
+            "java.util.List.stream",
+            "java.util.stream.Collectors.toList"
+        ],
+        "APIClasses": [
+            "java.io.File",
+            "java.util.List",
+            "com.github.javaparser.ast.CompilationUnit",
+            "java.util.stream.Collectors",
+            "com.github.javaparser.ast.expr.Expression",
+            "java.util.ArrayList",
+            "com.github.javaparser.ast.body.MethodDeclaration",
+            "com.github.javaparser.StaticJavaParser",
+            "com.github.javaparser.ast.body.ClassOrInterfaceDeclaration",
+            "com.github.javaparser.ast.body.FieldDeclaration"
+        ]
+    },
+    "62": {
+        "Query": "Unable to get micrometer metrics based on @Timed in springboot 3.2.2",
+        "GroundTruth": [
+            "io.micrometer.core.aop.TimedAspect.TimedAspect()"
+        ],
+        "APIClasses": [
+            "io.micrometer.core.aop.TimedAspect"
+        ]
+    },
+    "63": {
+        "Query": "Selecting a TableColumn within a Tableview to open a Form",
+        "GroundTruth": [
+            "javafx.scene.control.TableView.setRowFactory",
+            "javafx.scene.control.TableRow.TableRow",
+            "javafx.scene.control.ContextMenu.ContextMenu",
+            "javafx.scene.control.MenuItem.MenuItem",
+            "javafx.scene.control.MenuItem.setOnAction",
+            "javafx.scene.control.ContextMenu.getItems",
+            "javafx.collections.ObservableList.add",
+            "javafx.beans.property.ReadOnlyObjectProperty.addListener",
+            "javafx.scene.control.TableRow.itemProperty",
+            "javafx.scene.control.TableRow.setContextMenu"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.TableView",
+            "javafx.beans.property.ReadOnlyObjectProperty",
+            "javafx.collections.ObservableList",
+            "javafx.scene.control.ContextMenu",
+            "javafx.scene.control.MenuItem",
+            "javafx.scene.control.TableRow"
+        ]
+    },
+    "64": {
+        "Query": "Which Java class to use to store creation timestamp in Spring Boot?",
+        "GroundTruth": [
+            "java.time.Instant.ofEpochSecond(long epochSecond)",
+            "java.time.Instant.ofEpochSecond(long epochSecond, long nanoAdjustment)"
+        ],
+        "APIClasses": [
+            "java.time.Instant"
+        ]
+    },
+    "65": {
+        "Query": "Virtual Threads don't work for POST request in Spring Boot WebFlux",
+        "GroundTruth": [
+            "org.aspectj.lang.ProceedingJoinPoint.proceed",
+            "org.springframework.core.task.AsyncTaskExecutor",
+            "java.lang.Thread.ofVirtual",
+            "java.lang.Thread.start",
+            "java.lang.Thread.join"
+        ],
+        "APIClasses": [
+            "org.springframework.core.task",
+            "org.aspectj.lang.ProceedingJoinPoint",
+            "java.lang.Thread"
+        ]
+    },
+    "66": {
+        "Query": "Find the remaining Enum",
+        "GroundTruth": [
+            "java.util.EnumSet<E>.complementOf(EnumSet<E> s)"
+        ],
+        "APIClasses": [
+            "java.util.EnumSet<E>"
+        ]
+    },
+    "67": {
+        "Query": "Run (execute) JUnit 5 Suites with Gradle task",
+        "GroundTruth": [
+            "org.gradle.api.tasks.TaskContainer.register",
+            "org.gradle.api.tasks.testing.Test.useJUnitPlatform",
+            "org.gradle.api.tasks.testing.Test.setTestClassesDirs",
+            "org.gradle.api.tasks.testing.Test.setClasspath",
+            "org.gradle.api.tasks.testing.Test.systemProperty",
+            "org.gradle.api.tasks.testing.Test.setIgnoreFailures",
+            "org.gradle.api.tasks.testing.Test.include"
+        ],
+        "APIClasses": [
+            "org.gradle.api.tasks.testing.Test",
+            "org.gradle.api.tasks.TaskContainer"
+        ]
+    },
+    "68": {
+        "Query": "How to sort when Integers are stored as Strings in DB using Pageable in Springboot",
+        "GroundTruth": [
+            "org.springframework.data.repository.PagingAndSortingRepository.findByVideoIdSortedByStartTimeStamp",
+            "org.springframework.data.domain.Page"
+        ],
+        "APIClasses": [
+            "org.springframework.data.repository.PagingAndSortingRepository",
+            "org.springframework.data.domain"
+        ]
+    },
+    "69": {
+        "Query": "Deadlock in Java with ReentrantLock and Lock",
+        "GroundTruth": [
+            "java.util.concurrent.locks.ReentrantLock.ReentrantLock()"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.locks.ReentrantLock"
+        ]
+    },
+    "70": {
+        "Query": "Show .bin video from web in a videoView/webView",
+        "GroundTruth": [
+            "java.net.URL.openConnection",
+            "java.net.HttpURLConnection.setRequestMethod",
+            "java.net.HttpURLConnection.setConnectTimeout",
+            "java.net.HttpURLConnection.setReadTimeout",
+            "java.net.HttpURLConnection.connect",
+            "java.net.HttpURLConnection.getInputStream",
+            "java.io.InputStreamReader.InputStreamReader()",
+            "java.io.BufferedReader.BufferedReader()",
+            "java.io.BufferedReader.readLine",
+            "java.io.BufferedInputStream.BufferedInputStream()",
+            "java.io.BufferedInputStream.read",
+            "java.io.InputStream.close",
+            "java.io.InputStreamReader.close",
+            "java.io.BufferedReader.close",
+            "java.net.MalformedURLException.printStackTrace",
+            "java.io.BufferedInputStream.close",
+            "android.app.Activity.runOnUiThread",
+            "android.widget.ImageView.setImageBitmap",
+            "java.io.FileOutputStream.close"
+        ],
+        "APIClasses": [
+            "java.io.InputStreamReader",
+            "java.io.IOException",
+            "java.net.HttpURLConnection",
+            "android.graphics.BitmapFactory",
+            "java.io.InputStream",
+            "java.io.BufferedInputStream",
+            "java.io.FileOutputStream",
+            "android.widget.ImageView",
+            "java.net.URL",
+            "java.io.BufferedReader",
+            "java.net.MalformedURLException",
+            "android.app.Activity"
+        ]
+    },
+    "71": {
+        "Query": "How to update recipients of already sent DocuSign envelope?",
+        "GroundTruth": [
+            "com.docusign.esign.api.EnvelopesApi.EnvelopesApi()",
+            "com.docusign.esign.api.EnvelopesApi.updateRecipients",
+            "com.docusign.esign.model.Envelope.setEmailSubject",
+            "com.docusign.esign.model.Envelope.getRecipients",
+            "com.docusign.esign.model.RecipientsUpdateSummary.getRecipientUpdateResults",
+            "com.docusign.esign.model.RecipientsUpdateResult.getErrorDetails",
+            "com.docusign.esign.model.Recipient.setEmail"
+        ],
+        "APIClasses": [
+            "com.docusign.esign.model.Envelope",
+            "com.docusign.esign.model.RecipientsUpdateSummary",
+            "com.docusign.esign.model.RecipientsUpdateResult",
+            "com.docusign.esign.api.EnvelopesApi",
+            "com.docusign.esign.model.Recipient"
+        ]
+    },
+    "72": {
+        "Query": "Proper way of concatenating lists with single elements in a single logical line in Java?",
+        "GroundTruth": [
+            "java.util.ArrayList.addAll",
+            "java.util.List.copyOf"
+        ],
+        "APIClasses": [
+            "java.util.List",
+            "java.util.ArrayList"
+        ]
+    },
+    "73": {
+        "Query": "How can I create a java.net.URI with a query parameter that contains an ampersand in the value",
+        "GroundTruth": [
+            "javax.ws.rs.core.UriBuilder.UriBuilder()"
+        ],
+        "APIClasses": [
+            "javax.ws.rs.core.UriBuilder"
+        ]
+    },
+    "74": {
+        "Query": "Use ConcurrentHashMap to replace HazelCast IMap with locking",
+        "GroundTruth": [
+            "java.util.concurrent.ConcurrentHashMap.computeIfPresent"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.ConcurrentHashMap"
+        ]
+    },
+    "75": {
+        "Query": "Convert String Array to xlsx using Apache poi?",
+        "GroundTruth": [
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook.SXSSFWorkbook()",
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook.createSheet",
+            "org.apache.poi.xssf.streaming.SXSSFSheet.createRow",
+            "org.apache.poi.xssf.streaming.SXSSFRow.createCell",
+            "org.apache.poi.xssf.streaming.SXSSFCell.setCellValue",
+            "java.util.concurrent.atomic.AtomicReference.AtomicReference()",
+            "java.util.stream.Stream.iterate",
+            "java.util.stream.Stream.limit",
+            "java.util.stream.Stream.forEach",
+            "java.nio.file.Files.newOutputStream",
+            "java.nio.file.Path.of",
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook.write",
+            "java.io.OutputStream.flush",
+            "java.io.IOException.printStackTrace",
+            "java.lang.RuntimeException.RuntimeException()"
+        ],
+        "APIClasses": [
+            "java.util.stream.Stream",
+            "java.util.concurrent.atomic.AtomicReference",
+            "java.io.IOException",
+            "java.nio.file.Path",
+            "org.apache.poi.xssf.streaming.SXSSFSheet",
+            "org.apache.poi.xssf.streaming.SXSSFWorkbook",
+            "org.apache.poi.xssf.streaming.SXSSFCell",
+            "java.io.OutputStream",
+            "java.nio.file.Files",
+            "org.apache.poi.xssf.streaming.SXSSFRow",
+            "java.lang.RuntimeException"
+        ]
+    },
+    "76": {
+        "Query": "Unable to understand the time consumption by Java threads",
+        "GroundTruth": [
+            "java.lang.System.currentTimeMillis()"
+        ],
+        "APIClasses": [
+            "java.lang.System"
+        ]
+    },
+    "77": {
+        "Query": "Why does my ImageIcon disappear after using setLocation() on JFrame?",
+        "GroundTruth": [
+            "java.lang.Thread.sleep()"
+        ],
+        "APIClasses": [
+            "java.lang.Thread"
+        ]
+    },
+    "78": {
+        "Query": "Spring Data JPA/ Hibernate get one column value based on the id",
+        "GroundTruth": [
+            "org.springframework.data.jpa.repository.JpaRepository.findById"
+        ],
+        "APIClasses": [
+            "org.springframework.data.jpa.repository.JpaRepository"
+        ]
+    },
+    "79": {
+        "Query": "Spark ignores Iceberg Nessie catalog",
+        "GroundTruth": [
+            "org.apache.spark.sql.SparkSession.read",
+            "org.apache.spark.sql.DataFrameReader.option",
+            "org.apache.spark.sql.DataFrameReader.csv",
+            "org.apache.spark.sql.Dataset.writeTo",
+            "org.apache.spark.sql.DataFrameWriter.createOrReplace"
+        ],
+        "APIClasses": [
+            "org.apache.spark.sql.DataFrameWriter",
+            "org.apache.spark.sql.DataFrameReader",
+            "org.apache.spark.sql.Dataset",
+            "org.apache.spark.sql.SparkSession"
+        ]
+    },
+    "80": {
+        "Query": "Why is my image motion so choppy when moving it with keybindings?",
+        "GroundTruth": [
+            "java.awt.Toolkit.getDefaultToolkit",
+            "java.awt.Toolkit.sync"
+        ],
+        "APIClasses": [
+            "java.awt.Toolkit"
+        ]
+    },
+    "81": {
+        "Query": "How to set the size of a DialogFragment in Android",
+        "GroundTruth": [
+            "androidx.fragment.app.DialogFragment.setOnShowListener",
+            "androidx.fragment.app.DialogFragment.getDialog",
+            "android.view.WindowManager.LayoutParams.width",
+            "android.view.WindowManager.LayoutParams.height",
+            "android.view.WindowManager.getDefaultDisplay",
+            "android.view.Display.getSize",
+            "android.view.Display.getMetrics",
+            "android.view.WindowInsets.getInsetsIgnoringVisibility"
+        ],
+        "APIClasses": [
+            "android.view.WindowManager.LayoutParams",
+            "android.view.WindowInsets",
+            "androidx.fragment.app.DialogFragment",
+            "android.view.WindowManager",
+            "android.view.Display"
+        ]
+    },
+    "82": {
+        "Query": "Rendering properly using GridBagLayout",
+        "GroundTruth": [
+            "java.awt.GridBagConstraints.anchor",
+            "java.awt.GridBagConstraints.gridx",
+            "java.awt.GridBagConstraints.gridy",
+            "java.awt.GridBagConstraints.insets",
+            "java.awt.GridBagConstraints.fill",
+            "java.awt.GridBagConstraints.weightx",
+            "java.awt.GridBagConstraints.weighty",
+            "javax.swing.BorderFactory.createTitledBorder"
+        ],
+        "APIClasses": [
+            "java.awt.GridBagConstraints",
+            "javax.swing.BorderFactory"
+        ]
+    },
+    "83": {
+        "Query": "How do I implement executable directives in Quarkus GraphQL",
+        "GroundTruth": [
+            "io.smallrye.graphql.execution.context.SmallRyeContext.getDataFetchingEnvironment",
+            "graphql.language.SelectionSet.getChildren",
+            "graphql.language.Node.instanceof",
+            "graphql.language.Field.getName",
+            "java.util.List.stream",
+            "java.util.stream.Stream.filter",
+            "java.util.Optional.ifPresent",
+            "graphql.language.Field.getDirectives",
+            "java.util.List.size",
+            "java.util.List.get",
+            "java.util.List.add"
+        ],
+        "APIClasses": [
+            "io.smallrye.graphql.execution.context.SmallRyeContext",
+            "java.util.stream.Stream",
+            "java.util.Optional",
+            "graphql.language.Node",
+            "graphql.language.Field",
+            "java.util.List",
+            "graphql.language.SelectionSet"
+        ]
+    },
+    "84": {
+        "Query": "How to adjust the hours in working hours calendar",
+        "GroundTruth": [
+            "java.time.LocalDate.of",
+            "java.time.LocalDateTime.of",
+            "java.time.Duration.between",
+            "java.time.LocalDateTime.plusDays",
+            "java.time.LocalDateTime.plusSeconds",
+            "java.time.LocalDate.getDayOfWeek",
+            "java.util.HashSet.add",
+            "java.util.HashMap.put",
+            "java.time.LocalDateTime.toLocalDate",
+            "java.time.LocalDateTime.toLocalTime",
+            "java.time.LocalTime.isBefore",
+            "java.time.LocalTime.isAfter",
+            "java.time.LocalTime.of",
+            "java.util.Set.contains",
+            "java.util.Map.containsKey",
+            "java.util.Optional.of",
+            "java.time.LocalDate.plusDays",
+            "java.time.LocalDate.getDayOfWeek.getValue",
+            "java.time.LocalDateTime.withHour",
+            "java.time.LocalDateTime.withMinute",
+            "java.time.LocalDateTime.withSecond",
+            "java.time.LocalDateTime.withNano"
+        ],
+        "APIClasses": [
+            "java.time.Duration",
+            "java.time.LocalTime",
+            "java.util.Optional",
+            "java.util.HashMap",
+            "java.time.LocalDateTime",
+            "java.time.LocalDate",
+            "java.util.Set",
+            "java.util.HashSet",
+            "java.util.Map",
+            "java.time.LocalDate.getDayOfWeek"
+        ]
+    },
+    "85": {
+        "Query": "how to add statement import into xml (schema/xsd) using java",
+        "GroundTruth": [
+            "org.w3c.dom.Document.getDocumentElement()"
+        ],
+        "APIClasses": [
+            "org.w3c.dom.Document"
+        ]
+    },
+    "86": {
+        "Query": "How can I ask the JVM if a file has been marked for deletion via File.deleteOnExit()?",
+        "GroundTruth": [
+            "java.lang.Class.forName",
+            "java.lang.Class.getDeclaredField",
+            "java.lang.reflect.Field.setAccessible",
+            "java.lang.reflect.Field.get",
+            "java.util.LinkedHashSet.LinkedHashSet()"
+        ],
+        "APIClasses": [
+            "java.lang.reflect.Field",
+            "java.util.LinkedHashSet",
+            "java.lang.Class"
+        ]
+    },
+    "87": {
+        "Query": "H2 embedded database not initialized when using Spring's lazy initialization",
+        "GroundTruth": [
+            "org.springframework.boot.LazyInitializationExcludeFilter.forBeanTypes"
+        ],
+        "APIClasses": [
+            "org.springframework.boot.LazyInitializationExcludeFilter"
+        ]
+    },
+    "88": {
+        "Query": "Java: Casting Object to primitive array using Class.cast()",
+        "GroundTruth": [
+            "java.lang.Class.cast"
+        ],
+        "APIClasses": [
+            "java.lang.Class"
+        ]
+    },
+    "89": {
+        "Query": "Deserializing Json from String with Rest Client and Object Mapper",
+        "GroundTruth": [
+            "com.fasterxml.jackson.databind.ObjectMapper.readValue"
+        ],
+        "APIClasses": [
+            "com.fasterxml.jackson.databind.ObjectMapper"
+        ]
+    },
+    "90": {
+        "Query": "Spring Boot 2.7 to SprintBoot3 Migration Issue with HttpClient",
+        "GroundTruth": [
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder.create",
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder.setDefaultSocketConfig",
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder.build",
+            "org.apache.hc.client5.http.impl.classic.HttpClients.custom",
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder.setProxy",
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder.setConnectionManager",
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder.build",
+            "org.apache.hc.core5.util.TimeValue.ofMilliseconds",
+            "org.apache.hc.core5.http.config.ConnectionConfig.custom",
+            "org.apache.hc.core5.http.config.ConnectionConfig.Builder.setTimeToLive",
+            "org.apache.hc.core5.http.config.ConnectionConfig.Builder.build"
+        ],
+        "APIClasses": [
+            "org.apache.hc.client5.http.impl.classic.HttpClientBuilder",
+            "org.apache.hc.client5.http.impl.classic.HttpClients",
+            "org.apache.hc.core5.http.config.ConnectionConfig.Builder",
+            "org.apache.hc.client5.http.impl.PoolingHttpClientConnectionManagerBuilder",
+            "org.apache.hc.core5.util.TimeValue",
+            "org.apache.hc.core5.http.config.ConnectionConfig"
+        ]
+    },
+    "91": {
+        "Query": "Pausing the timer",
+        "GroundTruth": [
+            "java.util.concurrent.ScheduledExecutorService.scheduleWithFixedDelay(Runnable command, long initialDelay, long delay, TimeUnit unit)"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.ScheduledExecutorService"
+        ]
+    },
+    "92": {
+        "Query": "How do I make Togglebutton work properly inside tableView column?",
+        "GroundTruth": [
+            "javafx.beans.property.BooleanProperty.addListener",
+            "javafx.beans.property.BooleanProperty",
+            "javafx.scene.control.TableColumn.setCellValueFactory",
+            "javafx.scene.control.TableColumn.setCellFactory",
+            "javafx.scene.control.ToggleButton",
+            "javafx.scene.control.cell.CheckBoxTableCell",
+            "javafx.scene.control.cell.CheckBoxTableCell.forTableColumn"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.cell",
+            "javafx.scene.control",
+            "javafx.beans.property",
+            "javafx.scene.control.TableColumn",
+            "javafx.beans.property.BooleanProperty",
+            "javafx.scene.control.cell.CheckBoxTableCell"
+        ]
+    },
+    "93": {
+        "Query": "Spring Hibernate 6 - Change application.properties environment on start",
+        "GroundTruth": [
+            "java.sql.DriverManager.registerDriver()"
+        ],
+        "APIClasses": [
+            "java.sql.DriverManager"
+        ]
+    },
+    "94": {
+        "Query": "Java LocalTime.parse working in spring boot on local PC but not working in Docker container",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatter.withLocale()"
+        ],
+        "APIClasses": [
+            "java.time.format.DateTimeFormatter"
+        ]
+    },
+    "95": {
+        "Query": "JPanel overdraws overlapping JComcoBox",
+        "GroundTruth": [
+            "java.awt.Component.setBackground",
+            "java.awt.Component.repaint",
+            "java.awt.Container.add",
+            "java.awt.Container.setPreferredSize",
+            "java.awt.Container.setLayout",
+            "javax.swing.JFrame.JFrame()",
+            "javax.swing.JPanel.JPanel()",
+            "javax.swing.SwingUtilities.invokeLater",
+            "javax.swing.Timer.Timer()"
+        ],
+        "APIClasses": [
+            "javax.swing.SwingUtilities",
+            "javax.swing.JPanel",
+            "java.awt.Container",
+            "javax.swing.JFrame",
+            "javax.swing.Timer",
+            "java.awt.Component"
+        ]
+    },
+    "96": {
+        "Query": "Persisting an associated detached entity by cascade in Spring Data Jpa. Is it possible?",
+        "GroundTruth": [
+            "java.util.Optional.orElseGet",
+            "java.util.Set.add"
+        ],
+        "APIClasses": [
+            "java.util.Optional",
+            "java.util.Set"
+        ]
+    },
+    "97": {
+        "Query": "It gives error since I closed the scanner in main method but I created a new scanner in the method",
+        "GroundTruth": [
+            "java.util.Scanner.nextLine",
+            "java.util.Scanner.parseInt",
+            "java.util.Scanner.parseDouble",
+            "java.io.PrintStream.println"
+        ],
+        "APIClasses": [
+            "java.io.PrintStream",
+            "java.util.Scanner"
+        ]
+    },
+    "98": {
+        "Query": "Parallel service calls with Spring Boot 3.2 and virtual threads",
+        "GroundTruth": [
+            "java.util.concurrent.Executors.newVirtualThreadPerTaskExecutor()"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.Executors"
+        ]
+    },
+    "99": {
+        "Query": "Difficulty capturing fast mouse movements in Java Swing paint app",
+        "GroundTruth": [
+            "java.awt.image.BufferedImage.BufferedImage()"
+        ],
+        "APIClasses": [
+            "java.awt.image.BufferedImage"
+        ]
+    },
+    "100": {
+        "Query": "Error in build org.mockito.exceptions.base.MockitoException: ClassCastException",
+        "GroundTruth": [
+            "org.mockito.Mockito.mock()"
+        ],
+        "APIClasses": [
+            "org.mockito.Mockito"
+        ]
+    },
+    "101": {
+        "Query": "Thread BLOCKED on InetAddress.getByName 0.0.0.0",
+        "GroundTruth": [
+            "java.net.InetAddress.getLocalHost()"
+        ],
+        "APIClasses": [
+            "java.net.InetAddress"
+        ]
+    },
+    "102": {
+        "Query": "Assertj: Using the index when asserting list elements via predicate",
+        "GroundTruth": [
+            "org.assertj.core.api.AbstractMapAssert<SELF,ACTUAL,K,V>.allSatisfy(BiConsumer<? super K,? super V> entryRequirements)"
+        ],
+        "APIClasses": [
+            "org.assertj.core.api.AbstractMapAssert<SELF,ACTUAL,K,V>"
+        ]
+    },
+    "103": {
+        "Query": "javafx pane white artifact when rendering text and rounded rect",
+        "GroundTruth": [
+            "javax.swing.JComponent.setBackground(Color bg)"
+        ],
+        "APIClasses": [
+            "javax.swing.JComponent"
+        ]
+    },
+    "104": {
+        "Query": "Java 21 virtual thread executor performing worse than executor with pooled OS threads?",
+        "GroundTruth": [
+            "java.util.concurrent.ForkJoinPool.commonPool()"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.ForkJoinPool"
+        ]
+    },
+    "105": {
+        "Query": "How to determine how will springboot handle a field of json when converting it to a Dto?",
+        "GroundTruth": [
+            "java.util.Optional.isPresent",
+            "org.springframework.data.repository.OptionalWrapper.findByName"
+        ],
+        "APIClasses": [
+            "java.util.Optional",
+            "org.springframework.data.repository.OptionalWrapper"
+        ]
+    },
+    "106": {
+        "Query": "How to specify partition count on cache creation using Ignite thin client?",
+        "GroundTruth": [
+            "org.apache.ignite.configuration.CacheConfiguration.setAffinity",
+            "org.apache.ignite.configuration.CacheConfiguration.CacheConfiguration()",
+            "org.apache.ignite.cache.affinity.rendezvous.RendezvousAffinityFunction.setPartitions",
+            "org.apache.ignite.cache.affinity.rendezvous.RendezvousAffinityFunction.RendezvousAffinityFunction()",
+            "java.lang.String"
+        ],
+        "APIClasses": [
+            "org.apache.ignite.cache.affinity.rendezvous.RendezvousAffinityFunction",
+            "org.apache.ignite.configuration.CacheConfiguration",
+            "java.lang"
+        ]
+    },
+    "107": {
+        "Query": "Java 21 structured concurrency, need predictable subtask exception ordering",
+        "GroundTruth": [
+            "java.util.concurrent.StructuredTaskScope.StructuredTaskScope()"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.StructuredTaskScope"
+        ]
+    },
+    "108": {
+        "Query": "How to sort a list of objects ascending by a property, then descending by another property in Java?",
+        "GroundTruth": [
+            "java.util.Comparator.comparing",
+            "java.util.Comparator.reverseOrder"
+        ],
+        "APIClasses": [
+            "java.util.Comparator"
+        ]
+    },
+    "109": {
+        "Query": "Android Studio, java, onActivityResult is not being triggered using Intent",
+        "GroundTruth": [
+            "android.content.Intent.putExtra",
+            "android.app.Activity.setResult",
+            "android.app.Activity.finish",
+            "androidx.activity.result.ActivityResultLauncher.launch"
+        ],
+        "APIClasses": [
+            "android.content.Intent",
+            "android.app.Activity",
+            "androidx.activity.result.ActivityResultLauncher"
+        ]
+    },
+    "110": {
+        "Query": "Mockito - doThrow (or thenThrow) with Exception constructed with passed argument",
+        "GroundTruth": [
+            "org.mockito.stubbing.OngoingStubbing.thenAnswer"
+        ],
+        "APIClasses": [
+            "org.mockito.stubbing.OngoingStubbing"
+        ]
+    },
+    "111": {
+        "Query": "How to obtain an Executor?",
+        "GroundTruth": [
+            "java.util.concurrent.ExecutorService.__init__",
+            "java.util.concurrent.Executor.newCachedThreadPool()",
+            "java.util.concurrent.Executor.newFixedThreadPool()",
+            "java.util.concurrent.Executor.newVirtualThreadPerTaskExecutor()"
+        ],
+        "APIClasses": [
+            "java.util.concurrent.ExecutorService",
+            "java.util.concurrent.Executor"
+        ]
+    },
+    "112": {
+        "Query": "Java PKCS7 signature issue",
+        "GroundTruth": [
+            "java.security.cert.X509Certificate.getEncoded(String encoding)"
+        ],
+        "APIClasses": [
+            "java.security.cert.X509Certificate"
+        ]
+    },
+    "113": {
+        "Query": "GraphQL alias/change name of input type field name",
+        "GroundTruth": [
+            "graphql.schema.DataFetchingEnvironment.getArguments"
+        ],
+        "APIClasses": [
+            "graphql.schema.DataFetchingEnvironment"
+        ]
+    },
+    "114": {
+        "Query": "Complex Java 17 regex with multiple token types and segments",
+        "GroundTruth": [
+            "java.util.regex.Pattern.compile",
+            "java.util.regex.Matcher.find",
+            "java.util.regex.Matcher.group",
+            "java.util.List.of"
+        ],
+        "APIClasses": [
+            "java.util.regex.Matcher",
+            "java.util.regex.Pattern",
+            "java.util.List"
+        ]
+    },
+    "115": {
+        "Query": "Deprecated Environment.getExternalStorageDirectory().getAbsolutePath() returns different values than the new one getExternalFilesDir(null)?",
+        "GroundTruth": [
+            "android.os.Environment.getExternalStorageDirectory().getAbsolutePath()"
+        ],
+        "APIClasses": [
+            "android.os.Environment.getExternalStorageDirectory()"
+        ]
+    },
+    "116": {
+        "Query": "set perspective camera as subscene camera in fxml file",
+        "GroundTruth": [
+            "javafx.scene.PerspectiveCamera.PerspectiveCamera()",
+            "javafx.util.Builder.Builder()",
+            "javafx.util.BuilderFactory.BuilderFactory()"
+        ],
+        "APIClasses": [
+            "javafx.util.Builder",
+            "javafx.scene.PerspectiveCamera",
+            "javafx.util.BuilderFactory"
+        ]
+    },
+    "117": {
+        "Query": "Exception javax/management/openmbean/CompositeData using AMQP-client in WildFly built-in ActiveMQ Artemis server",
+        "GroundTruth": [
+            "org.apache.activemq.artemis.protocol.amqp.__init__"
+        ],
+        "APIClasses": [
+            "org.apache.activemq.artemis.protocol.amqp"
+        ]
+    },
+    "118": {
+        "Query": "Keep ordering by merging multiple slow sources in akka streams",
+        "GroundTruth": [
+            "akka.stream.javadsl.Source.from",
+            "akka.stream.javadsl.Source.map",
+            "akka.stream.javadsl.Source.flatMapConcat",
+            "akka.stream.javadsl.Source.buffer",
+            "akka.stream.javadsl.Source.preMaterialize",
+            "akka.japi.Pair.second"
+        ],
+        "APIClasses": [
+            "akka.japi.Pair",
+            "akka.stream.javadsl.Source"
+        ]
+    },
+    "119": {
+        "Query": "In PDFBox, annotations appear in the rendered image but not in an imported object",
+        "GroundTruth": [
+            "org.apache.pdfbox.rendering.PDFRenderer.PDFRenderer()",
+            "org.apache.pdfbox.rendering.PDFRenderer.setAnnotationsFilter"
+        ],
+        "APIClasses": [
+            "org.apache.pdfbox.rendering.PDFRenderer"
+        ]
+    },
+    "120": {
+        "Query": "Spring Boot @Cachebale annotation not working as expected",
+        "GroundTruth": [
+            "org.springframework.boot.ApplicationRunner.run"
+        ],
+        "APIClasses": [
+            "org.springframework.boot.ApplicationRunner"
+        ]
+    },
+    "121": {
+        "Query": "In Java, How to fragment String according to Font.canDisplay method",
+        "GroundTruth": [
+            "java.text.AttributedString.addAttribute",
+            "java.text.AttributedString.AttributedString()",
+            "java.text.StringCharacterIterator.getIndex",
+            "java.text.StringCharacterIterator.StringCharacterIterator",
+            "java.awt.Font.canDisplayUpTo",
+            "java.awt.Font.deriveFont",
+            "java.lang.String.length",
+            "java.lang.String.codePointAt",
+            "java.lang.String.format",
+            "java.util.List.get"
+        ],
+        "APIClasses": [
+            "java.util.List",
+            "java.lang.String",
+            "java.text.AttributedString",
+            "java.text.StringCharacterIterator",
+            "java.awt.Font"
+        ]
+    },
+    "122": {
+        "Query": "JavaFX Canvas TextFill Rotate",
+        "GroundTruth": [
+            "javafx.scene.canvas.Canvas.getGraphicsContext2D",
+            "javafx.scene.canvas.GraphicsContext.clearRect",
+            "javafx.scene.canvas.GraphicsContext.fillText",
+            "javafx.scene.canvas.GraphicsContext.save",
+            "javafx.scene.canvas.GraphicsContext.restore",
+            "javafx.scene.canvas.GraphicsContext.setTransform",
+            "javafx.scene.layout.BorderPane.setBottom",
+            "javafx.scene.layout.BorderPane.setCenter",
+            "javafx.scene.layout.Pane.getChildren",
+            "javafx.scene.text.Text.Text()",
+            "javafx.scene.text.Text.setFont",
+            "javafx.scene.text.Text.setFill",
+            "javafx.scene.text.Text.setRotate",
+            "javafx.scene.text.Text.getBoundsInLocal",
+            "javafx.scene.transform.Rotate.Rotate()"
+        ],
+        "APIClasses": [
+            "javafx.scene.canvas.Canvas",
+            "javafx.scene.layout.Pane",
+            "javafx.scene.layout.BorderPane",
+            "javafx.scene.text.Text",
+            "javafx.scene.transform.Rotate",
+            "javafx.scene.canvas.GraphicsContext"
+        ]
+    },
+    "123": {
+        "Query": "How to RecursiveComparisonConfiguration in AssertJ?",
+        "GroundTruth": [
+            "org.assertj.core.api.AbstractAssert.usingRecursiveComparison()"
+        ],
+        "APIClasses": [
+            "org.assertj.core.api.AbstractAssert"
+        ]
+    },
+    "124": {
+        "Query": "Trying to make an object, use it and then store it a list using a single statement",
+        "GroundTruth": [
+            "java.util.ArrayList.add",
+            "java.util.List.of"
+        ],
+        "APIClasses": [
+            "java.util.List",
+            "java.util.ArrayList"
+        ]
+    },
+    "125": {
+        "Query": "Javafx textfield expanding to width of popup window",
+        "GroundTruth": [
+            "javafx.scene.control.Control.USE_PREF_SIZE"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.Control"
+        ]
+    },
+    "126": {
+        "Query": "Error in module system when registering controlsFX validator for combo box in JavaFX project",
+        "GroundTruth": [
+            "java.lang.module.ModuleDescriptor.Opens.of"
+        ],
+        "APIClasses": [
+            "java.lang.module.ModuleDescriptor.Opens"
+        ]
+    },
+    "127": {
+        "Query": "Java Swing: ATM_Interface Key Events Not Detected After Initializing Authentification Class",
+        "GroundTruth": [
+            "java.awt.event.ActionListener.ActionListener()"
+        ],
+        "APIClasses": [
+            "java.awt.event.ActionListener"
+        ]
+    },
+    "128": {
+        "Query": "Monad Map with two values in Java Functional Programming",
+        "GroundTruth": [
+            "java.util.Optional<T>.flatMap()"
+        ],
+        "APIClasses": [
+            "java.util.Optional<T>"
+        ]
+    },
+    "129": {
+        "Query": "Is Joda DateTime supported by Hibernate 6?",
+        "GroundTruth": [
+            "java.time.ZonedDateTime.of"
+        ],
+        "APIClasses": [
+            "java.time.ZonedDateTime"
+        ]
+    },
+    "130": {
+        "Query": "Is it guaranteed that constraint violation is flagged at the end of transactional block?",
+        "GroundTruth": [
+            "org.springframework.data.jpa.repository.JpaRepository.saveAndFlush"
+        ],
+        "APIClasses": [
+            "org.springframework.data.jpa.repository.JpaRepository"
+        ]
+    },
+    "131": {
+        "Query": "\"ScrollView\" doesn't work in \"AlertDialog\"?",
+        "GroundTruth": [
+            "android.app.Dialog.requestWindowFeature",
+            "android.app.Dialog.setContentView"
+        ],
+        "APIClasses": [
+            "android.app.Dialog"
+        ]
+    },
+    "132": {
+        "Query": "Will JVM optimise this mathmatical operation?",
+        "GroundTruth": [
+            "java.time.Instant.ofEpochMilli",
+            "java.time.Instant.truncatedTo",
+            "java.time.Instant.toEpochMilli"
+        ],
+        "APIClasses": [
+            "java.time.Instant"
+        ]
+    },
+    "133": {
+        "Query": "\"error: cannot find symbol import com.liferay.portal.kernel.uuid.PortalUUID;\" in Liferay 7.4",
+        "GroundTruth": [
+            "java.util.UUID.generate()"
+        ],
+        "APIClasses": [
+            "java.util.UUID"
+        ]
+    },
+    "134": {
+        "Query": "'EOF reached while reading' with Spring RestClient and Wiremock using JdkClientHttpRequestFactory",
+        "GroundTruth": [
+            "java.net.http.HttpClient.newBuilder"
+        ],
+        "APIClasses": [
+            "java.net.http.HttpClient"
+        ]
+    },
+    "135": {
+        "Query": "Given java enum class, find enum by value",
+        "GroundTruth": [
+            "java.util.EnumSet<E>.allOf()"
+        ],
+        "APIClasses": [
+            "java.util.EnumSet<E>"
+        ]
+    },
+    "136": {
+        "Query": "ISO-8601 week data representation for basic temporal operations",
+        "GroundTruth": [
+            "org.threeten.extra.YearWeek.parse",
+            "org.threeten.extra.YearWeek.isBefore",
+            "org.threeten.extra.YearWeek.isAfter",
+            "java.time.temporal.ChronoUnit.WEEKS",
+            "java.time.temporal.ChronoUnit.between",
+            "org.threeten.extra.YearWeek.until"
+        ],
+        "APIClasses": [
+            "org.threeten.extra.YearWeek",
+            "java.time.temporal.ChronoUnit"
+        ]
+    },
+    "137": {
+        "Query": "Copy file in share point at a particular location using latest graph api and java",
+        "GroundTruth": [
+            "com.microsoft.graph.models.Drive.getId",
+            "com.microsoft.graph.requests.GraphServiceClient.Builder",
+            "com.microsoft.graph.requests.DriveRequestBuilder.byDriveId",
+            "com.microsoft.graph.requests.DriveItemCollectionRequestBuilder.byDriveItemId",
+            "com.microsoft.graph.requests.DriveItemContentRequestBuilder.content().put"
+        ],
+        "APIClasses": [
+            "com.microsoft.graph.requests.DriveRequestBuilder",
+            "com.microsoft.graph.requests.GraphServiceClient",
+            "com.microsoft.graph.models.Drive",
+            "com.microsoft.graph.requests.DriveItemContentRequestBuilder.content()",
+            "com.microsoft.graph.requests.DriveItemCollectionRequestBuilder"
+        ]
+    },
+    "138": {
+        "Query": "Execute Date arithmetic without daylight saving adjustment",
+        "GroundTruth": [
+            "java.time.LocalDateTime.parse",
+            "java.time.LocalDateTime.plusDays",
+            "java.time.LocalDateTime.atZone",
+            "java.time.ZoneId.of",
+            "java.time.ZonedDateTime.of"
+        ],
+        "APIClasses": [
+            "java.time.ZonedDateTime",
+            "java.time.LocalDateTime",
+            "java.time.ZoneId"
+        ]
+    },
+    "139": {
+        "Query": "jdbcTemplate.batchUpdate not aplicable error",
+        "GroundTruth": [
+            "org.springframework.jdbc.core.JdbcTemplate.batchUpdate(String sql, BatchPreparedStatementSetter pss)"
+        ],
+        "APIClasses": [
+            "org.springframework.jdbc.core.JdbcTemplate"
+        ]
+    },
+    "140": {
+        "Query": "How to know DriverManagerDataSource has a connection pool",
+        "GroundTruth": [
+            "org.springframework.jdbc.datasource.DriverManagerDataSource.DriverManagerDataSource()"
+        ],
+        "APIClasses": [
+            "org.springframework.jdbc.datasource.DriverManagerDataSource"
+        ]
+    },
+    "141": {
+        "Query": "SolrJ deleteById does not deletes data in Solr",
+        "GroundTruth": [
+            "org.apache.solr.client.solrj.SolrRequest.commitWithin"
+        ],
+        "APIClasses": [
+            "org.apache.solr.client.solrj.SolrRequest"
+        ]
+    },
+    "142": {
+        "Query": "JavaFX SplitPane Divider hover color css",
+        "GroundTruth": [
+            "javafx.css.PseudoClass.getPseudoClass",
+            "javafx.scene.control.SplitPane.addEventFilter",
+            "javafx.scene.control.SplitPane.getItems"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.SplitPane",
+            "javafx.css.PseudoClass"
+        ]
+    },
+    "143": {
+        "Query": "Deserialize JSON into record with generic type",
+        "GroundTruth": [
+            "com.fasterxml.jackson.databind.ObjectMapper.readValue",
+            "com.fasterxml.jackson.core.type.TypeReference.__init__"
+        ],
+        "APIClasses": [
+            "com.fasterxml.jackson.core.type.TypeReference",
+            "com.fasterxml.jackson.databind.ObjectMapper"
+        ]
+    },
+    "144": {
+        "Query": "Convert a Map<T, Value> to a List<T> based on parameter of the object and value",
+        "GroundTruth": [
+            "java.util.stream.Collectors.groupingBy",
+            "java.util.stream.Collectors.collectingAndThen",
+            "java.util.stream.Collectors.maxBy",
+            "java.util.Optional.get",
+            "java.util.stream.Collectors.toList",
+            "java.util.stream.Stream.map",
+            "java.util.Map.Entry.getKey"
+        ],
+        "APIClasses": [
+            "java.util.Map.Entry",
+            "java.util.stream.Stream",
+            "java.util.Optional",
+            "java.util.stream.Collectors"
+        ]
+    },
+    "145": {
+        "Query": "Converting arrays to linked lists en masse",
+        "GroundTruth": [
+            "java.util.LinkedList.LinkedList",
+            "java.util.List.of"
+        ],
+        "APIClasses": [
+            "java.util.LinkedList",
+            "java.util.List"
+        ]
+    },
+    "146": {
+        "Query": "Count half hours since midnight Europe/London",
+        "GroundTruth": [
+            "java.time.OffsetDateTime.atZoneSameInstant(java.time.ZoneId)",
+            "java.time.ZonedDateTime.truncatedTo(java.time.temporal.TemporalUnit)",
+            "java.time.temporal.ChronoUnit.DAYS"
+        ],
+        "APIClasses": [
+            "java.time.temporal.ChronoUnit",
+            "java.time.ZonedDateTime.truncatedTo(java.time.temporal",
+            "java.time.OffsetDateTime.atZoneSameInstant(java.time"
+        ]
+    },
+    "147": {
+        "Query": "Fully-qualified class name of links while parsing Javadoc",
+        "GroundTruth": [
+            "com.sun.source.util.DocTrees.instance",
+            "com.sun.source.util.Trees.instance",
+            "com.sun.source.util.TreePath.getCompilationUnit",
+            "com.sun.source.doctree.DocCommentTree.accept",
+            "com.sun.source.doctree.LinkTree.getReference",
+            "com.sun.source.util.SimpleDocTreeVisitor.visitLink",
+            "com.sun.source.util.TreeScanner.scan",
+            "com.sun.source.tree.ImportTree.getQualifiedIdentifier",
+            "java.lang.String.substring",
+            "java.lang.String.lastIndexOf"
+        ],
+        "APIClasses": [
+            "com.sun.source.util.TreeScanner",
+            "com.sun.source.util.TreePath",
+            "com.sun.source.util.SimpleDocTreeVisitor",
+            "com.sun.source.util.DocTrees",
+            "com.sun.source.doctree.LinkTree",
+            "com.sun.source.tree.ImportTree",
+            "com.sun.source.util.Trees",
+            "java.lang.String",
+            "com.sun.source.doctree.DocCommentTree"
+        ]
+    },
+    "148": {
+        "Query": "How to populate all elements of a declared variable with the value of 1. In Java",
+        "GroundTruth": [
+            "java.util.Arrays.fill()"
+        ],
+        "APIClasses": [
+            "java.util.Arrays"
+        ]
+    },
+    "149": {
+        "Query": "java List with all combinations of 8 booleans",
+        "GroundTruth": [
+            "java.util.ArrayList.ArrayList()",
+            "java.util.List.of",
+            "java.util.List.isEmpty",
+            "java.util.ArrayList.add",
+            "java.util.List.size",
+            "java.util.List.get"
+        ],
+        "APIClasses": [
+            "java.util.List",
+            "java.util.ArrayList"
+        ]
+    },
+    "150": {
+        "Query": "Find smallest palindrome for given input string",
+        "GroundTruth": [
+            "java.lang.StringBuilder.StringBuilder()",
+            "java.lang.StringBuilder.append(java.lang.String)",
+            "java.lang.StringBuilder.reverse()",
+            "java.lang.StringBuilder.toString()",
+            "java.lang.String.length()",
+            "java.lang.String.charAt(int)"
+        ],
+        "APIClasses": [
+            "java.lang.StringBuilder.append(java.lang",
+            "java.lang.StringBuilder",
+            "java.lang.String"
+        ]
+    },
+    "151": {
+        "Query": "cancel button without any action method throws and exception",
+        "GroundTruth": [
+            "org.apache.struts.actions.DispatchAction.DispatchAction()"
+        ],
+        "APIClasses": [
+            "org.apache.struts.actions.DispatchAction"
+        ]
+    },
+    "152": {
+        "Query": "Grouping by multiple fields and counting using in Java 8",
+        "GroundTruth": [
+            "java.util.function.Function.identity()",
+            "java.util.HashMap.HashMap()"
+        ],
+        "APIClasses": [
+            "java.util.HashMap",
+            "java.util.function.Function"
+        ]
+    },
+    "153": {
+        "Query": "JUnit - How to mock local variable object method call",
+        "GroundTruth": [
+            "org.mockito.Mockito.mock",
+            "org.mockito.Mockito.when",
+            "org.mockito.Mockito.doReturn",
+            "org.mockito.Mockito.spy",
+            "org.junit.jupiter.api.Assertions.assertThrows"
+        ],
+        "APIClasses": [
+            "org.junit.jupiter.api.Assertions",
+            "org.mockito.Mockito"
+        ]
+    },
+    "154": {
+        "Query": "Changing the internal size of the scroll Pane after reducing the scale of the canvas",
+        "GroundTruth": [
+            "javafx.scene.control.ScrollPane.setContent",
+            "javafx.scene.Group.Group",
+            "javafx.scene.transform.Scale.Scale",
+            "javafx.scene.Node.getTransforms"
+        ],
+        "APIClasses": [
+            "javafx.scene.transform.Scale",
+            "javafx.scene.Group",
+            "javafx.scene.Node",
+            "javafx.scene.control.ScrollPane"
+        ]
+    },
+    "155": {
+        "Query": "How to group a list by multiple fields in Java?",
+        "GroundTruth": [
+            "java.util.stream.Collectors.groupingBy"
+        ],
+        "APIClasses": [
+            "java.util.stream.Collectors"
+        ]
+    },
+    "156": {
+        "Query": "Does neo4j java driver rollback transactions automatically when an error occurs?",
+        "GroundTruth": [
+            "org.neo4j.driver.v1.Transaction.isOpen()",
+            "org.neo4j.driver.v1.Transaction.close()",
+            "org.neo4j.driver.v1.Session.beginTransaction()"
+        ],
+        "APIClasses": [
+            "org.neo4j.driver.Session",
+            "org.neo4j.driver.Transaction"
+        ]
+    },
+    "157": {
+        "Query": "Character::IsEmoji not working for Characters with numbers in them?",
+        "GroundTruth": [
+            "java.lang.Character.isEmojiPresentation(int codePoint)"
+        ],
+        "APIClasses": [
+            "java.lang.Character"
+        ]
+    },
+    "158": {
+        "Query": "KeyEvent in java does not work for alphabets or numerics but works fine for control, alt,up and down.but was not working for alphabets or numbers",
+        "GroundTruth": [
+            "javax.swing.text.Document.addUndoableEditListener",
+            "javax.swing.undo.UndoManager.UndoManager()",
+            "javax.swing.JScrollPane.JScrollPane()",
+            "javax.swing.JTextArea.getInputMap",
+            "javax.swing.InputMap.put",
+            "javax.swing.KeyStroke.getKeyStroke",
+            "javax.swing.ActionMap.put",
+            "javax.swing.AbstractAction.AbstractAction()",
+            "javax.swing.undo.UndoManager.canUndo",
+            "javax.swing.undo.UndoManager.undo",
+            "javax.swing.undo.UndoManager.canRedo",
+            "javax.swing.undo.UndoManager.redo"
+        ],
+        "APIClasses": [
+            "javax.swing.AbstractAction",
+            "javax.swing.JTextArea",
+            "javax.swing.undo.UndoManager",
+            "javax.swing.JScrollPane",
+            "javax.swing.ActionMap",
+            "javax.swing.InputMap",
+            "javax.swing.KeyStroke",
+            "javax.swing.text.Document"
+        ]
+    },
+    "159": {
+        "Query": "Java regular expression for masked alphanumeric codes",
+        "GroundTruth": [
+            "java.util.regex.Matcher.compile",
+            "java.util.regex.Pattern.matcher",
+            "java.util.regex.Matcher.find",
+            "java.util.regex.Matcher.group",
+            "java.lang.StringBuffer.StringBuffer()",
+            "java.util.regex.Matcher.appendReplacement",
+            "java.util.regex.Matcher.appendTail",
+            "java.lang.StringBuffer.toString",
+            "java.util.Collections.nCopies",
+            "java.lang.String.join"
+        ],
+        "APIClasses": [
+            "java.lang.StringBuffer",
+            "java.util.regex.Matcher",
+            "java.lang.String",
+            "java.util.Collections",
+            "java.util.regex.Pattern"
+        ]
+    },
+    "160": {
+        "Query": "JavaFX bug, cannot set any event to TableColumn",
+        "GroundTruth": [
+            "javafx.scene.control.TableColumn.DEFAULT_CELL_FACTORY.call",
+            "javafx.beans.property.Property.bind",
+            "javafx.scene.control.TableColumn.widthProperty",
+            "javafx.scene.control.Label.<init>",
+            "javafx.scene.control.Label.prefWidthProperty",
+            "javafx.scene.control.Label.setOnMouseEntered"
+        ],
+        "APIClasses": [
+            "javafx.scene.control.Label",
+            "javafx.scene.control.TableColumn",
+            "javafx.beans.property.Property",
+            "javafx.scene.control.TableColumn.DEFAULT_CELL_FACTORY"
+        ]
+    },
+    "161": {
+        "Query": "Java Stream, Need to update list of list objects",
+        "GroundTruth": [
+            "java.util.List.stream",
+            "java.util.stream.Stream.filter",
+            "java.util.stream.Stream.flatMap",
+            "java.util.stream.Stream.forEach"
+        ],
+        "APIClasses": [
+            "java.util.stream.Stream",
+            "java.util.List"
+        ]
+    },
+    "162": {
+        "Query": "Unexpected result calling collect method on a Java Stream",
+        "GroundTruth": [
+            "java.util.List.stream",
+            "java.util.stream.Collectors.collect",
+            "java.util.concurrent.atomic.AtomicInteger.AtomicInteger()"
+        ],
+        "APIClasses": [
+            "java.util.List",
+            "java.util.stream.Collectors",
+            "java.util.concurrent.atomic.AtomicInteger"
+        ]
+    },
+    "163": {
+        "Query": "JavaFX resize ImageView in center of BorderPane",
+        "GroundTruth": [
+            "javafx.beans.property.ObjectProperty.addListener",
+            "javafx.beans.value.ChangeListener.changed",
+            "javafx.scene.layout.Region.layoutChildren",
+            "javafx.scene.layout.Region.layoutInArea",
+            "javafx.scene.layout.Region.getHeight",
+            "javafx.scene.layout.Region.getWidth",
+            "javafx.scene.image.ImageView.setFitWidth",
+            "javafx.scene.image.ImageView.setFitHeight",
+            "javafx.scene.layout.Region.getChildren.add",
+            "javafx.scene.layout.Region.getChildren.remove",
+            "javafx.beans.property.SimpleObjectProperty.SimpleObjectProperty()"
+        ],
+        "APIClasses": [
+            "javafx.scene.image.ImageView",
+            "javafx.beans.property.ObjectProperty",
+            "javafx.scene.layout.Region.getChildren",
+            "javafx.beans.property.SimpleObjectProperty",
+            "javafx.beans.value.ChangeListener",
+            "javafx.scene.layout.Region"
+        ]
+    },
+    "164": {
+        "Query": "Replace com.sun.jndi.dns.DnsContextFactory Wildfly23 JDK17",
+        "GroundTruth": [
+            "javax.naming.spi.NamingManager.getURLContext"
+        ],
+        "APIClasses": [
+            "javax.naming.spi.NamingManager"
+        ]
+    },
+    "165": {
+        "Query": "How to print a value by comparing 2 fields inside JSON - RestAssured",
+        "GroundTruth": [
+            "com.google.gson.Gson.fromJson",
+            "com.google.gson.JsonArray.size",
+            "com.google.gson.JsonArray.get",
+            "com.google.gson.JsonObject.getAsJsonObject",
+            "com.google.gson.JsonObject.getAsString"
+        ],
+        "APIClasses": [
+            "com.google.gson.Gson",
+            "com.google.gson.JsonObject",
+            "com.google.gson.JsonArray"
+        ]
+    },
+    "166": {
+        "Query": "HBox doesn't fill parent GridPane when rotated by 90 degrees",
+        "GroundTruth": [
+            "javafx.scene.Group.Group()"
+        ],
+        "APIClasses": [
+            "javafx.scene.Group"
+        ]
+    },
+    "167": {
+        "Query": "How to turn a optional of an string array into a optional of a string?",
+        "GroundTruth": [
+            "java.util.Optional.map(Function<? super T, ? extends U> mapper)"
+        ],
+        "APIClasses": [
+            "java.util.Optional"
+        ]
+    },
+    "168": {
+        "Query": "How to get all tables from .accdb file and parse it to return in Java Spring Boot MVC",
+        "GroundTruth": [
+            "java.sql.DriverManager.getConnection",
+            "java.sql.Connection.getMetaData",
+            "java.sql.DatabaseMetaData.getTables",
+            "java.sql.Statement.executeQuery",
+            "java.sql.Statement.executeQuery",
+            "java.sql.ResultSet.next",
+            "java.sql.ResultSetMetaData.getColumnCount",
+            "java.sql.ResultSetMetaData.getColumnName",
+            "java.sql.ResultSet.getObject"
+        ],
+        "APIClasses": [
+            "java.sql.DatabaseMetaData",
+            "java.sql.DriverManager",
+            "java.sql.ResultSetMetaData",
+            "java.sql.Statement",
+            "java.sql.Connection",
+            "java.sql.ResultSet"
+        ]
+    },
+    "169": {
+        "Query": "Application on using JavaFX keeps on freezing even though I'm using Concurrent methods",
+        "GroundTruth": [
+            "javafx.application.Platform.runLater(Runnable runnable)"
+        ],
+        "APIClasses": [
+            "javafx.application.Platform"
+        ]
+    },
+    "170": {
+        "Query": "How to convert \"Tue Feb 27 2024 16:35:30 GMT+0800\" String to ZonedDateTime type",
+        "GroundTruth": [
+            "java.time.format.DateTimeFormatter.ofPattern",
+            "java.time.OffsetDateTime.parse",
+            "java.time.OffsetDateTime.toZonedDateTime",
+            "java.time.ZonedDateTime.withZoneSameInfstant",
+            "java.time.ZoneId.of"
+        ],
+        "APIClasses": [
+            "java.time.format.DateTimeFormatter",
+            "java.time.ZoneId",
+            "java.time.ZonedDateTime",
+            "java.time.OffsetDateTime"
+        ]
+    },
+    "171": {
+        "Query": "Compare two different java collection objects with a common attribute using java streams api",
+        "GroundTruth": [
+            "java.util.HashMap.HashMap()",
+            "java.util.HashMap.put",
+            "java.util.HashMap.get",
+            "java.util.Set.forEach"
+        ],
+        "APIClasses": [
+            "java.util.HashMap",
+            "java.util.Set"
+        ]
+    }
+}
