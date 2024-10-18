@@ -1,5 +1,4 @@
 The dataset and code for paper "Exploring ChatGPT’s Potential in Java API Method Recommendation: An Empirical Study".
-<br><br>The code is based on Python 3.9.
 
 ### Please fill the Key into "data/Key.yml". 
 
