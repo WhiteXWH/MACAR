@@ -11,7 +11,7 @@ class Tool:
 
     @staticmethod
     def get_answer_from_gpt(model, query, tem):
-        key_path = '../data/Key.yaml'
+        key_path = 'data/Key.yaml'
 
         with open(key_path, 'r') as file:
             key = yaml.safe_load(file)
@@ -54,12 +54,22 @@ class Tool:
         with open(json_path, 'w') as f:
             json.dump(total_data, f, indent=dump)
 
+    @staticmethod
+    def make_multilevel_directory(path):
+        if not os.path.exists(path):
+            try:
+                os.makedirs(path, exist_ok=True)
+                print(f"Multilevel directory '{path}' created successfully.")
+            except OSError as error:
+                print(f"Error: {error}. Could not create directory '{path}'.")
+
     def judge_path_is_exist(self, path):
         result_length = 0
         if os.path.exists(path):
             result_length = len(self.read_json(path))
         else:
-            os.mkdir(path)
+            last_level = path.rsplit("/", 1)[0]
+            self.make_multilevel_directory(last_level)
         return result_length
 
     @staticmethod
@@ -139,7 +149,7 @@ class Tool:
             for i, tmp_api in enumerate(answer):
                 hit_flag = 0
                 # split_flag = 1
-                if len(tmp_api) == 0 or tmp_api[0].isdigit() == False:
+                if len(tmp_api) == 0 or not tmp_api[0].isdigit():
                     continue
 
                 number = int(tmp_api[0])
