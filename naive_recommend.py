@@ -1,6 +1,4 @@
 import argparse
-import os
-
 import numpy as np
 from tqdm import tqdm
 from util import apiRecommendAgent, dataProcess
@@ -26,12 +24,10 @@ if __name__ == '__main__':
     tem_range = np.arange(0, args.tem, 0.5)
     dataset_length = len(dataset)
 
-    os.makedirs(args.output_dir, exist_ok=True)
-
     for tem in tem_range:
         result_path = f"{args.output_dir}/P{args.prompt_type}-tem={tem}.json"
         result_length = tool.judge_path_is_exist(result_path)
-        print(f"P{args.prompt_type}-tem={tem} ", end="")
+        print("-" * 20 + f"The evaluation of P{args.prompt_type}-tem={tem} is running" + "-" * 20)
         for i, item in tqdm(enumerate(dataset), total=dataset_length, desc='Processing'):
             if i < result_length:
                 continue
@@ -55,3 +51,4 @@ if __name__ == '__main__':
             }
 
             tool.write_json(result_path, {item: tmp_dict})
+        print("\n\n")
